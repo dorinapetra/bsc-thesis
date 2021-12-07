@@ -1,0 +1,2553 @@
+model	language	task	perturbation	probing_location	dev_acc	test_acc
+mBERT	Afrikaans	number_noun		first	88.05	85.4
+mBERT	Afrikaans	number_noun		last	97.2	95.3
+mBERT	Afrikaans	number_noun	mBERT-char	first	66.45	61.3
+mBERT	Afrikaans	number_noun	mBERT-char	last	92.3	90.65
+mBERT	Afrikaans	number_noun	mBERT-rand-char	first	63.5	48.3
+mBERT	Afrikaans	number_noun	mBERT-rand-char	last	88.0	85.15
+mBERT	Afrikaans	number_noun	mBERT-rand-subw	first	60.65	51.6
+mBERT	Afrikaans	number_noun	mBERT-rand-subw	last	81.1	83.8
+mBERT	Albanian	case_noun		first	59.05	58.65
+mBERT	Albanian	case_noun		last	70.75	69.35
+mBERT	Albanian	case_noun	mBERT-char	first	61.55	56.0
+mBERT	Albanian	case_noun	mBERT-char	last	69.85	64.1
+mBERT	Albanian	case_noun	mBERT-rand-char	first	30.15	33.75
+mBERT	Albanian	case_noun	mBERT-rand-char	last	54.85	54.45
+mBERT	Albanian	case_noun	mBERT-rand-subw	first	32.6	34.5
+mBERT	Albanian	case_noun	mBERT-rand-subw	last	55.4	53.75
+mBERT	Albanian	case_propn		first	79.60199004975124	73.35
+mBERT	Albanian	case_propn		last	89.1542288557214	83.05
+mBERT	Albanian	case_propn	mBERT-char	first	77.4129353233831	75.65
+mBERT	Albanian	case_propn	mBERT-char	last	85.92039800995026	80.8
+mBERT	Albanian	case_propn	mBERT-rand-char	first	40.54726368159204	37.25
+mBERT	Albanian	case_propn	mBERT-rand-char	last	80.74626865671641	72.85
+mBERT	Albanian	case_propn	mBERT-rand-subw	first	42.53731343283582	38.35
+mBERT	Albanian	case_propn	mBERT-rand-subw	last	72.636815920398	74.65
+mBERT	Albanian	definite_noun		first	85.9	77.25
+mBERT	Albanian	definite_noun		last	92.65	90.6
+mBERT	Albanian	definite_noun	mBERT-char	first	77.8	74.85
+mBERT	Albanian	definite_noun	mBERT-char	last	89.2	85.75
+mBERT	Albanian	definite_noun	mBERT-rand-char	first	55.85	57.85
+mBERT	Albanian	definite_noun	mBERT-rand-char	last	73.15	76.7
+mBERT	Albanian	definite_noun	mBERT-rand-subw	first	57.75	56.45
+mBERT	Albanian	definite_noun	mBERT-rand-subw	last	77.25	78.75
+mBERT	Albanian	gender_noun		first	77.5	78.25
+mBERT	Albanian	gender_noun		last	89.65	86.2
+mBERT	Albanian	gender_noun	mBERT-char	first	62.95	63.75
+mBERT	Albanian	gender_noun	mBERT-char	last	86.05	84.0
+mBERT	Albanian	gender_noun	mBERT-rand-char	first	56.95	53.4
+mBERT	Albanian	gender_noun	mBERT-rand-char	last	76.65	71.25
+mBERT	Albanian	gender_noun	mBERT-rand-subw	first	51.15	51.0
+mBERT	Albanian	gender_noun	mBERT-rand-subw	last	75.2	72.4
+mBERT	Albanian	gender_propn		first	84.85	71.45
+mBERT	Albanian	gender_propn		last	90.1	81.6
+mBERT	Albanian	gender_propn	mBERT-char	first	78.35	70.5
+mBERT	Albanian	gender_propn	mBERT-char	last	90.1	81.35
+mBERT	Albanian	gender_propn	mBERT-rand-char	first	57.9	50.05
+mBERT	Albanian	gender_propn	mBERT-rand-char	last	85.25	80.1
+mBERT	Albanian	gender_propn	mBERT-rand-subw	first	62.55	58.7
+mBERT	Albanian	gender_propn	mBERT-rand-subw	last	77.75	71.95
+mBERT	Albanian	number_noun		first	87.3	86.65
+mBERT	Albanian	number_noun		last	93.4	92.75
+mBERT	Albanian	number_noun	mBERT-char	first	75.9	73.85
+mBERT	Albanian	number_noun	mBERT-char	last	91.55	89.9
+mBERT	Albanian	number_noun	mBERT-rand-char	first	55.35000000000001	48.5
+mBERT	Albanian	number_noun	mBERT-rand-char	last	84.3	79.1
+mBERT	Albanian	number_noun	mBERT-rand-subw	first	52.05	48.25
+mBERT	Albanian	number_noun	mBERT-rand-subw	last	85.15	79.4
+mBERT	Albanian	number_verb		first	72.1	70.4
+mBERT	Albanian	number_verb		last	93.05	91.65
+mBERT	Albanian	number_verb	mBERT-char	first	57.75	53.3
+mBERT	Albanian	number_verb	mBERT-char	last	91.35	90.8
+mBERT	Albanian	number_verb	mBERT-rand-char	first	57.15	49.55
+mBERT	Albanian	number_verb	mBERT-rand-char	last	78.3	83.0
+mBERT	Albanian	number_verb	mBERT-rand-subw	first	63.7	48.65
+mBERT	Albanian	number_verb	mBERT-rand-subw	last	87.05	79.35
+mBERT	Arabic	aspect_verb		first	95.5	94.5
+mBERT	Arabic	aspect_verb		last	94.35	95.05
+mBERT	Arabic	aspect_verb	mBERT-char	first	94.25	93.65
+mBERT	Arabic	aspect_verb	mBERT-char	last	91.45	91.05
+mBERT	Arabic	aspect_verb	mBERT-rand-char	first	92.3	88.65
+mBERT	Arabic	aspect_verb	mBERT-rand-char	last	75.8	80.85
+mBERT	Arabic	aspect_verb	mBERT-rand-subw	first	91.2	86.7
+mBERT	Arabic	aspect_verb	mBERT-rand-subw	last	72.6	75.35
+mBERT	Arabic	case_adj		first	76.46766169154229	66.4179104477612
+mBERT	Arabic	case_adj		last	73.7810945273632	67.2139303482587
+mBERT	Arabic	case_adj	mBERT-char	first	59.701492537313435	59.90049751243781
+mBERT	Arabic	case_adj	mBERT-char	last	68.20895522388061	63.13432835820895
+mBERT	Arabic	case_adj	mBERT-rand-char	first	51.8905472636816	51.79104477611939
+mBERT	Arabic	case_adj	mBERT-rand-char	last	60.0497512437811	58.40796019900497
+mBERT	Arabic	case_adj	mBERT-rand-subw	first	56.069651741293534	52.7860696517413
+mBERT	Arabic	case_adj	mBERT-rand-subw	last	59.25373134328358	57.96019900497513
+mBERT	Arabic	case_noun		first	80.49751243781094	73.7810945273632
+mBERT	Arabic	case_noun		last	78.60696517412934	72.18905472636816
+mBERT	Arabic	case_noun	mBERT-char	first	64.27860696517413	56.76616915422885
+mBERT	Arabic	case_noun	mBERT-char	last	61.59203980099503	50.54726368159204
+mBERT	Arabic	case_noun	mBERT-rand-char	first	51.791044776119406	41.19402985074627
+mBERT	Arabic	case_noun	mBERT-rand-char	last	56.616915422885576	54.07960199004975
+mBERT	Arabic	case_noun	mBERT-rand-subw	first	52.53731343283581	40.39800995024875
+mBERT	Arabic	case_noun	mBERT-rand-subw	last	57.313432835820905	54.029850746268664
+mBERT	Arabic	definite_noun		first	96.91542288557216	85.3731343283582
+mBERT	Arabic	definite_noun		last	96.76616915422885	86.46766169154229
+mBERT	Arabic	definite_noun	mBERT-char	first	84.17910447761194	72.8358208955224
+mBERT	Arabic	definite_noun	mBERT-char	last	83.38308457711443	79.0049751243781
+mBERT	Arabic	definite_noun	mBERT-rand-char	first	64.17910447761194	60.149253731343286
+mBERT	Arabic	definite_noun	mBERT-rand-char	last	53.03482587064676	42.83582089552239
+mBERT	Arabic	definite_noun	mBERT-rand-subw	first	69.30348258706468	56.616915422885576
+mBERT	Arabic	definite_noun	mBERT-rand-subw	last	47.56218905472637	47.064676616915435
+mBERT	Arabic	gender_adj		first	97.35	96.65
+mBERT	Arabic	gender_adj		last	98.8	97.2
+mBERT	Arabic	gender_adj	mBERT-char	first	94.05	95.25
+mBERT	Arabic	gender_adj	mBERT-char	last	98.95	96.95
+mBERT	Arabic	gender_adj	mBERT-rand-char	first	59.3	48.75
+mBERT	Arabic	gender_adj	mBERT-rand-char	last	97.4	96.65
+mBERT	Arabic	gender_adj	mBERT-rand-subw	first	56.65	53.75
+mBERT	Arabic	gender_adj	mBERT-rand-subw	last	93.1	88.2
+mBERT	Arabic	gender_verb		first	96.15	91.6
+mBERT	Arabic	gender_verb		last	96.95	91.8
+mBERT	Arabic	gender_verb	mBERT-char	first	93.8	90.1
+mBERT	Arabic	gender_verb	mBERT-char	last	94.45	86.8
+mBERT	Arabic	gender_verb	mBERT-rand-char	first	80.95	77.95
+mBERT	Arabic	gender_verb	mBERT-rand-char	last	73.75	69.05
+mBERT	Arabic	gender_verb	mBERT-rand-subw	first	82.3	74.75
+mBERT	Arabic	gender_verb	mBERT-rand-subw	last	71.5	67.25
+mBERT	Armenian	animacy_noun		first	90.15	83.9
+mBERT	Armenian	animacy_noun		last	90.7	83.7
+mBERT	Armenian	animacy_noun	mBERT-char	first	66.85	67.8
+mBERT	Armenian	animacy_noun	mBERT-char	last	71.8	67.15
+mBERT	Armenian	animacy_noun	mBERT-rand-char	first	61.1	54.6
+mBERT	Armenian	animacy_noun	mBERT-rand-char	last	67.75	61.8
+mBERT	Armenian	animacy_noun	mBERT-rand-subw	first	58.85	61.2
+mBERT	Armenian	animacy_noun	mBERT-rand-subw	last	70.35	70.7
+mBERT	Armenian	definite_noun		first	86.4	82.15
+mBERT	Armenian	definite_noun		last	99.1	98.75
+mBERT	Armenian	definite_noun	mBERT-char	first	79.1	81.5
+mBERT	Armenian	definite_noun	mBERT-char	last	99.15	97.85
+mBERT	Armenian	definite_noun	mBERT-rand-char	first	51.75	50.55
+mBERT	Armenian	definite_noun	mBERT-rand-char	last	93.5	95.55
+mBERT	Armenian	definite_noun	mBERT-rand-subw	first	59.65	47.65
+mBERT	Armenian	definite_noun	mBERT-rand-subw	last	96.65	95.0
+mBERT	Armenian	subcat_verb		first	84.5	77.35
+mBERT	Armenian	subcat_verb		last	87.05	76.65
+mBERT	Armenian	subcat_verb	mBERT-char	first	62.95	61.75
+mBERT	Armenian	subcat_verb	mBERT-char	last	73.5	66.05
+mBERT	Armenian	subcat_verb	mBERT-rand-char	first	52.65	47.65
+mBERT	Armenian	subcat_verb	mBERT-rand-char	last	62.35	54.5
+mBERT	Armenian	subcat_verb	mBERT-rand-subw	first	49.05	50.95
+mBERT	Armenian	subcat_verb	mBERT-rand-subw	last	74.6	64.7
+mBERT	Basque	case_noun		first	41.483253588516746	46.315789473684205
+mBERT	Basque	case_noun		last	95.93301435406698	93.34928229665073
+mBERT	Basque	case_noun	mBERT-char	first	35.21531100478468	29.952153110047846
+mBERT	Basque	case_noun	mBERT-char	last	93.11004784688996	90.57416267942584
+mBERT	Basque	case_noun	mBERT-rand-char	first	13.014354066985643	10.622009569377989
+mBERT	Basque	case_noun	mBERT-rand-char	last	58.75598086124402	55.59808612440192
+mBERT	Basque	case_noun	mBERT-rand-subw	first	13.397129186602871	8.086124401913871
+mBERT	Basque	case_noun	mBERT-rand-subw	last	82.82296650717703	80.0
+mBERT	Basque	definite_noun		first	80.0	68.8
+mBERT	Basque	definite_noun		last	87.45	87.5
+mBERT	Basque	definite_noun	mBERT-char	first	65.9	63.9
+mBERT	Basque	definite_noun	mBERT-char	last	81.6	84.0
+mBERT	Basque	definite_noun	mBERT-rand-char	first	54.7	50.55
+mBERT	Basque	definite_noun	mBERT-rand-char	last	67.3	65.75
+mBERT	Basque	definite_noun	mBERT-rand-subw	first	54.35	51.3
+mBERT	Basque	definite_noun	mBERT-rand-subw	last	75.35	71.35
+mBERT	Basque	number_noun		first	83.65	86.9
+mBERT	Basque	number_noun		last	93.45	92.8
+mBERT	Basque	number_noun	mBERT-char	first	59.45	58.15
+mBERT	Basque	number_noun	mBERT-char	last	83.2	82.15
+mBERT	Basque	number_noun	mBERT-rand-char	first	53.25	54.5
+mBERT	Basque	number_noun	mBERT-rand-char	last	70.9	76.15
+mBERT	Basque	number_noun	mBERT-rand-subw	first	56.75	54.2
+mBERT	Basque	number_noun	mBERT-rand-subw	last	81.65	82.15
+mBERT	Bulgarian	aspect_verb		first	82.2	79.95
+mBERT	Bulgarian	aspect_verb		last	84.15	82.8
+mBERT	Bulgarian	aspect_verb	mBERT-char	first	76.2	72.6
+mBERT	Bulgarian	aspect_verb	mBERT-char	last	78.55	75.0
+mBERT	Bulgarian	aspect_verb	mBERT-rand-char	first	62.5	53.0
+mBERT	Bulgarian	aspect_verb	mBERT-rand-char	last	65.45	61.15
+mBERT	Bulgarian	aspect_verb	mBERT-rand-subw	first	62.65	59.55
+mBERT	Bulgarian	aspect_verb	mBERT-rand-subw	last	70.85	69.25
+mBERT	Bulgarian	definite_adj		first	92.0	89.7
+mBERT	Bulgarian	definite_adj		last	100.0	98.9
+mBERT	Bulgarian	definite_adj	mBERT-char	first	77.05	73.2
+mBERT	Bulgarian	definite_adj	mBERT-char	last	99.45	99.3
+mBERT	Bulgarian	definite_adj	mBERT-rand-char	first	58.45	53.05
+mBERT	Bulgarian	definite_adj	mBERT-rand-char	last	81.4	75.5
+mBERT	Bulgarian	definite_adj	mBERT-rand-subw	first	56.55	53.0
+mBERT	Bulgarian	definite_adj	mBERT-rand-subw	last	97.35	94.95
+mBERT	Bulgarian	definite_noun		first	92.55	88.05
+mBERT	Bulgarian	definite_noun		last	98.1	96.1
+mBERT	Bulgarian	definite_noun	mBERT-char	first	81.4	76.0
+mBERT	Bulgarian	definite_noun	mBERT-char	last	95.3	92.85
+mBERT	Bulgarian	definite_noun	mBERT-rand-char	first	58.95	57.05
+mBERT	Bulgarian	definite_noun	mBERT-rand-char	last	76.1	73.6
+mBERT	Bulgarian	definite_noun	mBERT-rand-subw	first	57.15	55.35
+mBERT	Bulgarian	definite_noun	mBERT-rand-subw	last	92.95	88.25
+mBERT	Bulgarian	gender_adj		first	77.3134328358209	82.73631840796018
+mBERT	Bulgarian	gender_adj		last	99.95024875621891	99.95024875621891
+mBERT	Bulgarian	gender_adj	mBERT-char	first	76.76616915422886	63.43283582089553
+mBERT	Bulgarian	gender_adj	mBERT-char	last	100.0	99.50248756218907
+mBERT	Bulgarian	gender_adj	mBERT-rand-char	first	41.840796019900495	36.318407960198996
+mBERT	Bulgarian	gender_adj	mBERT-rand-char	last	99.2039800995025	97.86069651741292
+mBERT	Bulgarian	gender_adj	mBERT-rand-subw	first	36.11940298507462	29.35323383084576
+mBERT	Bulgarian	gender_adj	mBERT-rand-subw	last	96.06965174129354	91.09452736318408
+mBERT	Bulgarian	gender_noun		first	80.54726368159204	80.99502487562188
+mBERT	Bulgarian	gender_noun		last	91.19402985074626	91.94029850746269
+mBERT	Bulgarian	gender_noun	mBERT-char	first	59.004975124378106	66.71641791044776
+mBERT	Bulgarian	gender_noun	mBERT-char	last	84.4278606965174	82.93532338308458
+mBERT	Bulgarian	gender_noun	mBERT-rand-char	first	41.44278606965174	41.54228855721392
+mBERT	Bulgarian	gender_noun	mBERT-rand-char	last	68.10945273631842	64.92537313432835
+mBERT	Bulgarian	gender_noun	mBERT-rand-subw	first	43.930348258706466	48.059701492537314
+mBERT	Bulgarian	gender_noun	mBERT-rand-subw	last	71.8905472636816	61.99004975124378
+mBERT	Bulgarian	number_adj		first	97.2	97.55
+mBERT	Bulgarian	number_adj		last	100.0	99.65
+mBERT	Bulgarian	number_adj	mBERT-char	first	82.45	76.05
+mBERT	Bulgarian	number_adj	mBERT-char	last	99.5	98.0
+mBERT	Bulgarian	number_adj	mBERT-rand-char	first	55.7	49.7
+mBERT	Bulgarian	number_adj	mBERT-rand-char	last	99.0	98.0
+mBERT	Bulgarian	number_adj	mBERT-rand-subw	first	55.65	51.8
+mBERT	Bulgarian	number_adj	mBERT-rand-subw	last	93.45	93.8
+mBERT	Bulgarian	number_verb		first	89.15	83.6
+mBERT	Bulgarian	number_verb		last	99.55	96.35
+mBERT	Bulgarian	number_verb	mBERT-char	first	77.3	74.25
+mBERT	Bulgarian	number_verb	mBERT-char	last	98.45	98.55
+mBERT	Bulgarian	number_verb	mBERT-rand-char	first	55.15	51.2
+mBERT	Bulgarian	number_verb	mBERT-rand-char	last	73.3	76.7
+mBERT	Bulgarian	number_verb	mBERT-rand-subw	first	54.65	52.95
+mBERT	Bulgarian	number_verb	mBERT-rand-subw	last	90.75	87.45
+mBERT	Bulgarian	person_verb		first	73.25	69.0547263681592
+mBERT	Bulgarian	person_verb		last	95.6	96.51741293532339
+mBERT	Bulgarian	person_verb	mBERT-char	first	67.3	69.85074626865672
+mBERT	Bulgarian	person_verb	mBERT-char	last	93.35	95.67164179104478
+mBERT	Bulgarian	person_verb	mBERT-rand-char	first	46.15	45.97014925373134
+mBERT	Bulgarian	person_verb	mBERT-rand-char	last	81.6	82.68656716417911
+mBERT	Bulgarian	person_verb	mBERT-rand-subw	first	43.1	43.6318407960199
+mBERT	Bulgarian	person_verb	mBERT-rand-subw	last	87.9	86.01990049751244
+mBERT	Bulgarian	tense_verb		first	82.35	70.0
+mBERT	Bulgarian	tense_verb		last	89.9	88.60696517412934
+mBERT	Bulgarian	tense_verb	mBERT-char	first	74.6	63.880597014925364
+mBERT	Bulgarian	tense_verb	mBERT-char	last	84.2	75.87064676616916
+mBERT	Bulgarian	tense_verb	mBERT-rand-char	first	42.15	40.298507462686565
+mBERT	Bulgarian	tense_verb	mBERT-rand-char	last	66.9	66.91542288557214
+mBERT	Bulgarian	tense_verb	mBERT-rand-subw	first	45.0	40.09950248756219
+mBERT	Bulgarian	tense_verb	mBERT-rand-subw	last	71.95	70.49751243781095
+mBERT	Bulgarian	verbform_verb		first	92.8	91.15
+mBERT	Bulgarian	verbform_verb		last	100.0	98.7
+mBERT	Bulgarian	verbform_verb	mBERT-char	first	85.0	89.05
+mBERT	Bulgarian	verbform_verb	mBERT-char	last	97.6	95.65
+mBERT	Bulgarian	verbform_verb	mBERT-rand-char	first	58.25	56.3
+mBERT	Bulgarian	verbform_verb	mBERT-rand-char	last	81.7	80.3
+mBERT	Bulgarian	verbform_verb	mBERT-rand-subw	first	58.4	51.35
+mBERT	Bulgarian	verbform_verb	mBERT-rand-subw	last	88.0	84.15
+mBERT	Bulgarian	voice_verb		first	99.0	97.6
+mBERT	Bulgarian	voice_verb		last	100.0	98.65
+mBERT	Bulgarian	voice_verb	mBERT-char	first	92.35	89.05
+mBERT	Bulgarian	voice_verb	mBERT-char	last	98.9	98.05
+mBERT	Bulgarian	voice_verb	mBERT-rand-char	first	62.6	69.25
+mBERT	Bulgarian	voice_verb	mBERT-rand-char	last	83.85	77.3
+mBERT	Bulgarian	voice_verb	mBERT-rand-subw	first	64.7	63.8
+mBERT	Bulgarian	voice_verb	mBERT-rand-subw	last	88.3	85.9
+mBERT	Catalan	gender_adj		first	95.05	93.45
+mBERT	Catalan	gender_adj		last	100.0	99.95
+mBERT	Catalan	gender_adj	mBERT-char	first	82.35	81.95
+mBERT	Catalan	gender_adj	mBERT-char	last	100.0	99.9
+mBERT	Catalan	gender_adj	mBERT-rand-char	first	55.05	49.15
+mBERT	Catalan	gender_adj	mBERT-rand-char	last	83.2	78.55
+mBERT	Catalan	gender_adj	mBERT-rand-subw	first	52.85	52.9
+mBERT	Catalan	gender_adj	mBERT-rand-subw	last	85.8	87.5
+mBERT	Catalan	gender_noun		first	95.2	95.25
+mBERT	Catalan	gender_noun		last	96.35	96.9
+mBERT	Catalan	gender_noun	mBERT-char	first	78.85	76.8
+mBERT	Catalan	gender_noun	mBERT-char	last	89.05	88.4
+mBERT	Catalan	gender_noun	mBERT-rand-char	first	57.4	49.95
+mBERT	Catalan	gender_noun	mBERT-rand-char	last	77.55	70.65
+mBERT	Catalan	gender_noun	mBERT-rand-subw	first	54.25	48.05
+mBERT	Catalan	gender_noun	mBERT-rand-subw	last	73.2	74.3
+mBERT	Catalan	mood_verb		first	90.75	88.75
+mBERT	Catalan	mood_verb		last	99.5	98.9
+mBERT	Catalan	mood_verb	mBERT-char	first	79.75	78.15
+mBERT	Catalan	mood_verb	mBERT-char	last	99.3	98.5
+mBERT	Catalan	mood_verb	mBERT-rand-char	first	72.0	68.0
+mBERT	Catalan	mood_verb	mBERT-rand-char	last	91.15	84.85
+mBERT	Catalan	mood_verb	mBERT-rand-subw	first	72.8	67.35
+mBERT	Catalan	mood_verb	mBERT-rand-subw	last	95.05	92.85
+mBERT	Catalan	number_adj		first	98.65	96.3
+mBERT	Catalan	number_adj		last	100.0	99.5
+mBERT	Catalan	number_adj	mBERT-char	first	91.25	89.9
+mBERT	Catalan	number_adj	mBERT-char	last	100.0	99.0
+mBERT	Catalan	number_adj	mBERT-rand-char	first	61.9	59.15
+mBERT	Catalan	number_adj	mBERT-rand-char	last	99.0	99.0
+mBERT	Catalan	number_adj	mBERT-rand-subw	first	50.6	48.25
+mBERT	Catalan	number_adj	mBERT-rand-subw	last	91.45	91.0
+mBERT	Catalan	number_noun		first	98.65	97.65
+mBERT	Catalan	number_noun		last	100.0	99.0
+mBERT	Catalan	number_noun	mBERT-char	first	92.75	90.35
+mBERT	Catalan	number_noun	mBERT-char	last	99.0	98.0
+mBERT	Catalan	number_noun	mBERT-rand-char	first	57.45	56.05
+mBERT	Catalan	number_noun	mBERT-rand-char	last	99.45	97.8
+mBERT	Catalan	number_noun	mBERT-rand-subw	first	53.1	53.65
+mBERT	Catalan	number_noun	mBERT-rand-subw	last	82.35	89.15
+mBERT	Catalan	number_verb		first	92.95	91.65
+mBERT	Catalan	number_verb		last	100.0	99.55
+mBERT	Catalan	number_verb	mBERT-char	first	79.75	70.4
+mBERT	Catalan	number_verb	mBERT-char	last	99.5	99.85
+mBERT	Catalan	number_verb	mBERT-rand-char	first	61.15	50.05
+mBERT	Catalan	number_verb	mBERT-rand-char	last	95.6	97.0
+mBERT	Catalan	number_verb	mBERT-rand-subw	first	60.4	44.35
+mBERT	Catalan	number_verb	mBERT-rand-subw	last	96.15	92.45
+mBERT	Catalan	tense_verb		first	81.65	82.25
+mBERT	Catalan	tense_verb		last	99.0	97.7
+mBERT	Catalan	tense_verb	mBERT-char	first	67.35	64.75
+mBERT	Catalan	tense_verb	mBERT-char	last	92.95	90.6
+mBERT	Catalan	tense_verb	mBERT-rand-char	first	34.55	27.45
+mBERT	Catalan	tense_verb	mBERT-rand-char	last	64.7	64.65
+mBERT	Catalan	tense_verb	mBERT-rand-subw	first	29.75	25.7
+mBERT	Catalan	tense_verb	mBERT-rand-subw	last	86.95	82.8
+mBERT	Catalan	verbform_verb		first	94.35643564356437	91.23762376237624
+mBERT	Catalan	verbform_verb		last	100.0	100.0
+mBERT	Catalan	verbform_verb	mBERT-char	first	79.00990099009901	76.13861386138612
+mBERT	Catalan	verbform_verb	mBERT-char	last	99.80198019801979	98.11881188118812
+mBERT	Catalan	verbform_verb	mBERT-rand-char	first	36.78217821782178	28.217821782178213
+mBERT	Catalan	verbform_verb	mBERT-rand-char	last	83.51485148514851	80.5940594059406
+mBERT	Catalan	verbform_verb	mBERT-rand-subw	first	33.762376237623755	29.059405940594054
+mBERT	Catalan	verbform_verb	mBERT-rand-subw	last	87.92079207920793	87.17821782178217
+mBERT	Croatian	case_adj		first	74.15	71.08910891089108
+mBERT	Croatian	case_adj		last	93.7	93.36633663366337
+mBERT	Croatian	case_adj	mBERT-char	first	59.3	60.99009900990099
+mBERT	Croatian	case_adj	mBERT-char	last	73.55	77.42574257425743
+mBERT	Croatian	case_adj	mBERT-rand-char	first	25.25	23.96039603960396
+mBERT	Croatian	case_adj	mBERT-rand-char	last	64.65	61.68316831683169
+mBERT	Croatian	case_adj	mBERT-rand-subw	first	25.0	18.56435643564356
+mBERT	Croatian	case_adj	mBERT-rand-subw	last	56.75	55.3960396039604
+mBERT	Croatian	case_noun		first	75.91133004926108	66.86274509803923
+mBERT	Croatian	case_noun		last	92.56157635467983	87.79411764705883
+mBERT	Croatian	case_noun	mBERT-char	first	54.039408866995075	47.009803921568626
+mBERT	Croatian	case_noun	mBERT-char	last	69.80295566502464	69.50980392156863
+mBERT	Croatian	case_noun	mBERT-rand-char	first	25.221674876847292	25.0
+mBERT	Croatian	case_noun	mBERT-rand-char	last	50.985221674876854	49.55882352941176
+mBERT	Croatian	case_noun	mBERT-rand-subw	first	29.310344827586203	25.98039215686274
+mBERT	Croatian	case_noun	mBERT-rand-subw	last	49.35960591133004	55.68627450980392
+mBERT	Croatian	definite_adj		first	91.4	88.6
+mBERT	Croatian	definite_adj		last	98.8	98.35
+mBERT	Croatian	definite_adj	mBERT-char	first	81.0	81.95
+mBERT	Croatian	definite_adj	mBERT-char	last	98.25	97.7
+mBERT	Croatian	definite_adj	mBERT-rand-char	first	69.95	66.6
+mBERT	Croatian	definite_adj	mBERT-rand-char	last	97.9	96.45
+mBERT	Croatian	definite_adj	mBERT-rand-subw	first	65.6	72.0
+mBERT	Croatian	definite_adj	mBERT-rand-subw	last	93.05	95.45
+mBERT	Croatian	gender_adj		first	57.46268656716417	62.935323383084594
+mBERT	Croatian	gender_adj		last	90.69651741293532	81.84079601990051
+mBERT	Croatian	gender_adj	mBERT-char	first	40.49751243781094	38.95522388059701
+mBERT	Croatian	gender_adj	mBERT-char	last	76.06965174129354	70.64676616915423
+mBERT	Croatian	gender_adj	mBERT-rand-char	first	34.42786069651741	33.78109452736318
+mBERT	Croatian	gender_adj	mBERT-rand-char	last	75.02487562189054	66.96517412935323
+mBERT	Croatian	gender_adj	mBERT-rand-subw	first	37.41293532338308	33.33333333333333
+mBERT	Croatian	gender_adj	mBERT-rand-subw	last	67.06467661691542	58.208955223880594
+mBERT	Croatian	gender_noun		first	79.15422885572139	77.01492537313432
+mBERT	Croatian	gender_noun		last	89.75124378109453	88.80597014925372
+mBERT	Croatian	gender_noun	mBERT-char	first	53.13432835820895	52.7860696517413
+mBERT	Croatian	gender_noun	mBERT-char	last	78.60696517412934	70.49751243781095
+mBERT	Croatian	gender_noun	mBERT-rand-char	first	46.069651741293534	38.805970149253724
+mBERT	Croatian	gender_noun	mBERT-rand-char	last	53.43283582089553	44.82587064676616
+mBERT	Croatian	gender_noun	mBERT-rand-subw	first	41.29353233830846	40.89552238805969
+mBERT	Croatian	gender_noun	mBERT-rand-subw	last	68.75621890547265	59.65174129353234
+mBERT	Croatian	number_adj		first	88.45	90.05
+mBERT	Croatian	number_adj		last	97.75	97.0
+mBERT	Croatian	number_adj	mBERT-char	first	70.0	72.55
+mBERT	Croatian	number_adj	mBERT-char	last	85.8	89.4
+mBERT	Croatian	number_adj	mBERT-rand-char	first	56.5	49.1
+mBERT	Croatian	number_adj	mBERT-rand-char	last	78.85	83.25
+mBERT	Croatian	number_adj	mBERT-rand-subw	first	52.65	47.55
+mBERT	Croatian	number_adj	mBERT-rand-subw	last	79.75	82.5
+mBERT	Croatian	number_noun		first	89.85	89.65
+mBERT	Croatian	number_noun		last	95.4	95.3
+mBERT	Croatian	number_noun	mBERT-char	first	67.85	62.9
+mBERT	Croatian	number_noun	mBERT-char	last	86.5	82.3
+mBERT	Croatian	number_noun	mBERT-rand-char	first	52.15	52.05
+mBERT	Croatian	number_noun	mBERT-rand-char	last	78.85	72.95
+mBERT	Croatian	number_noun	mBERT-rand-subw	first	55.5	48.0
+mBERT	Croatian	number_noun	mBERT-rand-subw	last	80.5	75.4
+mBERT	Croatian	number_verb		first	87.5	85.6
+mBERT	Croatian	number_verb		last	98.55	98.5
+mBERT	Croatian	number_verb	mBERT-char	first	68.9	65.8
+mBERT	Croatian	number_verb	mBERT-char	last	97.1	96.0
+mBERT	Croatian	number_verb	mBERT-rand-char	first	56.75	46.9
+mBERT	Croatian	number_verb	mBERT-rand-char	last	82.8	82.15
+mBERT	Croatian	number_verb	mBERT-rand-subw	first	54.95	46.2
+mBERT	Croatian	number_verb	mBERT-rand-subw	last	91.05	83.95
+mBERT	Croatian	tense_verb		first	94.35	93.1
+mBERT	Croatian	tense_verb		last	100.0	99.5
+mBERT	Croatian	tense_verb	mBERT-char	first	80.25	83.2
+mBERT	Croatian	tense_verb	mBERT-char	last	99.65	99.0
+mBERT	Croatian	tense_verb	mBERT-rand-char	first	56.95	49.9
+mBERT	Croatian	tense_verb	mBERT-rand-char	last	75.45	72.55
+mBERT	Croatian	tense_verb	mBERT-rand-subw	first	53.55	54.3
+mBERT	Croatian	tense_verb	mBERT-rand-subw	last	88.75	86.85
+mBERT	Croatian	verbform_verb		first	92.53731343283582	90.59701492537314
+mBERT	Croatian	verbform_verb		last	100.0	99.75124378109453
+mBERT	Croatian	verbform_verb	mBERT-char	first	71.94029850746269	71.79104477611939
+mBERT	Croatian	verbform_verb	mBERT-char	last	99.65174129353235	99.45273631840799
+mBERT	Croatian	verbform_verb	mBERT-rand-char	first	42.03980099502487	33.98009950248756
+mBERT	Croatian	verbform_verb	mBERT-rand-char	last	74.22885572139303	76.96517412935324
+mBERT	Croatian	verbform_verb	mBERT-rand-subw	first	39.253731343283576	35.621890547263675
+mBERT	Croatian	verbform_verb	mBERT-rand-subw	last	88.85572139303483	86.2189054726368
+mBERT	Czech	animacy_adj		first	89.1	85.4
+mBERT	Czech	animacy_adj		last	97.3	92.35
+mBERT	Czech	animacy_adj	mBERT-char	first	63.55	63.15
+mBERT	Czech	animacy_adj	mBERT-char	last	72.05	74.2
+mBERT	Czech	animacy_adj	mBERT-rand-char	first	56.35	51.75
+mBERT	Czech	animacy_adj	mBERT-rand-char	last	65.7	58.9
+mBERT	Czech	animacy_adj	mBERT-rand-subw	first	58.95	51.45
+mBERT	Czech	animacy_adj	mBERT-rand-subw	last	59.3	59.25
+mBERT	Czech	animacy_noun		first	87.15	80.7
+mBERT	Czech	animacy_noun		last	90.1	83.4
+mBERT	Czech	animacy_noun	mBERT-char	first	71.8	62.8
+mBERT	Czech	animacy_noun	mBERT-char	last	81.0	74.95
+mBERT	Czech	animacy_noun	mBERT-rand-char	first	56.4	48.2
+mBERT	Czech	animacy_noun	mBERT-rand-char	last	71.95	65.0
+mBERT	Czech	animacy_noun	mBERT-rand-subw	first	54.5	53.25
+mBERT	Czech	animacy_noun	mBERT-rand-subw	last	70.25	66.4
+mBERT	Czech	animacy_propn		first	93.1	92.85
+mBERT	Czech	animacy_propn		last	95.15	93.95
+mBERT	Czech	animacy_propn	mBERT-char	first	73.6	70.2
+mBERT	Czech	animacy_propn	mBERT-char	last	81.05	74.65
+mBERT	Czech	animacy_propn	mBERT-rand-char	first	55.0	56.40000000000001
+mBERT	Czech	animacy_propn	mBERT-rand-char	last	72.4	66.55
+mBERT	Czech	animacy_propn	mBERT-rand-subw	first	51.5	54.05
+mBERT	Czech	animacy_propn	mBERT-rand-subw	last	66.9	63.6
+mBERT	Czech	animacy_verb		first	87.0	84.15
+mBERT	Czech	animacy_verb		last	95.55	96.35
+mBERT	Czech	animacy_verb	mBERT-char	first	86.5	78.4
+mBERT	Czech	animacy_verb	mBERT-char	last	94.85	94.1
+mBERT	Czech	animacy_verb	mBERT-rand-char	first	57.4	58.2
+mBERT	Czech	animacy_verb	mBERT-rand-char	last	94.2	93.85
+mBERT	Czech	animacy_verb	mBERT-rand-subw	first	60.05	56.4
+mBERT	Czech	animacy_verb	mBERT-rand-subw	last	93.3	93.25
+mBERT	Czech	aspect_adj		first	89.2	89.95
+mBERT	Czech	aspect_adj		last	91.35	90.6
+mBERT	Czech	aspect_adj	mBERT-char	first	86.3	78.8
+mBERT	Czech	aspect_adj	mBERT-char	last	87.95	85.3
+mBERT	Czech	aspect_adj	mBERT-rand-char	first	66.1	58.7
+mBERT	Czech	aspect_adj	mBERT-rand-char	last	74.3	75.4
+mBERT	Czech	aspect_adj	mBERT-rand-subw	first	67.85	61.2
+mBERT	Czech	aspect_adj	mBERT-rand-subw	last	86.6	80.1
+mBERT	Czech	aspect_verb		first	77.2	77.0
+mBERT	Czech	aspect_verb		last	82.95	88.15
+mBERT	Czech	aspect_verb	mBERT-char	first	71.3	67.0
+mBERT	Czech	aspect_verb	mBERT-char	last	75.55	74.3
+mBERT	Czech	aspect_verb	mBERT-rand-char	first	61.65	58.1
+mBERT	Czech	aspect_verb	mBERT-rand-char	last	61.1	55.3
+mBERT	Czech	aspect_verb	mBERT-rand-subw	first	61.15	61.8
+mBERT	Czech	aspect_verb	mBERT-rand-subw	last	70.1	69.5
+mBERT	Czech	case_adj		first	63.676470588235304	67.00980392156863
+mBERT	Czech	case_adj		last	94.55882352941177	91.42156862745097
+mBERT	Czech	case_adj	mBERT-char	first	54.36274509803921	54.656862745098046
+mBERT	Czech	case_adj	mBERT-char	last	77.3529411764706	76.02941176470588
+mBERT	Czech	case_adj	mBERT-rand-char	first	22.205882352941174	24.999999999999996
+mBERT	Czech	case_adj	mBERT-rand-char	last	56.81372549019608	52.1078431372549
+mBERT	Czech	case_adj	mBERT-rand-subw	first	21.274509803921568	22.254901960784306
+mBERT	Czech	case_adj	mBERT-rand-subw	last	55.44117647058823	57.59803921568628
+mBERT	Czech	case_propn		first	77.20588235294119	71.47058823529412
+mBERT	Czech	case_propn		last	92.49999999999999	90.83333333333333
+mBERT	Czech	case_propn	mBERT-char	first	60.63725490196079	57.15686274509803
+mBERT	Czech	case_propn	mBERT-char	last	75.5392156862745	72.79411764705881
+mBERT	Czech	case_propn	mBERT-rand-char	first	22.352941176470583	18.186274509803916
+mBERT	Czech	case_propn	mBERT-rand-char	last	59.36274509803923	55.7843137254902
+mBERT	Czech	case_propn	mBERT-rand-subw	first	20.29411764705882	18.33333333333333
+mBERT	Czech	case_propn	mBERT-rand-subw	last	59.0686274509804	54.803921568627445
+mBERT	Czech	degree_adj		first	95.5	95.55
+mBERT	Czech	degree_adj		last	97.2	97.75
+mBERT	Czech	degree_adj	mBERT-char	first	90.15	85.3
+mBERT	Czech	degree_adj	mBERT-char	last	89.15	87.8
+mBERT	Czech	degree_adj	mBERT-rand-char	first	65.7	65.95
+mBERT	Czech	degree_adj	mBERT-rand-char	last	59.95	60.6
+mBERT	Czech	degree_adj	mBERT-rand-subw	first	71.85	71.15
+mBERT	Czech	degree_adj	mBERT-rand-subw	last	76.85	72.6
+mBERT	Czech	gender_adj		first	59.154228855721385	55.373134328358205
+mBERT	Czech	gender_adj		last	79.55223880597016	80.44776119402985
+mBERT	Czech	gender_adj	mBERT-char	first	41.34328358208954	40.248756218905456
+mBERT	Czech	gender_adj	mBERT-char	last	70.39800995024875	63.98009950248756
+mBERT	Czech	gender_adj	mBERT-rand-char	first	38.059701492537314	31.04477611940298
+mBERT	Czech	gender_adj	mBERT-rand-char	last	60.945273631840806	55.02487562189056
+mBERT	Czech	gender_adj	mBERT-rand-subw	first	38.905472636815915	35.124378109452735
+mBERT	Czech	gender_adj	mBERT-rand-subw	last	58.507462686567166	52.88557213930348
+mBERT	Czech	gender_noun		first	73.681592039801	66.16915422885572
+mBERT	Czech	gender_noun		last	81.54228855721392	77.51243781094529
+mBERT	Czech	gender_noun	mBERT-char	first	51.04477611940299	47.61194029850746
+mBERT	Czech	gender_noun	mBERT-char	last	69.90049751243782	70.34825870646766
+mBERT	Czech	gender_noun	mBERT-rand-char	first	40.59701492537313	39.45273631840796
+mBERT	Czech	gender_noun	mBERT-rand-char	last	58.507462686567166	56.71641791044776
+mBERT	Czech	gender_noun	mBERT-rand-subw	first	37.2636815920398	37.66169154228855
+mBERT	Czech	gender_noun	mBERT-rand-subw	last	61.691542288557216	56.81592039800995
+mBERT	Czech	gender_propn		first	72.08955223880598	74.17910447761194
+mBERT	Czech	gender_propn		last	82.7860696517413	82.13930348258705
+mBERT	Czech	gender_propn	mBERT-char	first	51.243781094527364	50.19900497512437
+mBERT	Czech	gender_propn	mBERT-char	last	71.34328358208954	68.60696517412936
+mBERT	Czech	gender_propn	mBERT-rand-char	first	34.97512437810944	36.06965174129353
+mBERT	Czech	gender_propn	mBERT-rand-char	last	57.114427860696516	57.46268656716418
+mBERT	Czech	gender_propn	mBERT-rand-subw	first	37.31343283582089	31.293532338308456
+mBERT	Czech	gender_propn	mBERT-rand-subw	last	54.42786069651741	46.61691542288558
+mBERT	Czech	gender_verb		first	77.4129353233831	72.98507462686567
+mBERT	Czech	gender_verb		last	89.35323383084577	83.13432835820895
+mBERT	Czech	gender_verb	mBERT-char	first	69.45273631840794	65.97014925373134
+mBERT	Czech	gender_verb	mBERT-char	last	89.35323383084577	83.18407960199005
+mBERT	Czech	gender_verb	mBERT-rand-char	first	37.11442786069652	37.263681592039795
+mBERT	Czech	gender_verb	mBERT-rand-char	last	90.04975124378109	83.08457711442784
+mBERT	Czech	gender_verb	mBERT-rand-subw	first	37.66169154228855	34.97512437810945
+mBERT	Czech	gender_verb	mBERT-rand-subw	last	87.11442786069652	82.48756218905473
+mBERT	Czech	mood_verb		first	87.7	72.95
+mBERT	Czech	mood_verb		last	97.5	95.65
+mBERT	Czech	mood_verb	mBERT-char	first	83.65	67.35
+mBERT	Czech	mood_verb	mBERT-char	last	96.25	96.3
+mBERT	Czech	mood_verb	mBERT-rand-char	first	73.35	53.5
+mBERT	Czech	mood_verb	mBERT-rand-char	last	79.8	62.8
+mBERT	Czech	mood_verb	mBERT-rand-subw	first	73.75	52.7
+mBERT	Czech	mood_verb	mBERT-rand-subw	last	87.95	76.15
+mBERT	Czech	nametype_propn		first	70.44334975369459	64.4
+mBERT	Czech	nametype_propn		last	70.29556650246306	70.7
+mBERT	Czech	nametype_propn	mBERT-char	first	43.645320197044335	42.45
+mBERT	Czech	nametype_propn	mBERT-char	last	47.093596059113295	45.35
+mBERT	Czech	nametype_propn	mBERT-rand-char	first	22.66009852216749	22.8
+mBERT	Czech	nametype_propn	mBERT-rand-char	last	32.26600985221675	27.65
+mBERT	Czech	nametype_propn	mBERT-rand-subw	first	23.8423645320197	18.0
+mBERT	Czech	nametype_propn	mBERT-rand-subw	last	29.753694581280786	25.35
+mBERT	Czech	number_adj		first	88.25	84.4
+mBERT	Czech	number_adj		last	95.25	96.05
+mBERT	Czech	number_adj	mBERT-char	first	68.2	58.75
+mBERT	Czech	number_adj	mBERT-char	last	88.05	91.9
+mBERT	Czech	number_adj	mBERT-rand-char	first	54.35	52.4
+mBERT	Czech	number_adj	mBERT-rand-char	last	82.15	85.65
+mBERT	Czech	number_adj	mBERT-rand-subw	first	56.85	50.9
+mBERT	Czech	number_adj	mBERT-rand-subw	last	80.85	83.2
+mBERT	Czech	number_noun		first	93.7	90.65
+mBERT	Czech	number_noun		last	95.2	93.35
+mBERT	Czech	number_noun	mBERT-char	first	75.65	70.9
+mBERT	Czech	number_noun	mBERT-char	last	87.35	82.75
+mBERT	Czech	number_noun	mBERT-rand-char	first	56.6	50.05
+mBERT	Czech	number_noun	mBERT-rand-char	last	81.6	72.85
+mBERT	Czech	number_noun	mBERT-rand-subw	first	59.35	47.45
+mBERT	Czech	number_noun	mBERT-rand-subw	last	76.5	68.65
+mBERT	Czech	number_propn		first	91.7	88.3
+mBERT	Czech	number_propn		last	94.6	92.3
+mBERT	Czech	number_propn	mBERT-char	first	80.9	75.4
+mBERT	Czech	number_propn	mBERT-char	last	91.15	87.0
+mBERT	Czech	number_propn	mBERT-rand-char	first	54.95	47.1
+mBERT	Czech	number_propn	mBERT-rand-char	last	83.0	78.85
+mBERT	Czech	number_propn	mBERT-rand-subw	first	55.2	54.4
+mBERT	Czech	number_propn	mBERT-rand-subw	last	79.05	75.7
+mBERT	Czech	number_verb		first	81.4	72.7
+mBERT	Czech	number_verb		last	93.15	93.0
+mBERT	Czech	number_verb	mBERT-char	first	69.95	70.85
+mBERT	Czech	number_verb	mBERT-char	last	90.4	93.65
+mBERT	Czech	number_verb	mBERT-rand-char	first	52.6	52.45
+mBERT	Czech	number_verb	mBERT-rand-char	last	80.75	77.6
+mBERT	Czech	number_verb	mBERT-rand-subw	first	60.25	52.45
+mBERT	Czech	number_verb	mBERT-rand-subw	last	87.1	88.25
+mBERT	Czech	person_verb		first	80.79601990049751	70.0497512437811
+mBERT	Czech	person_verb		last	99.55223880597018	98.50746268656715
+mBERT	Czech	person_verb	mBERT-char	first	74.5273631840796	64.42786069651741
+mBERT	Czech	person_verb	mBERT-char	last	99.90049751243782	98.95522388059703
+mBERT	Czech	person_verb	mBERT-rand-char	first	44.02985074626865	35.97014925373134
+mBERT	Czech	person_verb	mBERT-rand-char	last	70.64676616915423	60.04975124378109
+mBERT	Czech	person_verb	mBERT-rand-subw	first	47.36318407960199	40.8955223880597
+mBERT	Czech	person_verb	mBERT-rand-subw	last	91.64179104477611	88.70646766169155
+mBERT	Czech	polarity_adj		first	99.8	96.65
+mBERT	Czech	polarity_adj		last	91.3	86.9
+mBERT	Czech	polarity_adj	mBERT-char	first	99.5	96.25
+mBERT	Czech	polarity_adj	mBERT-char	last	81.2	71.3
+mBERT	Czech	polarity_adj	mBERT-rand-char	first	97.05	94.25
+mBERT	Czech	polarity_adj	mBERT-rand-char	last	58.5	54.8
+mBERT	Czech	polarity_adj	mBERT-rand-subw	first	98.65	95.5
+mBERT	Czech	polarity_adj	mBERT-rand-subw	last	66.95	60.1
+mBERT	Czech	polarity_verb		first	100.0	99.6
+mBERT	Czech	polarity_verb		last	95.8	93.95
+mBERT	Czech	polarity_verb	mBERT-char	first	99.75	99.95
+mBERT	Czech	polarity_verb	mBERT-char	last	81.6	82.3
+mBERT	Czech	polarity_verb	mBERT-rand-char	first	96.6	96.75
+mBERT	Czech	polarity_verb	mBERT-rand-char	last	60.2	56.2
+mBERT	Czech	polarity_verb	mBERT-rand-subw	first	100.0	98.05
+mBERT	Czech	polarity_verb	mBERT-rand-subw	last	58.05	56.55
+mBERT	Czech	voice_adj		first	99.8	96.6
+mBERT	Czech	voice_adj		last	100.0	100.0
+mBERT	Czech	voice_adj	mBERT-char	first	96.55	94.85
+mBERT	Czech	voice_adj	mBERT-char	last	100.0	100.0
+mBERT	Czech	voice_adj	mBERT-rand-char	first	57.8	53.75
+mBERT	Czech	voice_adj	mBERT-rand-char	last	92.65	93.2
+mBERT	Czech	voice_adj	mBERT-rand-subw	first	65.65	60.3
+mBERT	Czech	voice_adj	mBERT-rand-subw	last	99.5	98.45
+mBERT	Danish	definite_noun		first	94.35	89.6
+mBERT	Danish	definite_noun		last	98.85	98.35
+mBERT	Danish	definite_noun	mBERT-char	first	78.7	77.05
+mBERT	Danish	definite_noun	mBERT-char	last	97.5	98.95
+mBERT	Danish	definite_noun	mBERT-rand-char	first	61.85	52.7
+mBERT	Danish	definite_noun	mBERT-rand-char	last	81.2	79.3
+mBERT	Danish	definite_noun	mBERT-rand-subw	first	59.1	55.35
+mBERT	Danish	definite_noun	mBERT-rand-subw	last	90.25	83.85
+mBERT	Danish	gender_noun		first	78.45	75.9
+mBERT	Danish	gender_noun		last	90.6	85.85
+mBERT	Danish	gender_noun	mBERT-char	first	57.7	58.9
+mBERT	Danish	gender_noun	mBERT-char	last	81.95	73.85
+mBERT	Danish	gender_noun	mBERT-rand-char	first	54.55000000000001	49.2
+mBERT	Danish	gender_noun	mBERT-rand-char	last	74.2	71.5
+mBERT	Danish	gender_noun	mBERT-rand-subw	first	54.0	49.4
+mBERT	Danish	gender_noun	mBERT-rand-subw	last	70.95	71.25
+mBERT	Danish	number_noun		first	88.6	87.6
+mBERT	Danish	number_noun		last	92.05	91.7
+mBERT	Danish	number_noun	mBERT-char	first	70.85	64.75
+mBERT	Danish	number_noun	mBERT-char	last	85.95	87.7
+mBERT	Danish	number_noun	mBERT-rand-char	first	55.25	49.7
+mBERT	Danish	number_noun	mBERT-rand-char	last	81.45	83.5
+mBERT	Danish	number_noun	mBERT-rand-subw	first	51.0	52.35
+mBERT	Danish	number_noun	mBERT-rand-subw	last	82.35	81.05
+mBERT	Danish	tense_verb		first	91.0	89.25
+mBERT	Danish	tense_verb		last	100.0	96.85
+mBERT	Danish	tense_verb	mBERT-char	first	80.3	73.4
+mBERT	Danish	tense_verb	mBERT-char	last	99.05	96.65
+mBERT	Danish	tense_verb	mBERT-rand-char	first	58.15	56.95
+mBERT	Danish	tense_verb	mBERT-rand-char	last	91.3	88.55
+mBERT	Danish	tense_verb	mBERT-rand-subw	first	55.0	50.6
+mBERT	Danish	tense_verb	mBERT-rand-subw	last	92.85	87.2
+mBERT	Danish	verbform_verb		first	96.41791044776119	89.35323383084577
+mBERT	Danish	verbform_verb		last	99.35323383084577	97.41293532338308
+mBERT	Danish	verbform_verb	mBERT-char	first	70.14925373134328	68.90547263681592
+mBERT	Danish	verbform_verb	mBERT-char	last	86.51741293532339	86.01990049751244
+mBERT	Danish	verbform_verb	mBERT-rand-char	first	43.93034825870647	41.44278606965174
+mBERT	Danish	verbform_verb	mBERT-rand-char	last	75.72139303482587	74.4776119402985
+mBERT	Danish	verbform_verb	mBERT-rand-subw	first	42.58706467661691	36.16915422885571
+mBERT	Danish	verbform_verb	mBERT-rand-subw	last	72.68656716417911	72.18905472636817
+mBERT	Dutch	gender_noun		first	84.35	79.45
+mBERT	Dutch	gender_noun		last	93.6	90.4
+mBERT	Dutch	gender_noun	mBERT-char	first	72.2	66.8
+mBERT	Dutch	gender_noun	mBERT-char	last	77.15	70.25
+mBERT	Dutch	gender_noun	mBERT-rand-char	first	54.15	50.55
+mBERT	Dutch	gender_noun	mBERT-rand-char	last	61.5	66.95
+mBERT	Dutch	gender_noun	mBERT-rand-subw	first	53.55	50.85
+mBERT	Dutch	gender_noun	mBERT-rand-subw	last	68.1	73.6
+mBERT	Dutch	gender_propn		first	85.05	68.9
+mBERT	Dutch	gender_propn		last	85.65	69.75
+mBERT	Dutch	gender_propn	mBERT-char	first	72.15	63.15
+mBERT	Dutch	gender_propn	mBERT-char	last	60.9	63.9
+mBERT	Dutch	gender_propn	mBERT-rand-char	first	55.3	55.55
+mBERT	Dutch	gender_propn	mBERT-rand-char	last	56.4	56.2
+mBERT	Dutch	gender_propn	mBERT-rand-subw	first	59.35	56.55
+mBERT	Dutch	gender_propn	mBERT-rand-subw	last	56.6	47.7
+mBERT	Dutch	number_noun		first	91.9	93.6
+mBERT	Dutch	number_noun		last	99.8	99.7
+mBERT	Dutch	number_noun	mBERT-char	first	68.0	58.9
+mBERT	Dutch	number_noun	mBERT-char	last	98.5	97.85
+mBERT	Dutch	number_noun	mBERT-rand-char	first	56.1	54.55
+mBERT	Dutch	number_noun	mBERT-rand-char	last	96.5	96.2
+mBERT	Dutch	number_noun	mBERT-rand-subw	first	54.15	47.85
+mBERT	Dutch	number_noun	mBERT-rand-subw	last	88.05	83.15
+mBERT	Dutch	verbform_verb		first	94.82587064676618	94.92537313432837
+mBERT	Dutch	verbform_verb		last	99.10447761194031	99.00497512437812
+mBERT	Dutch	verbform_verb	mBERT-char	first	71.49253731343283	69.25373134328359
+mBERT	Dutch	verbform_verb	mBERT-char	last	80.04975124378109	80.0995024875622
+mBERT	Dutch	verbform_verb	mBERT-rand-char	first	52.98507462686566	42.63681592039801
+mBERT	Dutch	verbform_verb	mBERT-rand-char	last	75.32338308457712	74.97512437810946
+mBERT	Dutch	verbform_verb	mBERT-rand-subw	first	52.43781094527363	48.05970149253731
+mBERT	Dutch	verbform_verb	mBERT-rand-subw	last	73.08457711442786	71.34328358208955
+mBERT	English	number_noun		first	93.6	93.6
+mBERT	English	number_noun		last	99.4	96.85
+mBERT	English	number_noun	mBERT-char	first	70.85	74.1
+mBERT	English	number_noun	mBERT-char	last	95.15	97.85
+mBERT	English	number_noun	mBERT-rand-char	first	49.3	52.75
+mBERT	English	number_noun	mBERT-rand-char	last	94.2	97.25
+mBERT	English	number_noun	mBERT-rand-subw	first	51.15	49.3
+mBERT	English	number_noun	mBERT-rand-subw	last	77.65	80.75
+mBERT	English	tense_verb		first	96.3	93.8
+mBERT	English	tense_verb		last	99.5	98.9
+mBERT	English	tense_verb	mBERT-char	first	81.25	76.4
+mBERT	English	tense_verb	mBERT-char	last	96.95	95.7
+mBERT	English	tense_verb	mBERT-rand-char	first	52.95	54.3
+mBERT	English	tense_verb	mBERT-rand-char	last	96.4	94.15
+mBERT	English	tense_verb	mBERT-rand-subw	first	55.5	53.75
+mBERT	English	tense_verb	mBERT-rand-subw	last	81.45	80.65
+mBERT	English	verbform_verb		first	82.2	82.2
+mBERT	English	verbform_verb		last	88.25	88.15
+mBERT	English	verbform_verb	mBERT-char	first	64.4	59.8
+mBERT	English	verbform_verb	mBERT-char	last	74.3	77.7
+mBERT	English	verbform_verb	mBERT-rand-char	first	30.45	29.6
+mBERT	English	verbform_verb	mBERT-rand-char	last	71.45	75.85
+mBERT	English	verbform_verb	mBERT-rand-subw	first	29.7	32.2
+mBERT	English	verbform_verb	mBERT-rand-subw	last	59.2	58.15
+mBERT	Estonian	case_adj		first	47.05	49.7
+mBERT	Estonian	case_adj		last	98.1	95.35
+mBERT	Estonian	case_adj	mBERT-char	first	26.15	26.5
+mBERT	Estonian	case_adj	mBERT-char	last	95.2	92.75
+mBERT	Estonian	case_adj	mBERT-rand-char	first	15.25	13.0
+mBERT	Estonian	case_adj	mBERT-rand-char	last	60.55	62.25
+mBERT	Estonian	case_adj	mBERT-rand-subw	first	15.6	14.0
+mBERT	Estonian	case_adj	mBERT-rand-subw	last	84.75	84.35
+mBERT	Estonian	case_noun		first	27.61904761904762	34.76190476190476
+mBERT	Estonian	case_noun		last	91.42857142857144	92.71428571428574
+mBERT	Estonian	case_noun	mBERT-char	first	15.952380952380949	15.285714285714281
+mBERT	Estonian	case_noun	mBERT-char	last	87.42857142857142	84.47619047619048
+mBERT	Estonian	case_noun	mBERT-rand-char	first	10.66666666666666	6.999999999999997
+mBERT	Estonian	case_noun	mBERT-rand-char	last	49.380952380952365	42.52380952380952
+mBERT	Estonian	case_noun	mBERT-rand-subw	first	9.333333333333329	7.380952380952377
+mBERT	Estonian	case_noun	mBERT-rand-subw	last	68.76190476190474	63.85714285714287
+mBERT	Estonian	number_adj		first	90.0	88.05
+mBERT	Estonian	number_adj		last	97.35	97.85
+mBERT	Estonian	number_adj	mBERT-char	first	66.15	61.5
+mBERT	Estonian	number_adj	mBERT-char	last	92.35	90.05
+mBERT	Estonian	number_adj	mBERT-rand-char	first	59.7	52.05
+mBERT	Estonian	number_adj	mBERT-rand-char	last	73.2	69.25
+mBERT	Estonian	number_adj	mBERT-rand-subw	first	57.15	52.75
+mBERT	Estonian	number_adj	mBERT-rand-subw	last	86.6	85.2
+mBERT	Estonian	number_noun		first	85.35	84.9
+mBERT	Estonian	number_noun		last	96.5	96.35
+mBERT	Estonian	number_noun	mBERT-char	first	65.95	58.35
+mBERT	Estonian	number_noun	mBERT-char	last	90.9	87.65
+mBERT	Estonian	number_noun	mBERT-rand-char	first	57.1	55.7
+mBERT	Estonian	number_noun	mBERT-rand-char	last	78.3	74.9
+mBERT	Estonian	number_noun	mBERT-rand-subw	first	57.25	50.45
+mBERT	Estonian	number_noun	mBERT-rand-subw	last	87.85	78.45
+mBERT	Estonian	number_verb		first	86.25	82.15
+mBERT	Estonian	number_verb		last	98.6	98.55
+mBERT	Estonian	number_verb	mBERT-char	first	82.85	77.3
+mBERT	Estonian	number_verb	mBERT-char	last	99.15	98.05
+mBERT	Estonian	number_verb	mBERT-rand-char	first	61.4	58.45
+mBERT	Estonian	number_verb	mBERT-rand-char	last	97.15	97.0
+mBERT	Estonian	number_verb	mBERT-rand-subw	first	56.4	48.7
+mBERT	Estonian	number_verb	mBERT-rand-subw	last	95.75	92.75
+mBERT	Estonian	person_verb		first	83.73134328358209	81.4
+mBERT	Estonian	person_verb		last	99.00497512437812	96.75
+mBERT	Estonian	person_verb	mBERT-char	first	68.10945273631842	69.05
+mBERT	Estonian	person_verb	mBERT-char	last	97.96019900497512	95.35
+mBERT	Estonian	person_verb	mBERT-rand-char	first	49.20398009950249	50.5
+mBERT	Estonian	person_verb	mBERT-rand-char	last	85.22388059701493	79.8
+mBERT	Estonian	person_verb	mBERT-rand-subw	first	47.06467661691543	50.55
+mBERT	Estonian	person_verb	mBERT-rand-subw	last	92.48756218905473	86.4
+mBERT	Estonian	tense_adj		first	90.0	92.95
+mBERT	Estonian	tense_adj		last	99.05	98.9
+mBERT	Estonian	tense_adj	mBERT-char	first	85.25	77.85
+mBERT	Estonian	tense_adj	mBERT-char	last	100.0	98.15
+mBERT	Estonian	tense_adj	mBERT-rand-char	first	57.95	54.15
+mBERT	Estonian	tense_adj	mBERT-rand-char	last	94.2	89.05
+mBERT	Estonian	tense_adj	mBERT-rand-subw	first	57.95	51.95
+mBERT	Estonian	tense_adj	mBERT-rand-subw	last	97.7	94.35
+mBERT	Estonian	tense_verb		first	83.4	80.05
+mBERT	Estonian	tense_verb		last	94.65	90.75
+mBERT	Estonian	tense_verb	mBERT-char	first	67.1	67.9
+mBERT	Estonian	tense_verb	mBERT-char	last	93.15	86.6
+mBERT	Estonian	tense_verb	mBERT-rand-char	first	56.25	45.85
+mBERT	Estonian	tense_verb	mBERT-rand-char	last	75.05	70.75
+mBERT	Estonian	tense_verb	mBERT-rand-subw	first	53.25	45.0
+mBERT	Estonian	tense_verb	mBERT-rand-subw	last	85.9	78.85
+mBERT	Estonian	verbform_verb		first	80.7	75.34653465346534
+mBERT	Estonian	verbform_verb		last	97.75	97.02970297029704
+mBERT	Estonian	verbform_verb	mBERT-char	first	61.85	57.22772277227723
+mBERT	Estonian	verbform_verb	mBERT-char	last	95.0	93.51485148514851
+mBERT	Estonian	verbform_verb	mBERT-rand-char	first	29.0	23.069306930693067
+mBERT	Estonian	verbform_verb	mBERT-rand-char	last	71.05	66.0891089108911
+mBERT	Estonian	verbform_verb	mBERT-rand-subw	first	25.25	24.950495049504948
+mBERT	Estonian	verbform_verb	mBERT-rand-subw	last	90.05	89.75247524752474
+mBERT	Estonian	voice_adj		first	83.1	79.2
+mBERT	Estonian	voice_adj		last	97.05	94.15
+mBERT	Estonian	voice_adj	mBERT-char	first	68.05	62.35
+mBERT	Estonian	voice_adj	mBERT-char	last	97.45	93.9
+mBERT	Estonian	voice_adj	mBERT-rand-char	first	64.15	55.85
+mBERT	Estonian	voice_adj	mBERT-rand-char	last	79.5	78.5
+mBERT	Estonian	voice_adj	mBERT-rand-subw	first	59.05	55.05
+mBERT	Estonian	voice_adj	mBERT-rand-subw	last	92.6	88.85
+mBERT	Estonian	voice_verb		first	89.1	87.75
+mBERT	Estonian	voice_verb		last	94.8	95.15
+mBERT	Estonian	voice_verb	mBERT-char	first	71.1	66.0
+mBERT	Estonian	voice_verb	mBERT-char	last	91.05	90.15
+mBERT	Estonian	voice_verb	mBERT-rand-char	first	54.35	47.9
+mBERT	Estonian	voice_verb	mBERT-rand-char	last	77.0	65.75
+mBERT	Estonian	voice_verb	mBERT-rand-subw	first	59.0	49.8
+mBERT	Estonian	voice_verb	mBERT-rand-subw	last	86.4	88.5
+mBERT	Finnish	case_adj		first	43.89423076923077	41.483253588516746
+mBERT	Finnish	case_adj		last	96.2019230769231	93.49282296650718
+mBERT	Finnish	case_adj	mBERT-char	first	32.11538461538461	26.028708133971286
+mBERT	Finnish	case_adj	mBERT-char	last	88.02884615384616	89.56937799043062
+mBERT	Finnish	case_adj	mBERT-rand-char	first	12.932692307692307	10.47846889952153
+mBERT	Finnish	case_adj	mBERT-rand-char	last	44.99999999999999	39.80861244019139
+mBERT	Finnish	case_adj	mBERT-rand-subw	first	12.596153846153841	8.22966507177033
+mBERT	Finnish	case_adj	mBERT-rand-subw	last	79.42307692307693	77.27272727272728
+mBERT	Finnish	case_noun		first	40.19323671497584	36.666666666666664
+mBERT	Finnish	case_noun		last	92.31884057971014	89.30348258706468
+mBERT	Finnish	case_noun	mBERT-char	first	22.9951690821256	16.318407960199
+mBERT	Finnish	case_noun	mBERT-char	last	80.67632850241546	80.79601990049751
+mBERT	Finnish	case_noun	mBERT-rand-char	first	12.801932367149757	8.855721393034822
+mBERT	Finnish	case_noun	mBERT-rand-char	last	39.17874396135265	36.16915422885572
+mBERT	Finnish	case_noun	mBERT-rand-subw	first	11.400966183574877	9.0547263681592
+mBERT	Finnish	case_noun	mBERT-rand-subw	last	63.38164251207729	62.53731343283582
+mBERT	Finnish	case_propn		first	58.81188118811881	60.95
+mBERT	Finnish	case_propn		last	98.41584158415841	96.2
+mBERT	Finnish	case_propn	mBERT-char	first	37.62376237623762	35.45
+mBERT	Finnish	case_propn	mBERT-char	last	88.51485148514851	90.2
+mBERT	Finnish	case_propn	mBERT-rand-char	first	19.15841584158415	15.5
+mBERT	Finnish	case_propn	mBERT-rand-char	last	48.01980198019802	47.05
+mBERT	Finnish	case_propn	mBERT-rand-subw	first	17.574257425742566	14.65
+mBERT	Finnish	case_propn	mBERT-rand-subw	last	76.83168316831684	80.75
+mBERT	Finnish	case_verb		first	46.7142857142857	54.28571428571429
+mBERT	Finnish	case_verb		last	93.80952380952381	95.71428571428574
+mBERT	Finnish	case_verb	mBERT-char	first	33.33333333333333	28.571428571428573
+mBERT	Finnish	case_verb	mBERT-char	last	83.3809523809524	84.04761904761907
+mBERT	Finnish	case_verb	mBERT-rand-char	first	9.285714285714281	9.428571428571423
+mBERT	Finnish	case_verb	mBERT-rand-char	last	32.80952380952381	28.095238095238095
+mBERT	Finnish	case_verb	mBERT-rand-subw	first	10.666666666666663	9.71428571428571
+mBERT	Finnish	case_verb	mBERT-rand-subw	last	71.95238095238095	66.28571428571428
+mBERT	Finnish	degree_adj		first	81.05	74.5273631840796
+mBERT	Finnish	degree_adj		last	88.75	85.22388059701493
+mBERT	Finnish	degree_adj	mBERT-char	first	56.8	50.64676616915423
+mBERT	Finnish	degree_adj	mBERT-char	last	78.85	67.363184079602
+mBERT	Finnish	degree_adj	mBERT-rand-char	first	52.65	35.17412935323383
+mBERT	Finnish	degree_adj	mBERT-rand-char	last	52.85	39.502487562189046
+mBERT	Finnish	degree_adj	mBERT-rand-subw	first	56.55	46.91542288557214
+mBERT	Finnish	degree_adj	mBERT-rand-subw	last	66.15	61.69154228855721
+mBERT	Finnish	derivation_adj		first	83.0	82.45
+mBERT	Finnish	derivation_adj		last	88.3	89.3
+mBERT	Finnish	derivation_adj	mBERT-char	first	58.2	55.9
+mBERT	Finnish	derivation_adj	mBERT-char	last	70.65	68.0
+mBERT	Finnish	derivation_adj	mBERT-rand-char	first	44.95	37.6
+mBERT	Finnish	derivation_adj	mBERT-rand-char	last	37.8	25.35
+mBERT	Finnish	derivation_adj	mBERT-rand-subw	first	56.05	45.0
+mBERT	Finnish	derivation_adj	mBERT-rand-subw	last	60.55	57.8
+mBERT	Finnish	derivation_noun		first	82.57425742574256	81.1
+mBERT	Finnish	derivation_noun		last	95.44554455445544	97.25
+mBERT	Finnish	derivation_noun	mBERT-char	first	54.009900990099005	46.35
+mBERT	Finnish	derivation_noun	mBERT-char	last	81.78217821782178	81.25
+mBERT	Finnish	derivation_noun	mBERT-rand-char	first	32.079207920792086	21.9
+mBERT	Finnish	derivation_noun	mBERT-rand-char	last	41.48514851485149	37.9
+mBERT	Finnish	derivation_noun	mBERT-rand-subw	first	36.881188118811885	30.0
+mBERT	Finnish	derivation_noun	mBERT-rand-subw	last	74.75247524752476	79.3
+mBERT	Finnish	infform_verb		first	85.3	68.60696517412934
+mBERT	Finnish	infform_verb		last	97.4	95.3731343283582
+mBERT	Finnish	infform_verb	mBERT-char	first	70.4	60.79601990049751
+mBERT	Finnish	infform_verb	mBERT-char	last	95.45	89.70149253731344
+mBERT	Finnish	infform_verb	mBERT-rand-char	first	42.5	35.024875621890544
+mBERT	Finnish	infform_verb	mBERT-rand-char	last	60.25	45.124378109452735
+mBERT	Finnish	infform_verb	mBERT-rand-subw	first	42.95	32.7363184079602
+mBERT	Finnish	infform_verb	mBERT-rand-subw	last	88.85	86.71641791044776
+mBERT	Finnish	mood_verb		first	77.51243781094527	77.66169154228855
+mBERT	Finnish	mood_verb		last	89.00497512437812	87.51243781094527
+mBERT	Finnish	mood_verb	mBERT-char	first	59.10447761194028	62.885572139303484
+mBERT	Finnish	mood_verb	mBERT-char	last	80.0	80.29850746268656
+mBERT	Finnish	mood_verb	mBERT-rand-char	first	50.746268656716424	47.56218905472637
+mBERT	Finnish	mood_verb	mBERT-rand-char	last	56.666666666666664	50.0
+mBERT	Finnish	mood_verb	mBERT-rand-subw	first	51.29353233830847	48.70646766169154
+mBERT	Finnish	mood_verb	mBERT-rand-subw	last	73.23383084577115	71.29353233830847
+mBERT	Finnish	number_adj		first	88.9	85.45
+mBERT	Finnish	number_adj		last	99.5	97.2
+mBERT	Finnish	number_adj	mBERT-char	first	66.8	59.9
+mBERT	Finnish	number_adj	mBERT-char	last	88.35	85.45
+mBERT	Finnish	number_adj	mBERT-rand-char	first	58.1	48.9
+mBERT	Finnish	number_adj	mBERT-rand-char	last	67.4	59.3
+mBERT	Finnish	number_adj	mBERT-rand-subw	first	56.85	48.35
+mBERT	Finnish	number_adj	mBERT-rand-subw	last	81.9	81.5
+mBERT	Finnish	number_noun		first	85.15	88.4
+mBERT	Finnish	number_noun		last	91.3	94.55
+mBERT	Finnish	number_noun	mBERT-char	first	57.95	58.1
+mBERT	Finnish	number_noun	mBERT-char	last	71.5	77.55
+mBERT	Finnish	number_noun	mBERT-rand-char	first	54.8	53.05
+mBERT	Finnish	number_noun	mBERT-rand-char	last	60.95	64.35
+mBERT	Finnish	number_noun	mBERT-rand-subw	first	56.6	52.25
+mBERT	Finnish	number_noun	mBERT-rand-subw	last	71.4	78.15
+mBERT	Finnish	number_verb		first	84.5	83.6
+mBERT	Finnish	number_verb		last	96.65	96.0
+mBERT	Finnish	number_verb	mBERT-char	first	75.6	67.1
+mBERT	Finnish	number_verb	mBERT-char	last	88.8	86.55
+mBERT	Finnish	number_verb	mBERT-rand-char	first	61.2	49.9
+mBERT	Finnish	number_verb	mBERT-rand-char	last	73.05	76.2
+mBERT	Finnish	number_verb	mBERT-rand-subw	first	55.4	51.85
+mBERT	Finnish	number_verb	mBERT-rand-subw	last	84.95	86.15
+mBERT	Finnish	partform_verb		first	77.51243781094527	77.86069651741295
+mBERT	Finnish	partform_verb		last	95.52238805970151	96.21890547263682
+mBERT	Finnish	partform_verb	mBERT-char	first	67.1641791044776	67.46268656716418
+mBERT	Finnish	partform_verb	mBERT-char	last	90.84577114427861	88.1592039800995
+mBERT	Finnish	partform_verb	mBERT-rand-char	first	38.95522388059701	37.014925373134325
+mBERT	Finnish	partform_verb	mBERT-rand-char	last	56.21890547263681	49.85074626865672
+mBERT	Finnish	partform_verb	mBERT-rand-subw	first	42.38805970149254	37.66169154228855
+mBERT	Finnish	partform_verb	mBERT-rand-subw	last	76.71641791044776	78.85572139303483
+mBERT	Finnish	tense_verb		first	86.4	87.1
+mBERT	Finnish	tense_verb		last	95.15	93.75
+mBERT	Finnish	tense_verb	mBERT-char	first	68.7	61.5
+mBERT	Finnish	tense_verb	mBERT-char	last	82.9	86.3
+mBERT	Finnish	tense_verb	mBERT-rand-char	first	54.5	49.5
+mBERT	Finnish	tense_verb	mBERT-rand-char	last	74.25	65.45
+mBERT	Finnish	tense_verb	mBERT-rand-subw	first	58.29999999999999	49.45
+mBERT	Finnish	tense_verb	mBERT-rand-subw	last	81.05	81.75
+mBERT	Finnish	verbform_verb		first	81.7910447761194	77.26368159203979
+mBERT	Finnish	verbform_verb		last	94.72636815920399	90.39800995024875
+mBERT	Finnish	verbform_verb	mBERT-char	first	60.646766169154226	53.03482587064676
+mBERT	Finnish	verbform_verb	mBERT-char	last	79.35323383084577	79.25373134328359
+mBERT	Finnish	verbform_verb	mBERT-rand-char	first	40.44776119402984	42.83582089552239
+mBERT	Finnish	verbform_verb	mBERT-rand-char	last	56.119402985074636	53.53233830845771
+mBERT	Finnish	verbform_verb	mBERT-rand-subw	first	47.16417910447761	38.507462686567166
+mBERT	Finnish	verbform_verb	mBERT-rand-subw	last	69.30348258706468	71.49253731343285
+mBERT	Finnish	voice_verb		first	86.7	81.25
+mBERT	Finnish	voice_verb		last	92.8	87.85
+mBERT	Finnish	voice_verb	mBERT-char	first	73.6	65.3
+mBERT	Finnish	voice_verb	mBERT-char	last	83.7	77.75
+mBERT	Finnish	voice_verb	mBERT-rand-char	first	56.75	51.85
+mBERT	Finnish	voice_verb	mBERT-rand-char	last	72.85	66.55
+mBERT	Finnish	voice_verb	mBERT-rand-subw	first	56.05	50.85
+mBERT	Finnish	voice_verb	mBERT-rand-subw	last	85.2	75.5
+mBERT	French	gender_adj		first	88.7	89.8
+mBERT	French	gender_adj		last	97.6	98.65
+mBERT	French	gender_adj	mBERT-char	first	71.9	68.65
+mBERT	French	gender_adj	mBERT-char	last	86.35	82.6
+mBERT	French	gender_adj	mBERT-rand-char	first	49.95	54.0
+mBERT	French	gender_adj	mBERT-rand-char	last	72.65	72.7
+mBERT	French	gender_adj	mBERT-rand-subw	first	55.65	51.95
+mBERT	French	gender_adj	mBERT-rand-subw	last	67.8	65.15
+mBERT	French	gender_noun		first	88.45	89.1
+mBERT	French	gender_noun		last	91.75	94.9
+mBERT	French	gender_noun	mBERT-char	first	66.6	67.6
+mBERT	French	gender_noun	mBERT-char	last	79.45	77.9
+mBERT	French	gender_noun	mBERT-rand-char	first	53.6	52.7
+mBERT	French	gender_noun	mBERT-rand-char	last	66.8	68.4
+mBERT	French	gender_noun	mBERT-rand-subw	first	51.85	50.15
+mBERT	French	gender_noun	mBERT-rand-subw	last	64.55	59.35
+mBERT	French	gender_verb		first	91.8	94.95
+mBERT	French	gender_verb		last	100.0	99.6
+mBERT	French	gender_verb	mBERT-char	first	87.9	84.15
+mBERT	French	gender_verb	mBERT-char	last	100.0	98.85
+mBERT	French	gender_verb	mBERT-rand-char	first	59.3	48.15
+mBERT	French	gender_verb	mBERT-rand-char	last	88.1	79.0
+mBERT	French	gender_verb	mBERT-rand-subw	first	53.05	48.0
+mBERT	French	gender_verb	mBERT-rand-subw	last	93.1	89.55
+mBERT	French	number_adj		first	96.7	94.8
+mBERT	French	number_adj		last	99.5	96.6
+mBERT	French	number_adj	mBERT-char	first	85.35	84.05
+mBERT	French	number_adj	mBERT-char	last	99.9	95.0
+mBERT	French	number_adj	mBERT-rand-char	first	62.25	52.9
+mBERT	French	number_adj	mBERT-rand-char	last	99.1	95.8
+mBERT	French	number_adj	mBERT-rand-subw	first	51.9	50.8
+mBERT	French	number_adj	mBERT-rand-subw	last	89.25	87.95
+mBERT	French	number_noun		first	94.65	95.7
+mBERT	French	number_noun		last	95.85	99.0
+mBERT	French	number_noun	mBERT-char	first	86.7	87.5
+mBERT	French	number_noun	mBERT-char	last	93.85	97.75
+mBERT	French	number_noun	mBERT-rand-char	first	56.95	54.15
+mBERT	French	number_noun	mBERT-rand-char	last	93.5	96.3
+mBERT	French	number_noun	mBERT-rand-subw	first	62.3	53.0
+mBERT	French	number_noun	mBERT-rand-subw	last	82.95	79.35
+mBERT	French	number_verb		first	98.8	93.05
+mBERT	French	number_verb		last	100.0	98.6
+mBERT	French	number_verb	mBERT-char	first	84.35	78.8
+mBERT	French	number_verb	mBERT-char	last	99.7	98.7
+mBERT	French	number_verb	mBERT-rand-char	first	58.75	52.35
+mBERT	French	number_verb	mBERT-rand-char	last	90.65	89.8
+mBERT	French	number_verb	mBERT-rand-subw	first	54.0	52.75
+mBERT	French	number_verb	mBERT-rand-subw	last	93.55	94.1
+mBERT	French	tense_verb		first	82.2	71.2871287128713
+mBERT	French	tense_verb		last	95.5	91.13861386138615
+mBERT	French	tense_verb	mBERT-char	first	53.3	48.21782178217822
+mBERT	French	tense_verb	mBERT-char	last	88.25	81.08910891089108
+mBERT	French	tense_verb	mBERT-rand-char	first	36.45	26.881188118811878
+mBERT	French	tense_verb	mBERT-rand-char	last	60.5	61.386138613861384
+mBERT	French	tense_verb	mBERT-rand-subw	first	40.2	25.59405940594059
+mBERT	French	tense_verb	mBERT-rand-subw	last	74.05	76.7821782178218
+mBERT	French	verbform_verb		first	97.06467661691542	95.07462686567165
+mBERT	French	verbform_verb		last	99.00497512437812	99.45273631840799
+mBERT	French	verbform_verb	mBERT-char	first	80.44776119402985	68.35820895522389
+mBERT	French	verbform_verb	mBERT-char	last	97.31343283582092	91.74129353233832
+mBERT	French	verbform_verb	mBERT-rand-char	first	44.57711442786069	32.48756218905473
+mBERT	French	verbform_verb	mBERT-rand-char	last	80.0	75.97014925373134
+mBERT	French	verbform_verb	mBERT-rand-subw	first	42.58706467661692	34.07960199004975
+mBERT	French	verbform_verb	mBERT-rand-subw	last	84.37810945273633	79.0547263681592
+mBERT	German	case_adj		first	72.2	64.9
+mBERT	German	case_adj		last	93.6	85.0
+mBERT	German	case_adj	mBERT-char	first	52.9	51.15
+mBERT	German	case_adj	mBERT-char	last	60.5	60.75
+mBERT	German	case_adj	mBERT-rand-char	first	36.15	31.65
+mBERT	German	case_adj	mBERT-rand-char	last	50.3	45.25
+mBERT	German	case_adj	mBERT-rand-subw	first	34.35	30.85
+mBERT	German	case_adj	mBERT-rand-subw	last	51.25	46.0
+mBERT	German	case_noun		first	66.15	62.85
+mBERT	German	case_noun		last	79.6	73.8
+mBERT	German	case_noun	mBERT-char	first	51.3	50.6
+mBERT	German	case_noun	mBERT-char	last	54.25	45.0
+mBERT	German	case_noun	mBERT-rand-char	first	34.85	29.85
+mBERT	German	case_noun	mBERT-rand-char	last	52.65	42.35
+mBERT	German	case_noun	mBERT-rand-subw	first	32.1	31.6
+mBERT	German	case_noun	mBERT-rand-subw	last	45.55	42.6
+mBERT	German	case_propn		first	56.35	56.35
+mBERT	German	case_propn		last	72.15	68.5
+mBERT	German	case_propn	mBERT-char	first	40.85	41.65
+mBERT	German	case_propn	mBERT-char	last	49.35	49.65
+mBERT	German	case_propn	mBERT-rand-char	first	32.15	30.95
+mBERT	German	case_propn	mBERT-rand-char	last	46.65	48.0
+mBERT	German	case_propn	mBERT-rand-subw	first	31.45	33.9
+mBERT	German	case_propn	mBERT-rand-subw	last	43.3	40.55
+mBERT	German	gender_adj		first	69.25	63.08457711442786
+mBERT	German	gender_adj		last	85.9	79.45273631840796
+mBERT	German	gender_adj	mBERT-char	first	43.45	47.01492537313433
+mBERT	German	gender_adj	mBERT-char	last	58.2	57.16417910447761
+mBERT	German	gender_adj	mBERT-rand-char	first	40.65	30.348258706467657
+mBERT	German	gender_adj	mBERT-rand-char	last	56.25	57.263681592039816
+mBERT	German	gender_adj	mBERT-rand-subw	first	41.95	37.06467661691542
+mBERT	German	gender_adj	mBERT-rand-subw	last	50.4	46.71641791044776
+mBERT	German	gender_noun		first	69.20398009950247	64.82587064676616
+mBERT	German	gender_noun		last	85.77114427860697	80.49751243781095
+mBERT	German	gender_noun	mBERT-char	first	50.69651741293533	47.960199004975124
+mBERT	German	gender_noun	mBERT-char	last	59.9502487562189	58.507462686567145
+mBERT	German	gender_noun	mBERT-rand-char	first	37.51243781094527	38.90547263681591
+mBERT	German	gender_noun	mBERT-rand-char	last	52.63681592039801	51.8905472636816
+mBERT	German	gender_noun	mBERT-rand-subw	first	38.756218905472636	38.85572139303482
+mBERT	German	gender_noun	mBERT-rand-subw	last	48.656716417910445	47.61194029850746
+mBERT	German	gender_propn		first	72.65	71.19402985074626
+mBERT	German	gender_propn		last	73.45	71.34328358208954
+mBERT	German	gender_propn	mBERT-char	first	57.55	55.373134328358205
+mBERT	German	gender_propn	mBERT-char	last	54.65	48.90547263681592
+mBERT	German	gender_propn	mBERT-rand-char	first	37.7	32.93532338308458
+mBERT	German	gender_propn	mBERT-rand-char	last	51.05	47.114427860696516
+mBERT	German	gender_propn	mBERT-rand-subw	first	42.0	39.9004975124378
+mBERT	German	gender_propn	mBERT-rand-subw	last	45.7	37.86069651741293
+mBERT	German	number_adj		first	91.55	85.8
+mBERT	German	number_adj		last	96.8	97.95
+mBERT	German	number_adj	mBERT-char	first	66.25	57.45
+mBERT	German	number_adj	mBERT-char	last	74.7	69.1
+mBERT	German	number_adj	mBERT-rand-char	first	58.1	52.05
+mBERT	German	number_adj	mBERT-rand-char	last	64.35	55.85
+mBERT	German	number_adj	mBERT-rand-subw	first	61.0	55.8
+mBERT	German	number_adj	mBERT-rand-subw	last	62.35	56.2
+mBERT	German	number_noun		first	90.35	88.35
+mBERT	German	number_noun		last	96.05	92.7
+mBERT	German	number_noun	mBERT-char	first	63.0	61.65
+mBERT	German	number_noun	mBERT-char	last	87.3	81.55
+mBERT	German	number_noun	mBERT-rand-char	first	54.4	52.5
+mBERT	German	number_noun	mBERT-rand-char	last	78.05	74.65
+mBERT	German	number_noun	mBERT-rand-subw	first	55.45	52.1
+mBERT	German	number_noun	mBERT-rand-subw	last	73.85	64.95
+mBERT	German	number_verb		first	93.55	93.3
+mBERT	German	number_verb		last	97.45	100.0
+mBERT	German	number_verb	mBERT-char	first	74.6	76.55
+mBERT	German	number_verb	mBERT-char	last	98.0	100.0
+mBERT	German	number_verb	mBERT-rand-char	first	54.45	55.3
+mBERT	German	number_verb	mBERT-rand-char	last	97.6	100.0
+mBERT	German	number_verb	mBERT-rand-subw	first	53.4	48.2
+mBERT	German	number_verb	mBERT-rand-subw	last	87.7	90.95
+mBERT	German	tense_verb		first	86.45	83.0
+mBERT	German	tense_verb		last	93.7	86.2
+mBERT	German	tense_verb	mBERT-char	first	63.7	55.0
+mBERT	German	tense_verb	mBERT-char	last	89.8	79.0
+mBERT	German	tense_verb	mBERT-rand-char	first	52.5	49.9
+mBERT	German	tense_verb	mBERT-rand-char	last	80.35	66.9
+mBERT	German	tense_verb	mBERT-rand-subw	first	52.65	50.8
+mBERT	German	tense_verb	mBERT-rand-subw	last	78.0	72.45
+mBERT	German	verbform_verb		first	93.3	88.60696517412934
+mBERT	German	verbform_verb		last	96.4	94.17910447761196
+mBERT	German	verbform_verb	mBERT-char	first	75.9	68.00995024875621
+mBERT	German	verbform_verb	mBERT-char	last	85.3	77.363184079602
+mBERT	German	verbform_verb	mBERT-rand-char	first	57.5	53.383084577114424
+mBERT	German	verbform_verb	mBERT-rand-char	last	75.3	66.76616915422883
+mBERT	German	verbform_verb	mBERT-rand-subw	first	55.4	55.07462686567165
+mBERT	German	verbform_verb	mBERT-rand-subw	last	69.45	62.98507462686568
+mBERT	Greek	aspect_verb		first	82.7	80.45
+mBERT	Greek	aspect_verb		last	95.65	89.75
+mBERT	Greek	aspect_verb	mBERT-char	first	73.1	63.65
+mBERT	Greek	aspect_verb	mBERT-char	last	87.9	78.8
+mBERT	Greek	aspect_verb	mBERT-rand-char	first	54.7	53.45
+mBERT	Greek	aspect_verb	mBERT-rand-char	last	79.25	71.1
+mBERT	Greek	aspect_verb	mBERT-rand-subw	first	56.15	53.3
+mBERT	Greek	aspect_verb	mBERT-rand-subw	last	85.3	80.05
+mBERT	Greek	case_noun		first	89.99999999999999	87.96019900497512
+mBERT	Greek	case_noun		last	92.83582089552239	92.7860696517413
+mBERT	Greek	case_noun	mBERT-char	first	70.34825870646766	64.87562189054725
+mBERT	Greek	case_noun	mBERT-char	last	82.28855721393033	80.94527363184079
+mBERT	Greek	case_noun	mBERT-rand-char	first	45.07462686567165	45.373134328358205
+mBERT	Greek	case_noun	mBERT-rand-char	last	63.23383084577115	63.13432835820896
+mBERT	Greek	case_noun	mBERT-rand-subw	first	40.19900497512438	41.492537313432834
+mBERT	Greek	case_noun	mBERT-rand-subw	last	63.73134328358209	61.59203980099503
+mBERT	Greek	gender_noun		first	79.70149253731344	77.46268656716418
+mBERT	Greek	gender_noun		last	89.55223880597013	86.81592039800995
+mBERT	Greek	gender_noun	mBERT-char	first	61.14427860696518	56.26865671641791
+mBERT	Greek	gender_noun	mBERT-char	last	76.56716417910447	75.62189054726367
+mBERT	Greek	gender_noun	mBERT-rand-char	first	45.124378109452735	38.457711442786064
+mBERT	Greek	gender_noun	mBERT-rand-char	last	59.850746268656714	58.40796019900498
+mBERT	Greek	gender_noun	mBERT-rand-subw	first	40.34825870646766	38.208955223880594
+mBERT	Greek	gender_noun	mBERT-rand-subw	last	65.62189054726369	64.4278606965174
+mBERT	Greek	number_noun		first	98.85	98.8
+mBERT	Greek	number_noun		last	99.4	98.4
+mBERT	Greek	number_noun	mBERT-char	first	81.6	78.2
+mBERT	Greek	number_noun	mBERT-char	last	96.7	93.85
+mBERT	Greek	number_noun	mBERT-rand-char	first	53.5	51.6
+mBERT	Greek	number_noun	mBERT-rand-char	last	78.35	66.0
+mBERT	Greek	number_noun	mBERT-rand-subw	first	61.7	51.05
+mBERT	Greek	number_noun	mBERT-rand-subw	last	85.15	80.65
+mBERT	Greek	voice_verb		first	91.35	89.8
+mBERT	Greek	voice_verb		last	98.65	95.85
+mBERT	Greek	voice_verb	mBERT-char	first	72.75	70.15
+mBERT	Greek	voice_verb	mBERT-char	last	95.6	93.7
+mBERT	Greek	voice_verb	mBERT-rand-char	first	51.25	48.45
+mBERT	Greek	voice_verb	mBERT-rand-char	last	61.05	56.45
+mBERT	Greek	voice_verb	mBERT-rand-subw	first	51.5	50.9
+mBERT	Greek	voice_verb	mBERT-rand-subw	last	91.75	90.6
+mBERT	Hebrew	gender_noun		first	92.45	89.8
+mBERT	Hebrew	gender_noun		last	96.0	94.75
+mBERT	Hebrew	gender_noun	mBERT-char	first	86.3	83.35
+mBERT	Hebrew	gender_noun	mBERT-char	last	94.5	94.0
+mBERT	Hebrew	gender_noun	mBERT-rand-char	first	60.55	54.05
+mBERT	Hebrew	gender_noun	mBERT-rand-char	last	94.5	93.95
+mBERT	Hebrew	gender_noun	mBERT-rand-subw	first	58.5	54.15
+mBERT	Hebrew	gender_noun	mBERT-rand-subw	last	83.8	82.05
+mBERT	Hebrew	gender_verb		first	84.2	84.5
+mBERT	Hebrew	gender_verb		last	85.1	79.25
+mBERT	Hebrew	gender_verb	mBERT-char	first	82.95	82.05
+mBERT	Hebrew	gender_verb	mBERT-char	last	84.9	76.9
+mBERT	Hebrew	gender_verb	mBERT-rand-char	first	58.45	59.25
+mBERT	Hebrew	gender_verb	mBERT-rand-char	last	85.25	75.35
+mBERT	Hebrew	gender_verb	mBERT-rand-subw	first	57.6	55.25
+mBERT	Hebrew	gender_verb	mBERT-rand-subw	last	76.2	68.5
+mBERT	Hebrew	hebbinyan_verb		first	81.19402985074628	76.89655172413792
+mBERT	Hebrew	hebbinyan_verb		last	67.01492537313433	56.699507389162555
+mBERT	Hebrew	hebbinyan_verb	mBERT-char	first	74.62686567164178	71.52709359605913
+mBERT	Hebrew	hebbinyan_verb	mBERT-char	last	66.41791044776119	58.0295566502463
+mBERT	Hebrew	hebbinyan_verb	mBERT-rand-char	first	38.457711442786064	34.679802955665025
+mBERT	Hebrew	hebbinyan_verb	mBERT-rand-char	last	22.089552238805965	18.325123152709356
+mBERT	Hebrew	hebbinyan_verb	mBERT-rand-subw	first	49.950248756218905	42.26600985221674
+mBERT	Hebrew	hebbinyan_verb	mBERT-rand-subw	last	26.81592039800995	18.128078817733986
+mBERT	Hebrew	number_noun		first	94.7	91.4
+mBERT	Hebrew	number_noun		last	98.4	96.95
+mBERT	Hebrew	number_noun	mBERT-char	first	81.35	76.4
+mBERT	Hebrew	number_noun	mBERT-char	last	96.65	97.05
+mBERT	Hebrew	number_noun	mBERT-rand-char	first	56.15	50.85
+mBERT	Hebrew	number_noun	mBERT-rand-char	last	84.4	79.55
+mBERT	Hebrew	number_noun	mBERT-rand-subw	first	58.85	48.2
+mBERT	Hebrew	number_noun	mBERT-rand-subw	last	86.55	84.0
+mBERT	Hebrew	number_verb		first	98.35	96.9
+mBERT	Hebrew	number_verb		last	97.7	99.0
+mBERT	Hebrew	number_verb	mBERT-char	first	92.95	89.05
+mBERT	Hebrew	number_verb	mBERT-char	last	95.25	98.45
+mBERT	Hebrew	number_verb	mBERT-rand-char	first	58.6	56.5
+mBERT	Hebrew	number_verb	mBERT-rand-char	last	91.7	90.55
+mBERT	Hebrew	number_verb	mBERT-rand-subw	first	54.95	52.55
+mBERT	Hebrew	number_verb	mBERT-rand-subw	last	86.8	91.75
+mBERT	Hindi	case_adj		first	85.95	79.25
+mBERT	Hindi	case_adj		last	88.7	84.1
+mBERT	Hindi	case_adj	mBERT-char	first	76.8	62.55
+mBERT	Hindi	case_adj	mBERT-char	last	79.25	74.75
+mBERT	Hindi	case_adj	mBERT-rand-char	first	64.95	62.55
+mBERT	Hindi	case_adj	mBERT-rand-char	last	65.3	71.7
+mBERT	Hindi	case_adj	mBERT-rand-subw	first	63.35	59.6
+mBERT	Hindi	case_adj	mBERT-rand-subw	last	64.8	60.1
+mBERT	Hindi	case_noun		first	89.25	82.05
+mBERT	Hindi	case_noun		last	97.35	90.15
+mBERT	Hindi	case_noun	mBERT-char	first	75.35	64.35
+mBERT	Hindi	case_noun	mBERT-char	last	92.85	84.9
+mBERT	Hindi	case_noun	mBERT-rand-char	first	56.15	48.5
+mBERT	Hindi	case_noun	mBERT-rand-char	last	66.65	66.35
+mBERT	Hindi	case_noun	mBERT-rand-subw	first	59.25	48.5
+mBERT	Hindi	case_noun	mBERT-rand-subw	last	67.8	63.6
+mBERT	Hindi	case_propn		first	88.35	79.4
+mBERT	Hindi	case_propn		last	94.05	90.75
+mBERT	Hindi	case_propn	mBERT-char	first	67.6	56.3
+mBERT	Hindi	case_propn	mBERT-char	last	95.15	85.05
+mBERT	Hindi	case_propn	mBERT-rand-char	first	50.9	48.0
+mBERT	Hindi	case_propn	mBERT-rand-char	last	57.15	48.8
+mBERT	Hindi	case_propn	mBERT-rand-subw	first	52.85	46.95
+mBERT	Hindi	case_propn	mBERT-rand-subw	last	54.05	49.7
+mBERT	Hindi	gender_noun		first	81.8	79.3
+mBERT	Hindi	gender_noun		last	84.4	86.35
+mBERT	Hindi	gender_noun	mBERT-char	first	62.65	58.2
+mBERT	Hindi	gender_noun	mBERT-char	last	77.2	75.7
+mBERT	Hindi	gender_noun	mBERT-rand-char	first	55.45	56.9
+mBERT	Hindi	gender_noun	mBERT-rand-char	last	68.6	68.75
+mBERT	Hindi	gender_noun	mBERT-rand-subw	first	54.65	52.15
+mBERT	Hindi	gender_noun	mBERT-rand-subw	last	72.65	70.2
+mBERT	Hindi	gender_propn		first	68.3	68.75
+mBERT	Hindi	gender_propn		last	81.5	70.7
+mBERT	Hindi	gender_propn	mBERT-char	first	60.6	53.85
+mBERT	Hindi	gender_propn	mBERT-char	last	74.45	66.25
+mBERT	Hindi	gender_propn	mBERT-rand-char	first	56.4	51.25
+mBERT	Hindi	gender_propn	mBERT-rand-char	last	70.75	65.85
+mBERT	Hindi	gender_propn	mBERT-rand-subw	first	60.75	50.7
+mBERT	Hindi	gender_propn	mBERT-rand-subw	last	70.3	56.0
+mBERT	Hindi	number_noun		first	89.9	88.05
+mBERT	Hindi	number_noun		last	92.45	93.05
+mBERT	Hindi	number_noun	mBERT-char	first	73.55	74.8
+mBERT	Hindi	number_noun	mBERT-char	last	86.7	90.9
+mBERT	Hindi	number_noun	mBERT-rand-char	first	53.3	54.85
+mBERT	Hindi	number_noun	mBERT-rand-char	last	85.9	88.7
+mBERT	Hindi	number_noun	mBERT-rand-subw	first	53.2	46.75
+mBERT	Hindi	number_noun	mBERT-rand-subw	last	82.7	87.1
+mBERT	Hungarian	number[psor]_noun		first	93.6	91.1
+mBERT	Hungarian	number[psor]_noun		last	99.7	96.7
+mBERT	Hungarian	number[psor]_noun	mBERT-char	first	74.45	74.15
+mBERT	Hungarian	number[psor]_noun	mBERT-char	last	86.2	84.05
+mBERT	Hungarian	number[psor]_noun	mBERT-rand-char	first	53.45	49.55
+mBERT	Hungarian	number[psor]_noun	mBERT-rand-char	last	67.55	65.2
+mBERT	Hungarian	number[psor]_noun	mBERT-rand-subw	first	55.45	50.5
+mBERT	Hungarian	number[psor]_noun	mBERT-rand-subw	last	80.35	76.15
+mBERT	Hungarian	number_noun		first	93.0	91.7
+mBERT	Hungarian	number_noun		last	96.9	94.25
+mBERT	Hungarian	number_noun	mBERT-char	first	67.65	67.65
+mBERT	Hungarian	number_noun	mBERT-char	last	89.8	85.2
+mBERT	Hungarian	number_noun	mBERT-rand-char	first	51.45	51.0
+mBERT	Hungarian	number_noun	mBERT-rand-char	last	73.65	78.2
+mBERT	Hungarian	number_noun	mBERT-rand-subw	first	51.95	51.15
+mBERT	Hungarian	number_noun	mBERT-rand-subw	last	84.45	76.95
+mBERT	Hungarian	person[psor]_noun		first	94.7	88.6
+mBERT	Hungarian	person[psor]_noun		last	98.05	94.15
+mBERT	Hungarian	person[psor]_noun	mBERT-char	first	74.9	70.8
+mBERT	Hungarian	person[psor]_noun	mBERT-char	last	86.3	86.6
+mBERT	Hungarian	person[psor]_noun	mBERT-rand-char	first	61.0	49.85
+mBERT	Hungarian	person[psor]_noun	mBERT-rand-char	last	68.0	70.35
+mBERT	Hungarian	person[psor]_noun	mBERT-rand-subw	first	57.85	55.15
+mBERT	Hungarian	person[psor]_noun	mBERT-rand-subw	last	86.9	76.0
+mBERT	Italian	gender_adj		first	90.5	90.65
+mBERT	Italian	gender_adj		last	100.0	91.1
+mBERT	Italian	gender_adj	mBERT-char	first	80.6	80.9
+mBERT	Italian	gender_adj	mBERT-char	last	100.0	89.8
+mBERT	Italian	gender_adj	mBERT-rand-char	first	50.65	51.9
+mBERT	Italian	gender_adj	mBERT-rand-char	last	100.0	89.95
+mBERT	Italian	gender_adj	mBERT-rand-subw	first	49.0	50.95
+mBERT	Italian	gender_adj	mBERT-rand-subw	last	87.25	78.8
+mBERT	Italian	gender_noun		first	93.5	92.4
+mBERT	Italian	gender_noun		last	96.5	96.7
+mBERT	Italian	gender_noun	mBERT-char	first	82.15	76.4
+mBERT	Italian	gender_noun	mBERT-char	last	89.65	85.65
+mBERT	Italian	gender_noun	mBERT-rand-char	first	57.85	48.7
+mBERT	Italian	gender_noun	mBERT-rand-char	last	83.3	76.7
+mBERT	Italian	gender_noun	mBERT-rand-subw	first	56.85	50.4
+mBERT	Italian	gender_noun	mBERT-rand-subw	last	73.2	68.45
+mBERT	Italian	number_adj		first	95.5	94.5
+mBERT	Italian	number_adj		last	98.05	95.35
+mBERT	Italian	number_adj	mBERT-char	first	78.5	76.7
+mBERT	Italian	number_adj	mBERT-char	last	97.05	92.9
+mBERT	Italian	number_adj	mBERT-rand-char	first	57.95	53.3
+mBERT	Italian	number_adj	mBERT-rand-char	last	87.35	82.65
+mBERT	Italian	number_adj	mBERT-rand-subw	first	52.2	51.85
+mBERT	Italian	number_adj	mBERT-rand-subw	last	83.75	77.9
+mBERT	Italian	number_noun		first	94.25	93.1
+mBERT	Italian	number_noun		last	96.2	97.1
+mBERT	Italian	number_noun	mBERT-char	first	78.7	75.55
+mBERT	Italian	number_noun	mBERT-char	last	96.15	92.65
+mBERT	Italian	number_noun	mBERT-rand-char	first	56.1	45.75
+mBERT	Italian	number_noun	mBERT-rand-char	last	88.5	84.9
+mBERT	Italian	number_noun	mBERT-rand-subw	first	52.0	41.5
+mBERT	Italian	number_noun	mBERT-rand-subw	last	81.6	77.75
+mBERT	Italian	number_verb		first	88.7	92.95
+mBERT	Italian	number_verb		last	94.7	98.65
+mBERT	Italian	number_verb	mBERT-char	first	74.25	75.75
+mBERT	Italian	number_verb	mBERT-char	last	92.9	96.25
+mBERT	Italian	number_verb	mBERT-rand-char	first	57.5	54.8
+mBERT	Italian	number_verb	mBERT-rand-char	last	72.1	82.6
+mBERT	Italian	number_verb	mBERT-rand-subw	first	55.3	54.3
+mBERT	Italian	number_verb	mBERT-rand-subw	last	85.9	85.7
+mBERT	Italian	person_verb		first	72.05	77.1
+mBERT	Italian	person_verb		last	92.25	92.2
+mBERT	Italian	person_verb	mBERT-char	first	62.2	60.85
+mBERT	Italian	person_verb	mBERT-char	last	90.2	92.25
+mBERT	Italian	person_verb	mBERT-rand-char	first	41.0	50.15
+mBERT	Italian	person_verb	mBERT-rand-char	last	68.5	57.7
+mBERT	Italian	person_verb	mBERT-rand-subw	first	39.25	46.55
+mBERT	Italian	person_verb	mBERT-rand-subw	last	78.05	76.05
+mBERT	Italian	tense_verb		first	74.4	73.45
+mBERT	Italian	tense_verb		last	95.65	89.35
+mBERT	Italian	tense_verb	mBERT-char	first	59.3	50.8
+mBERT	Italian	tense_verb	mBERT-char	last	87.65	77.15
+mBERT	Italian	tense_verb	mBERT-rand-char	first	34.0	29.35
+mBERT	Italian	tense_verb	mBERT-rand-char	last	44.5	33.7
+mBERT	Italian	tense_verb	mBERT-rand-subw	first	29.85	34.25
+mBERT	Italian	tense_verb	mBERT-rand-subw	last	69.0	65.5
+mBERT	Italian	verbform_verb		first	92.9	90.15
+mBERT	Italian	verbform_verb		last	96.7	98.15
+mBERT	Italian	verbform_verb	mBERT-char	first	71.55	66.8
+mBERT	Italian	verbform_verb	mBERT-char	last	94.25	95.75
+mBERT	Italian	verbform_verb	mBERT-rand-char	first	32.7	31.0
+mBERT	Italian	verbform_verb	mBERT-rand-char	last	61.1	58.7
+mBERT	Italian	verbform_verb	mBERT-rand-subw	first	31.85	27.05
+mBERT	Italian	verbform_verb	mBERT-rand-subw	last	78.05	79.8
+mBERT	Latin	aspect_verb		first	85.5	81.35
+mBERT	Latin	aspect_verb		last	98.35	97.7
+mBERT	Latin	aspect_verb	mBERT-char	first	71.7	68.55
+mBERT	Latin	aspect_verb	mBERT-char	last	98.15	97.45
+mBERT	Latin	aspect_verb	mBERT-rand-char	first	64.05	53.5
+mBERT	Latin	aspect_verb	mBERT-rand-char	last	83.2	79.45
+mBERT	Latin	aspect_verb	mBERT-rand-subw	first	58.3	53.95
+mBERT	Latin	aspect_verb	mBERT-rand-subw	last	94.6	90.2
+mBERT	Latin	case_verb		first	48.85572139303482	54.45544554455446
+mBERT	Latin	case_verb		last	84.42786069651743	79.75247524752476
+mBERT	Latin	case_verb	mBERT-char	first	37.014925373134325	35.54455445544555
+mBERT	Latin	case_verb	mBERT-char	last	80.24875621890547	68.31683168316832
+mBERT	Latin	case_verb	mBERT-rand-char	first	25.4228855721393	26.881188118811878
+mBERT	Latin	case_verb	mBERT-rand-char	last	59.45273631840795	44.702970297029694
+mBERT	Latin	case_verb	mBERT-rand-subw	first	28.05970149253731	27.87128712871286
+mBERT	Latin	case_verb	mBERT-rand-subw	last	65.17412935323384	59.801980198019805
+mBERT	Latin	gender_adj		first	60.845771144278615	46.06965174129353
+mBERT	Latin	gender_adj		last	77.3134328358209	74.87562189054725
+mBERT	Latin	gender_adj	mBERT-char	first	47.16417910447761	43.48258706467662
+mBERT	Latin	gender_adj	mBERT-char	last	72.18905472636817	64.72636815920399
+mBERT	Latin	gender_adj	mBERT-rand-char	first	39.45273631840796	37.86069651741293
+mBERT	Latin	gender_adj	mBERT-rand-char	last	49.253731343283576	49.90049751243781
+mBERT	Latin	gender_adj	mBERT-rand-subw	first	42.08955223880597	34.72636815920397
+mBERT	Latin	gender_adj	mBERT-rand-subw	last	59.850746268656714	51.14427860696518
+mBERT	Latin	gender_noun		first	70.44776119402984	59.20398009950249
+mBERT	Latin	gender_noun		last	76.81592039800995	73.7810945273632
+mBERT	Latin	gender_noun	mBERT-char	first	51.99004975124378	47.01492537313433
+mBERT	Latin	gender_noun	mBERT-char	last	70.34825870646765	69.1542288557214
+mBERT	Latin	gender_noun	mBERT-rand-char	first	37.06467661691542	44.12935323383084
+mBERT	Latin	gender_noun	mBERT-rand-char	last	53.13432835820895	51.940298507462686
+mBERT	Latin	gender_noun	mBERT-rand-subw	first	43.333333333333336	35.32338308457712
+mBERT	Latin	gender_noun	mBERT-rand-subw	last	61.492537313432834	48.35820895522388
+mBERT	Latin	gender_verb		first	64.87562189054727	52.238805970149244
+mBERT	Latin	gender_verb		last	80.74626865671641	73.38308457711443
+mBERT	Latin	gender_verb	mBERT-char	first	53.08457711442786	41.39303482587064
+mBERT	Latin	gender_verb	mBERT-char	last	74.62686567164178	72.83582089552237
+mBERT	Latin	gender_verb	mBERT-rand-char	first	37.76119402985075	37.96019900497512
+mBERT	Latin	gender_verb	mBERT-rand-char	last	55.97014925373136	58.65671641791046
+mBERT	Latin	gender_verb	mBERT-rand-subw	first	49.0547263681592	33.43283582089552
+mBERT	Latin	gender_verb	mBERT-rand-subw	last	69.10447761194031	60.348258706467654
+mBERT	Latin	mood_verb		first	71.84079601990048	67.25
+mBERT	Latin	mood_verb		last	86.86567164179102	80.15
+mBERT	Latin	mood_verb	mBERT-char	first	60.64676616915424	56.9
+mBERT	Latin	mood_verb	mBERT-char	last	82.38805970149254	82.05
+mBERT	Latin	mood_verb	mBERT-rand-char	first	47.014925373134325	45.4
+mBERT	Latin	mood_verb	mBERT-rand-char	last	67.76119402985074	65.25
+mBERT	Latin	mood_verb	mBERT-rand-subw	first	49.65174129353234	47.25
+mBERT	Latin	mood_verb	mBERT-rand-subw	last	71.34328358208955	63.75
+mBERT	Latin	number_adj		first	75.7	74.5
+mBERT	Latin	number_adj		last	91.4	86.85
+mBERT	Latin	number_adj	mBERT-char	first	56.8	58.05
+mBERT	Latin	number_adj	mBERT-char	last	78.2	79.7
+mBERT	Latin	number_adj	mBERT-rand-char	first	52.7	53.5
+mBERT	Latin	number_adj	mBERT-rand-char	last	65.3	66.6
+mBERT	Latin	number_adj	mBERT-rand-subw	first	53.2	57.3
+mBERT	Latin	number_adj	mBERT-rand-subw	last	75.05	73.4
+mBERT	Latin	number_noun		first	83.4	74.15
+mBERT	Latin	number_noun		last	94.15	84.55
+mBERT	Latin	number_noun	mBERT-char	first	61.25	57.05
+mBERT	Latin	number_noun	mBERT-char	last	85.25	75.6
+mBERT	Latin	number_noun	mBERT-rand-char	first	58.65	52.1
+mBERT	Latin	number_noun	mBERT-rand-char	last	68.9	66.25
+mBERT	Latin	number_noun	mBERT-rand-subw	first	61.05	54.0
+mBERT	Latin	number_noun	mBERT-rand-subw	last	75.1	65.1
+mBERT	Latin	number_verb		first	77.05	71.35
+mBERT	Latin	number_verb		last	94.0	89.55
+mBERT	Latin	number_verb	mBERT-char	first	61.5	56.8
+mBERT	Latin	number_verb	mBERT-char	last	86.9	82.4
+mBERT	Latin	number_verb	mBERT-rand-char	first	50.0	49.45
+mBERT	Latin	number_verb	mBERT-rand-char	last	61.45	60.05
+mBERT	Latin	number_verb	mBERT-rand-subw	first	55.2	58.35
+mBERT	Latin	number_verb	mBERT-rand-subw	last	81.9	75.6
+mBERT	Latin	person_verb		first	77.2139303482587	75.47263681592041
+mBERT	Latin	person_verb		last	100.0	94.77611940298507
+mBERT	Latin	person_verb	mBERT-char	first	62.835820895522396	55.124378109452735
+mBERT	Latin	person_verb	mBERT-char	last	98.95522388059703	94.82587064676619
+mBERT	Latin	person_verb	mBERT-rand-char	first	44.27860696517413	42.238805970149244
+mBERT	Latin	person_verb	mBERT-rand-char	last	79.10447761194031	74.6268656716418
+mBERT	Latin	person_verb	mBERT-rand-subw	first	41.940298507462686	40.049751243781095
+mBERT	Latin	person_verb	mBERT-rand-subw	last	89.30348258706468	85.17412935323382
+mBERT	Latin	tense_verb		first	62.92079207920792	45.97014925373134
+mBERT	Latin	tense_verb		last	81.98019801980197	67.81094527363184
+mBERT	Latin	tense_verb	mBERT-char	first	50.049504950495056	31.54228855721392
+mBERT	Latin	tense_verb	mBERT-char	last	73.8118811881188	58.90547263681593
+mBERT	Latin	tense_verb	mBERT-rand-char	first	28.168316831683164	22.03980099502487
+mBERT	Latin	tense_verb	mBERT-rand-char	last	42.62376237623762	34.975124378109456
+mBERT	Latin	tense_verb	mBERT-rand-subw	first	35.14851485148514	27.76119402985075
+mBERT	Latin	tense_verb	mBERT-rand-subw	last	60.445544554455445	48.90547263681592
+mBERT	Latin	verbform_verb		first	64.5771144278607	66.96517412935323
+mBERT	Latin	verbform_verb		last	92.33830845771145	86.76616915422886
+mBERT	Latin	verbform_verb	mBERT-char	first	47.06467661691542	45.472636815920396
+mBERT	Latin	verbform_verb	mBERT-char	last	91.34328358208957	84.37810945273631
+mBERT	Latin	verbform_verb	mBERT-rand-char	first	28.159203980099498	24.079601990049746
+mBERT	Latin	verbform_verb	mBERT-rand-char	last	68.1592039800995	60.74626865671642
+mBERT	Latin	verbform_verb	mBERT-rand-subw	first	25.920398009950247	21.89054726368159
+mBERT	Latin	verbform_verb	mBERT-rand-subw	last	74.87562189054727	74.57711442786069
+mBERT	Latin	voice_verb		first	81.45	76.15
+mBERT	Latin	voice_verb		last	94.7	89.95
+mBERT	Latin	voice_verb	mBERT-char	first	60.85	59.95
+mBERT	Latin	voice_verb	mBERT-char	last	94.1	91.85
+mBERT	Latin	voice_verb	mBERT-rand-char	first	56.35	53.15
+mBERT	Latin	voice_verb	mBERT-rand-char	last	85.4	77.05
+mBERT	Latin	voice_verb	mBERT-rand-subw	first	57.3	50.15
+mBERT	Latin	voice_verb	mBERT-rand-subw	last	83.8	81.45
+mBERT	Latvian	case_adj		first	62.2	63.25
+mBERT	Latvian	case_adj		last	89.75	92.65
+mBERT	Latvian	case_adj	mBERT-char	first	50.05	47.35
+mBERT	Latvian	case_adj	mBERT-char	last	83.15	84.9
+mBERT	Latvian	case_adj	mBERT-rand-char	first	23.2	22.0
+mBERT	Latvian	case_adj	mBERT-rand-char	last	62.6	62.75
+mBERT	Latvian	case_adj	mBERT-rand-subw	first	26.3	18.6
+mBERT	Latvian	case_adj	mBERT-rand-subw	last	69.85	66.5
+mBERT	Latvian	case_noun		first	67.0	68.65
+mBERT	Latvian	case_noun		last	96.7	92.15
+mBERT	Latvian	case_noun	mBERT-char	first	55.35	56.6
+mBERT	Latvian	case_noun	mBERT-char	last	90.0	88.75
+mBERT	Latvian	case_noun	mBERT-rand-char	first	23.15	22.7
+mBERT	Latvian	case_noun	mBERT-rand-char	last	54.9	60.95
+mBERT	Latvian	case_noun	mBERT-rand-subw	first	21.55	21.25
+mBERT	Latvian	case_noun	mBERT-rand-subw	last	67.55	72.05
+mBERT	Latvian	case_propn		first	74.9	74.6
+mBERT	Latvian	case_propn		last	94.5	95.65
+mBERT	Latvian	case_propn	mBERT-char	first	67.8	69.9
+mBERT	Latvian	case_propn	mBERT-char	last	92.2	90.95
+mBERT	Latvian	case_propn	mBERT-rand-char	first	32.1	27.85
+mBERT	Latvian	case_propn	mBERT-rand-char	last	66.2	66.15
+mBERT	Latvian	case_propn	mBERT-rand-subw	first	26.65	24.35
+mBERT	Latvian	case_propn	mBERT-rand-subw	last	67.0	69.2
+mBERT	Latvian	definite_adj		first	75.1	76.0
+mBERT	Latvian	definite_adj		last	95.8	93.85
+mBERT	Latvian	definite_adj	mBERT-char	first	68.5	65.45
+mBERT	Latvian	definite_adj	mBERT-char	last	95.4	90.0
+mBERT	Latvian	definite_adj	mBERT-rand-char	first	57.85	57.2
+mBERT	Latvian	definite_adj	mBERT-rand-char	last	77.1	71.3
+mBERT	Latvian	definite_adj	mBERT-rand-subw	first	54.65	52.3
+mBERT	Latvian	definite_adj	mBERT-rand-subw	last	87.85	84.0
+mBERT	Latvian	definite_verb		first	91.35	87.35
+mBERT	Latvian	definite_verb		last	97.5	94.85
+mBERT	Latvian	definite_verb	mBERT-char	first	75.35	72.95
+mBERT	Latvian	definite_verb	mBERT-char	last	95.75	93.9
+mBERT	Latvian	definite_verb	mBERT-rand-char	first	57.65	58.7
+mBERT	Latvian	definite_verb	mBERT-rand-char	last	79.05	80.55
+mBERT	Latvian	definite_verb	mBERT-rand-subw	first	54.9	60.95
+mBERT	Latvian	definite_verb	mBERT-rand-subw	last	91.75	87.65
+mBERT	Latvian	gender_adj		first	75.05	75.3
+mBERT	Latvian	gender_adj		last	89.65	86.35
+mBERT	Latvian	gender_adj	mBERT-char	first	56.25	55.8
+mBERT	Latvian	gender_adj	mBERT-char	last	87.8	83.2
+mBERT	Latvian	gender_adj	mBERT-rand-char	first	54.85	53.6
+mBERT	Latvian	gender_adj	mBERT-rand-char	last	60.7	60.35
+mBERT	Latvian	gender_adj	mBERT-rand-subw	first	56.5	49.1
+mBERT	Latvian	gender_adj	mBERT-rand-subw	last	73.05	68.35
+mBERT	Latvian	gender_noun		first	80.55	75.55
+mBERT	Latvian	gender_noun		last	91.3	86.8
+mBERT	Latvian	gender_noun	mBERT-char	first	61.35	54.7
+mBERT	Latvian	gender_noun	mBERT-char	last	84.55	83.5
+mBERT	Latvian	gender_noun	mBERT-rand-char	first	54.9	52.0
+mBERT	Latvian	gender_noun	mBERT-rand-char	last	59.85	56.5
+mBERT	Latvian	gender_noun	mBERT-rand-subw	first	53.25	49.55
+mBERT	Latvian	gender_noun	mBERT-rand-subw	last	74.35	70.7
+mBERT	Latvian	gender_propn		first	86.9	77.65
+mBERT	Latvian	gender_propn		last	94.85	89.75
+mBERT	Latvian	gender_propn	mBERT-char	first	74.85	72.05
+mBERT	Latvian	gender_propn	mBERT-char	last	87.6	87.35
+mBERT	Latvian	gender_propn	mBERT-rand-char	first	56.85	53.85
+mBERT	Latvian	gender_propn	mBERT-rand-char	last	65.65	65.9
+mBERT	Latvian	gender_propn	mBERT-rand-subw	first	57.15	51.7
+mBERT	Latvian	gender_propn	mBERT-rand-subw	last	70.85	72.3
+mBERT	Latvian	gender_verb		first	76.05	81.55
+mBERT	Latvian	gender_verb		last	93.9	95.3
+mBERT	Latvian	gender_verb	mBERT-char	first	65.2	60.4
+mBERT	Latvian	gender_verb	mBERT-char	last	90.4	91.8
+mBERT	Latvian	gender_verb	mBERT-rand-char	first	56.05	50.7
+mBERT	Latvian	gender_verb	mBERT-rand-char	last	62.0	60.9
+mBERT	Latvian	gender_verb	mBERT-rand-subw	first	53.9	49.6
+mBERT	Latvian	gender_verb	mBERT-rand-subw	last	88.9	83.3
+mBERT	Latvian	number_adj		first	85.4	85.45
+mBERT	Latvian	number_adj		last	94.65	93.8
+mBERT	Latvian	number_adj	mBERT-char	first	63.7	62.3
+mBERT	Latvian	number_adj	mBERT-char	last	91.8	91.1
+mBERT	Latvian	number_adj	mBERT-rand-char	first	52.3	52.95
+mBERT	Latvian	number_adj	mBERT-rand-char	last	73.9	76.1
+mBERT	Latvian	number_adj	mBERT-rand-subw	first	54.0	53.65
+mBERT	Latvian	number_adj	mBERT-rand-subw	last	81.55	82.2
+mBERT	Latvian	number_verb		first	79.65	71.45
+mBERT	Latvian	number_verb		last	93.2	92.35
+mBERT	Latvian	number_verb	mBERT-char	first	64.55	61.35
+mBERT	Latvian	number_verb	mBERT-char	last	90.6	87.4
+mBERT	Latvian	number_verb	mBERT-rand-char	first	57.65	49.95
+mBERT	Latvian	number_verb	mBERT-rand-char	last	76.0	70.1
+mBERT	Latvian	number_verb	mBERT-rand-subw	first	53.7	52.0
+mBERT	Latvian	number_verb	mBERT-rand-subw	last	85.05	78.65
+mBERT	Latvian	person_verb		first	83.93034825870647	68.3084577114428
+mBERT	Latvian	person_verb		last	95.62189054726369	86.56716417910448
+mBERT	Latvian	person_verb	mBERT-char	first	76.96517412935324	69.75124378109453
+mBERT	Latvian	person_verb	mBERT-char	last	93.38308457711443	83.93034825870646
+mBERT	Latvian	person_verb	mBERT-rand-char	first	43.03482587064676	41.492537313432834
+mBERT	Latvian	person_verb	mBERT-rand-char	last	83.58208955223878	72.8358208955224
+mBERT	Latvian	person_verb	mBERT-rand-subw	first	41.990049751243774	41.59203980099502
+mBERT	Latvian	person_verb	mBERT-rand-subw	last	86.21890547263682	75.72139303482588
+mBERT	Latvian	polarity_verb		first	100.0	97.9
+mBERT	Latvian	polarity_verb		last	92.55	87.9
+mBERT	Latvian	polarity_verb	mBERT-char	first	100.0	99.5
+mBERT	Latvian	polarity_verb	mBERT-char	last	73.7	76.85
+mBERT	Latvian	polarity_verb	mBERT-rand-char	first	92.5	95.5
+mBERT	Latvian	polarity_verb	mBERT-rand-char	last	52.45	54.3
+mBERT	Latvian	polarity_verb	mBERT-rand-subw	first	97.75	97.05
+mBERT	Latvian	polarity_verb	mBERT-rand-subw	last	56.0	54.55
+mBERT	Latvian	tense_verb		first	69.45273631840796	64.5273631840796
+mBERT	Latvian	tense_verb		last	89.65174129353234	85.12437810945275
+mBERT	Latvian	tense_verb	mBERT-char	first	58.35820895522388	52.7363184079602
+mBERT	Latvian	tense_verb	mBERT-char	last	85.92039800995026	75.52238805970148
+mBERT	Latvian	tense_verb	mBERT-rand-char	first	40.199004975124375	36.3681592039801
+mBERT	Latvian	tense_verb	mBERT-rand-char	last	55.42288557213931	50.34825870646766
+mBERT	Latvian	tense_verb	mBERT-rand-subw	first	39.40298507462686	42.63681592039801
+mBERT	Latvian	tense_verb	mBERT-rand-subw	last	75.92039800995023	67.3134328358209
+mBERT	Latvian	verbform_verb		first	85.2	80.85
+mBERT	Latvian	verbform_verb		last	93.15	90.8
+mBERT	Latvian	verbform_verb	mBERT-char	first	60.3	58.45
+mBERT	Latvian	verbform_verb	mBERT-char	last	86.25	82.3
+mBERT	Latvian	verbform_verb	mBERT-rand-char	first	37.45	32.1
+mBERT	Latvian	verbform_verb	mBERT-rand-char	last	59.6	53.9
+mBERT	Latvian	verbform_verb	mBERT-rand-subw	first	36.85	30.0
+mBERT	Latvian	verbform_verb	mBERT-rand-subw	last	71.3	72.9
+mBERT	Latvian	voice_verb		first	90.9	91.25
+mBERT	Latvian	voice_verb		last	98.3	97.4
+mBERT	Latvian	voice_verb	mBERT-char	first	72.95	70.95
+mBERT	Latvian	voice_verb	mBERT-char	last	93.4	95.05
+mBERT	Latvian	voice_verb	mBERT-rand-char	first	66.0	59.45
+mBERT	Latvian	voice_verb	mBERT-rand-char	last	66.5	59.25
+mBERT	Latvian	voice_verb	mBERT-rand-subw	first	62.5	54.05
+mBERT	Latvian	voice_verb	mBERT-rand-subw	last	86.6	83.8
+mBERT	Lithuanian	case_noun		first	64.80392156862744	64.26470588235296
+mBERT	Lithuanian	case_noun		last	93.48039215686275	94.0686274509804
+mBERT	Lithuanian	case_noun	mBERT-char	first	45.88235294117647	43.23529411764706
+mBERT	Lithuanian	case_noun	mBERT-char	last	88.08823529411765	85.34313725490196
+mBERT	Lithuanian	case_noun	mBERT-rand-char	first	19.999999999999993	19.65686274509803
+mBERT	Lithuanian	case_noun	mBERT-rand-char	last	65.88235294117646	58.72549019607843
+mBERT	Lithuanian	case_noun	mBERT-rand-subw	first	22.843137254901954	17.54901960784313
+mBERT	Lithuanian	case_noun	mBERT-rand-subw	last	73.48039215686273	63.72549019607843
+mBERT	Lithuanian	gender_noun		first	80.35	80.15
+mBERT	Lithuanian	gender_noun		last	91.25	87.15
+mBERT	Lithuanian	gender_noun	mBERT-char	first	60.25	63.3
+mBERT	Lithuanian	gender_noun	mBERT-char	last	81.1	80.05
+mBERT	Lithuanian	gender_noun	mBERT-rand-char	first	56.95	51.05
+mBERT	Lithuanian	gender_noun	mBERT-rand-char	last	71.0	69.05
+mBERT	Lithuanian	gender_noun	mBERT-rand-subw	first	56.85	54.2
+mBERT	Lithuanian	gender_noun	mBERT-rand-subw	last	72.3	63.9
+mBERT	Lithuanian	number_noun		first	84.25	83.55
+mBERT	Lithuanian	number_noun		last	96.25	94.0
+mBERT	Lithuanian	number_noun	mBERT-char	first	73.4	70.45
+mBERT	Lithuanian	number_noun	mBERT-char	last	92.0	89.0
+mBERT	Lithuanian	number_noun	mBERT-rand-char	first	59.4	58.4
+mBERT	Lithuanian	number_noun	mBERT-rand-char	last	78.05	78.9
+mBERT	Lithuanian	number_noun	mBERT-rand-subw	first	55.3	49.45
+mBERT	Lithuanian	number_noun	mBERT-rand-subw	last	82.25	81.05
+mBERT	Lithuanian	number_verb		first	79.3	76.35
+mBERT	Lithuanian	number_verb		last	89.3	88.55
+mBERT	Lithuanian	number_verb	mBERT-char	first	59.2	56.55
+mBERT	Lithuanian	number_verb	mBERT-char	last	77.8	75.0
+mBERT	Lithuanian	number_verb	mBERT-rand-char	first	56.9	53.45
+mBERT	Lithuanian	number_verb	mBERT-rand-char	last	68.6	72.0
+mBERT	Lithuanian	number_verb	mBERT-rand-subw	first	57.2	47.3
+mBERT	Lithuanian	number_verb	mBERT-rand-subw	last	68.9	71.7
+mBERT	Norwegian_Bokmal	definite_adj		first	93.35	96.35
+mBERT	Norwegian_Bokmal	definite_adj		last	99.5	97.9
+mBERT	Norwegian_Bokmal	definite_adj	mBERT-char	first	84.4	85.0
+mBERT	Norwegian_Bokmal	definite_adj	mBERT-char	last	95.75	96.7
+mBERT	Norwegian_Bokmal	definite_adj	mBERT-rand-char	first	62.95	51.45
+mBERT	Norwegian_Bokmal	definite_adj	mBERT-rand-char	last	95.5	96.5
+mBERT	Norwegian_Bokmal	definite_adj	mBERT-rand-subw	first	61.2	57.95
+mBERT	Norwegian_Bokmal	definite_adj	mBERT-rand-subw	last	89.3	88.3
+mBERT	Norwegian_Bokmal	definite_noun		first	89.2	88.15
+mBERT	Norwegian_Bokmal	definite_noun		last	99.05	100.0
+mBERT	Norwegian_Bokmal	definite_noun	mBERT-char	first	71.9	76.4
+mBERT	Norwegian_Bokmal	definite_noun	mBERT-char	last	96.65	98.45
+mBERT	Norwegian_Bokmal	definite_noun	mBERT-rand-char	first	57.7	55.8
+mBERT	Norwegian_Bokmal	definite_noun	mBERT-rand-char	last	81.05	80.3
+mBERT	Norwegian_Bokmal	definite_noun	mBERT-rand-subw	first	59.55	55.8
+mBERT	Norwegian_Bokmal	definite_noun	mBERT-rand-subw	last	84.05	85.3
+mBERT	Norwegian_Bokmal	gender_noun		first	58.1094527363184	55.12437810945274
+mBERT	Norwegian_Bokmal	gender_noun		last	81.7412935323383	79.95024875621891
+mBERT	Norwegian_Bokmal	gender_noun	mBERT-char	first	43.53233830845771	45.97014925373135
+mBERT	Norwegian_Bokmal	gender_noun	mBERT-char	last	67.01492537313432	66.51741293532339
+mBERT	Norwegian_Bokmal	gender_noun	mBERT-rand-char	first	39.154228855721385	38.407960199004975
+mBERT	Norwegian_Bokmal	gender_noun	mBERT-rand-char	last	58.507462686567166	59.90049751243781
+mBERT	Norwegian_Bokmal	gender_noun	mBERT-rand-subw	first	42.33830845771144	36.81592039800994
+mBERT	Norwegian_Bokmal	gender_noun	mBERT-rand-subw	last	60.39800995024875	57.761194029850756
+mBERT	Norwegian_Bokmal	number_adj		first	90.35	86.5
+mBERT	Norwegian_Bokmal	number_adj		last	96.45	95.4
+mBERT	Norwegian_Bokmal	number_adj	mBERT-char	first	75.8	64.6
+mBERT	Norwegian_Bokmal	number_adj	mBERT-char	last	89.25	87.9
+mBERT	Norwegian_Bokmal	number_adj	mBERT-rand-char	first	53.3	53.35
+mBERT	Norwegian_Bokmal	number_adj	mBERT-rand-char	last	86.95	84.95
+mBERT	Norwegian_Bokmal	number_adj	mBERT-rand-subw	first	52.45	49.85
+mBERT	Norwegian_Bokmal	number_adj	mBERT-rand-subw	last	79.15	75.45
+mBERT	Norwegian_Bokmal	number_noun		first	88.65	91.75
+mBERT	Norwegian_Bokmal	number_noun		last	97.65	96.0
+mBERT	Norwegian_Bokmal	number_noun	mBERT-char	first	60.55	66.0
+mBERT	Norwegian_Bokmal	number_noun	mBERT-char	last	93.5	92.15
+mBERT	Norwegian_Bokmal	number_noun	mBERT-rand-char	first	53.7	51.15
+mBERT	Norwegian_Bokmal	number_noun	mBERT-rand-char	last	89.3	85.2
+mBERT	Norwegian_Bokmal	number_noun	mBERT-rand-subw	first	55.3	54.35
+mBERT	Norwegian_Bokmal	number_noun	mBERT-rand-subw	last	85.05	82.2
+mBERT	Norwegian_Bokmal	tense_verb		first	93.85	89.85
+mBERT	Norwegian_Bokmal	tense_verb		last	99.5	98.7
+mBERT	Norwegian_Bokmal	tense_verb	mBERT-char	first	85.75	80.7
+mBERT	Norwegian_Bokmal	tense_verb	mBERT-char	last	99.0	99.0
+mBERT	Norwegian_Bokmal	tense_verb	mBERT-rand-char	first	51.65	53.2
+mBERT	Norwegian_Bokmal	tense_verb	mBERT-rand-char	last	99.0	99.0
+mBERT	Norwegian_Bokmal	tense_verb	mBERT-rand-subw	first	49.25	48.85
+mBERT	Norwegian_Bokmal	tense_verb	mBERT-rand-subw	last	93.2	90.7
+mBERT	Norwegian_Bokmal	verbform_verb		first	94.12935323383086	94.97512437810946
+mBERT	Norwegian_Bokmal	verbform_verb		last	98.95522388059702	99.00497512437812
+mBERT	Norwegian_Bokmal	verbform_verb	mBERT-char	first	78.45771144278606	78.85572139303483
+mBERT	Norwegian_Bokmal	verbform_verb	mBERT-char	last	91.89054726368158	88.40796019900498
+mBERT	Norwegian_Bokmal	verbform_verb	mBERT-rand-char	first	42.786069651741286	38.55721393034826
+mBERT	Norwegian_Bokmal	verbform_verb	mBERT-rand-char	last	89.1044776119403	85.07462686567166
+mBERT	Norwegian_Bokmal	verbform_verb	mBERT-rand-subw	first	47.363184079601986	37.41293532338308
+mBERT	Norwegian_Bokmal	verbform_verb	mBERT-rand-subw	last	81.14427860696517	76.51741293532339
+mBERT	Norwegian_Nynorsk	definite_adj		first	96.1	94.6
+mBERT	Norwegian_Nynorsk	definite_adj		last	98.55	98.1
+mBERT	Norwegian_Nynorsk	definite_adj	mBERT-char	first	84.6	83.6
+mBERT	Norwegian_Nynorsk	definite_adj	mBERT-char	last	97.45	95.85
+mBERT	Norwegian_Nynorsk	definite_adj	mBERT-rand-char	first	68.35	72.05
+mBERT	Norwegian_Nynorsk	definite_adj	mBERT-rand-char	last	95.0	95.0
+mBERT	Norwegian_Nynorsk	definite_adj	mBERT-rand-subw	first	68.3	67.5
+mBERT	Norwegian_Nynorsk	definite_adj	mBERT-rand-subw	last	83.9	88.95
+mBERT	Norwegian_Nynorsk	definite_noun		first	88.45	87.2
+mBERT	Norwegian_Nynorsk	definite_noun		last	99.45	98.85
+mBERT	Norwegian_Nynorsk	definite_noun	mBERT-char	first	68.0	64.95
+mBERT	Norwegian_Nynorsk	definite_noun	mBERT-char	last	98.0	99.0
+mBERT	Norwegian_Nynorsk	definite_noun	mBERT-rand-char	first	58.15	54.5
+mBERT	Norwegian_Nynorsk	definite_noun	mBERT-rand-char	last	86.65	84.75
+mBERT	Norwegian_Nynorsk	definite_noun	mBERT-rand-subw	first	56.4	52.1
+mBERT	Norwegian_Nynorsk	definite_noun	mBERT-rand-subw	last	80.35	85.35
+mBERT	Norwegian_Nynorsk	gender_noun		first	63.08457711442785	51.442786069651746
+mBERT	Norwegian_Nynorsk	gender_noun		last	85.62189054726369	85.37313432835819
+mBERT	Norwegian_Nynorsk	gender_noun	mBERT-char	first	41.09452736318407	37.31343283582089
+mBERT	Norwegian_Nynorsk	gender_noun	mBERT-char	last	78.955223880597	76.26865671641792
+mBERT	Norwegian_Nynorsk	gender_noun	mBERT-rand-char	first	34.527363184079604	36.4179104477612
+mBERT	Norwegian_Nynorsk	gender_noun	mBERT-rand-char	last	69.45273631840796	67.01492537313433
+mBERT	Norwegian_Nynorsk	gender_noun	mBERT-rand-subw	first	38.25870646766169	36.3681592039801
+mBERT	Norwegian_Nynorsk	gender_noun	mBERT-rand-subw	last	66.81592039800995	65.5721393034826
+mBERT	Norwegian_Nynorsk	number_adj		first	89.7	88.45
+mBERT	Norwegian_Nynorsk	number_adj		last	97.3	96.15
+mBERT	Norwegian_Nynorsk	number_adj	mBERT-char	first	69.95	68.7
+mBERT	Norwegian_Nynorsk	number_adj	mBERT-char	last	93.25	86.8
+mBERT	Norwegian_Nynorsk	number_adj	mBERT-rand-char	first	51.8	48.75
+mBERT	Norwegian_Nynorsk	number_adj	mBERT-rand-char	last	92.5	83.25
+mBERT	Norwegian_Nynorsk	number_adj	mBERT-rand-subw	first	56.35	51.05
+mBERT	Norwegian_Nynorsk	number_adj	mBERT-rand-subw	last	80.55	76.0
+mBERT	Norwegian_Nynorsk	number_noun		first	88.8	84.8
+mBERT	Norwegian_Nynorsk	number_noun		last	93.55	93.15
+mBERT	Norwegian_Nynorsk	number_noun	mBERT-char	first	61.45	58.25
+mBERT	Norwegian_Nynorsk	number_noun	mBERT-char	last	84.05	87.7
+mBERT	Norwegian_Nynorsk	number_noun	mBERT-rand-char	first	52.25	45.75
+mBERT	Norwegian_Nynorsk	number_noun	mBERT-rand-char	last	78.8	81.75
+mBERT	Norwegian_Nynorsk	number_noun	mBERT-rand-subw	first	56.45	51.25
+mBERT	Norwegian_Nynorsk	number_noun	mBERT-rand-subw	last	78.45	77.15
+mBERT	Norwegian_Nynorsk	tense_verb		first	85.9	85.45
+mBERT	Norwegian_Nynorsk	tense_verb		last	97.15	94.8
+mBERT	Norwegian_Nynorsk	tense_verb	mBERT-char	first	77.6	75.85
+mBERT	Norwegian_Nynorsk	tense_verb	mBERT-char	last	94.0	91.1
+mBERT	Norwegian_Nynorsk	tense_verb	mBERT-rand-char	first	51.95	54.1
+mBERT	Norwegian_Nynorsk	tense_verb	mBERT-rand-char	last	91.65	87.75
+mBERT	Norwegian_Nynorsk	tense_verb	mBERT-rand-subw	first	51.85	49.7
+mBERT	Norwegian_Nynorsk	tense_verb	mBERT-rand-subw	last	87.65	83.95
+mBERT	Norwegian_Nynorsk	verbform_verb		first	91.25	86.2189054726368
+mBERT	Norwegian_Nynorsk	verbform_verb		last	97.0	91.7412935323383
+mBERT	Norwegian_Nynorsk	verbform_verb	mBERT-char	first	69.2	68.40796019900498
+mBERT	Norwegian_Nynorsk	verbform_verb	mBERT-char	last	90.35	79.55223880597016
+mBERT	Norwegian_Nynorsk	verbform_verb	mBERT-rand-char	first	44.2	46.01990049751244
+mBERT	Norwegian_Nynorsk	verbform_verb	mBERT-rand-char	last	76.1	69.75124378109453
+mBERT	Norwegian_Nynorsk	verbform_verb	mBERT-rand-subw	first	48.45	44.129353233830855
+mBERT	Norwegian_Nynorsk	verbform_verb	mBERT-rand-subw	last	71.15	62.28855721393036
+mBERT	Persian	number_noun		first	94.05	91.05
+mBERT	Persian	number_noun		last	96.3	95.65
+mBERT	Persian	number_noun	mBERT-char	first	65.75	65.55
+mBERT	Persian	number_noun	mBERT-char	last	88.3	89.55
+mBERT	Persian	number_noun	mBERT-rand-char	first	51.9	53.05
+mBERT	Persian	number_noun	mBERT-rand-char	last	73.5	75.3
+mBERT	Persian	number_noun	mBERT-rand-subw	first	57.8	53.45
+mBERT	Persian	number_noun	mBERT-rand-subw	last	88.2	83.05
+mBERT	Polish	animacy_adj		first	85.85	89.15
+mBERT	Polish	animacy_adj		last	94.8	96.3
+mBERT	Polish	animacy_adj	mBERT-char	first	63.2	63.3
+mBERT	Polish	animacy_adj	mBERT-char	last	69.15	79.65
+mBERT	Polish	animacy_adj	mBERT-rand-char	first	56.8	59.45
+mBERT	Polish	animacy_adj	mBERT-rand-char	last	61.4	67.6
+mBERT	Polish	animacy_adj	mBERT-rand-subw	first	56.59999999999999	60.9
+mBERT	Polish	animacy_adj	mBERT-rand-subw	last	62.0	71.3
+mBERT	Polish	animacy_noun		first	81.7	81.39303482587064
+mBERT	Polish	animacy_noun		last	82.8	81.49253731343283
+mBERT	Polish	animacy_noun	mBERT-char	first	54.3	46.81592039800995
+mBERT	Polish	animacy_noun	mBERT-char	last	61.85	59.9502487562189
+mBERT	Polish	animacy_noun	mBERT-rand-char	first	40.15	38.60696517412934
+mBERT	Polish	animacy_noun	mBERT-rand-char	last	47.15	46.46766169154229
+mBERT	Polish	animacy_noun	mBERT-rand-subw	first	47.2	42.189054726368155
+mBERT	Polish	animacy_noun	mBERT-rand-subw	last	53.55	43.38308457711442
+mBERT	Polish	aspect_adj		first	88.55	88.1
+mBERT	Polish	aspect_adj		last	88.05	87.0
+mBERT	Polish	aspect_adj	mBERT-char	first	78.9	74.6
+mBERT	Polish	aspect_adj	mBERT-char	last	78.25	79.55
+mBERT	Polish	aspect_adj	mBERT-rand-char	first	69.55	62.65
+mBERT	Polish	aspect_adj	mBERT-rand-char	last	64.0	52.25
+mBERT	Polish	aspect_adj	mBERT-rand-subw	first	70.95	67.1
+mBERT	Polish	aspect_adj	mBERT-rand-subw	last	73.35	75.65
+mBERT	Polish	aspect_verb		first	80.25	78.55
+mBERT	Polish	aspect_verb		last	83.35	83.45
+mBERT	Polish	aspect_verb	mBERT-char	first	73.65	72.05
+mBERT	Polish	aspect_verb	mBERT-char	last	71.35	71.95
+mBERT	Polish	aspect_verb	mBERT-rand-char	first	67.05	66.95
+mBERT	Polish	aspect_verb	mBERT-rand-char	last	58.85	58.25
+mBERT	Polish	aspect_verb	mBERT-rand-subw	first	66.75	66.55
+mBERT	Polish	aspect_verb	mBERT-rand-subw	last	67.4	62.85
+mBERT	Polish	case_adj		first	75.55	73.3
+mBERT	Polish	case_adj		last	95.65	93.95
+mBERT	Polish	case_adj	mBERT-char	first	63.9	61.0
+mBERT	Polish	case_adj	mBERT-char	last	85.6	81.45
+mBERT	Polish	case_adj	mBERT-rand-char	first	30.8	25.7
+mBERT	Polish	case_adj	mBERT-rand-char	last	65.05	64.05
+mBERT	Polish	case_adj	mBERT-rand-subw	first	28.9	26.4
+mBERT	Polish	case_adj	mBERT-rand-subw	last	56.3	47.9
+mBERT	Polish	case_propn		first	80.69306930693071	81.3
+mBERT	Polish	case_propn		last	87.32673267326734	88.1
+mBERT	Polish	case_propn	mBERT-char	first	64.5049504950495	65.75
+mBERT	Polish	case_propn	mBERT-char	last	72.22772277227723	72.8
+mBERT	Polish	case_propn	mBERT-rand-char	first	30.99009900990099	30.3
+mBERT	Polish	case_propn	mBERT-rand-char	last	67.92079207920793	64.65
+mBERT	Polish	case_propn	mBERT-rand-subw	first	37.37623762376238	31.75
+mBERT	Polish	case_propn	mBERT-rand-subw	last	60.79207920792079	58.8
+mBERT	Polish	gender_adj		first	60.14925373134328	60.49751243781094
+mBERT	Polish	gender_adj		last	80.69651741293534	79.90049751243782
+mBERT	Polish	gender_adj	mBERT-char	first	52.93532338308459	47.014925373134325
+mBERT	Polish	gender_adj	mBERT-char	last	75.02487562189053	71.8905472636816
+mBERT	Polish	gender_adj	mBERT-rand-char	first	36.56716417910447	32.88557213930348
+mBERT	Polish	gender_adj	mBERT-rand-char	last	73.18407960199005	70.29850746268657
+mBERT	Polish	gender_adj	mBERT-rand-subw	first	36.36815920398009	36.119402985074615
+mBERT	Polish	gender_adj	mBERT-rand-subw	last	61.8905472636816	61.492537313432834
+mBERT	Polish	gender_noun		first	74.97512437810943	77.4129353233831
+mBERT	Polish	gender_noun		last	86.41791044776119	89.05472636815921
+mBERT	Polish	gender_noun	mBERT-char	first	53.5820895522388	54.42786069651741
+mBERT	Polish	gender_noun	mBERT-char	last	74.92537313432835	78.70646766169156
+mBERT	Polish	gender_noun	mBERT-rand-char	first	42.83582089552239	38.50746268656715
+mBERT	Polish	gender_noun	mBERT-rand-char	last	66.91542288557214	62.338308457711435
+mBERT	Polish	gender_noun	mBERT-rand-subw	first	46.21890547263681	39.45273631840796
+mBERT	Polish	gender_noun	mBERT-rand-subw	last	63.93034825870647	60.09950248756219
+mBERT	Polish	gender_propn		first	76.91542288557214	75.2
+mBERT	Polish	gender_propn		last	80.74626865671642	76.5
+mBERT	Polish	gender_propn	mBERT-char	first	56.3681592039801	55.4
+mBERT	Polish	gender_propn	mBERT-char	last	67.1641791044776	65.85
+mBERT	Polish	gender_propn	mBERT-rand-char	first	42.985074626865675	39.65
+mBERT	Polish	gender_propn	mBERT-rand-char	last	59.1542288557214	57.55
+mBERT	Polish	gender_propn	mBERT-rand-subw	first	47.16417910447761	36.45
+mBERT	Polish	gender_propn	mBERT-rand-subw	last	55.87064676616916	44.45
+mBERT	Polish	gender_verb		first	86.91542288557214	85.72139303482588
+mBERT	Polish	gender_verb		last	94.37810945273633	95.32338308457712
+mBERT	Polish	gender_verb	mBERT-char	first	80.19900497512438	82.6865671641791
+mBERT	Polish	gender_verb	mBERT-char	last	94.42786069651743	95.07462686567166
+mBERT	Polish	gender_verb	mBERT-rand-char	first	43.18407960199004	40.29850746268656
+mBERT	Polish	gender_verb	mBERT-rand-char	last	93.88059701492537	95.5223880597015
+mBERT	Polish	gender_verb	mBERT-rand-subw	first	44.12935323383085	34.77611940298507
+mBERT	Polish	gender_verb	mBERT-rand-subw	last	92.58706467661692	92.33830845771146
+mBERT	Polish	mood_verb		first	93.1	89.1
+mBERT	Polish	mood_verb		last	98.95	97.6
+mBERT	Polish	mood_verb	mBERT-char	first	87.9	83.55
+mBERT	Polish	mood_verb	mBERT-char	last	99.5	98.9
+mBERT	Polish	mood_verb	mBERT-rand-char	first	77.3	71.85
+mBERT	Polish	mood_verb	mBERT-rand-char	last	91.05	86.8
+mBERT	Polish	mood_verb	mBERT-rand-subw	first	75.4	68.75
+mBERT	Polish	mood_verb	mBERT-rand-subw	last	94.4	91.1
+mBERT	Polish	number_adj		first	91.7	89.95
+mBERT	Polish	number_adj		last	99.5	96.8
+mBERT	Polish	number_adj	mBERT-char	first	71.7	76.65
+mBERT	Polish	number_adj	mBERT-char	last	94.2	90.1
+mBERT	Polish	number_adj	mBERT-rand-char	first	57.1	54.65
+mBERT	Polish	number_adj	mBERT-rand-char	last	92.25	88.95
+mBERT	Polish	number_adj	mBERT-rand-subw	first	54.5	50.1
+mBERT	Polish	number_adj	mBERT-rand-subw	last	89.1	83.1
+mBERT	Polish	number_noun		first	92.45	91.2
+mBERT	Polish	number_noun		last	94.55	93.7
+mBERT	Polish	number_noun	mBERT-char	first	74.2	71.15
+mBERT	Polish	number_noun	mBERT-char	last	86.55	84.4
+mBERT	Polish	number_noun	mBERT-rand-char	first	54.6	53.05
+mBERT	Polish	number_noun	mBERT-rand-char	last	82.2	80.9
+mBERT	Polish	number_noun	mBERT-rand-subw	first	56.3	54.8
+mBERT	Polish	number_noun	mBERT-rand-subw	last	78.45	77.1
+mBERT	Polish	number_verb		first	91.45	88.1
+mBERT	Polish	number_verb		last	99.2	98.6
+mBERT	Polish	number_verb	mBERT-char	first	81.65	76.45
+mBERT	Polish	number_verb	mBERT-char	last	97.95	98.7
+mBERT	Polish	number_verb	mBERT-rand-char	first	58.2	52.75
+mBERT	Polish	number_verb	mBERT-rand-char	last	93.8	91.8
+mBERT	Polish	number_verb	mBERT-rand-subw	first	56.95	51.8
+mBERT	Polish	number_verb	mBERT-rand-subw	last	96.65	94.85
+mBERT	Polish	person_verb		first	82.33830845771145	80.15
+mBERT	Polish	person_verb		last	99.00497512437812	99.5
+mBERT	Polish	person_verb	mBERT-char	first	71.044776119403	64.9
+mBERT	Polish	person_verb	mBERT-char	last	98.40796019900496	98.5
+mBERT	Polish	person_verb	mBERT-rand-char	first	43.03482587064676	38.95
+mBERT	Polish	person_verb	mBERT-rand-char	last	95.22388059701493	94.05
+mBERT	Polish	person_verb	mBERT-rand-subw	first	40.99502487562189	37.25
+mBERT	Polish	person_verb	mBERT-rand-subw	last	97.81094527363184	92.65
+mBERT	Polish	subgender_adj		first	91.55	87.55
+mBERT	Polish	subgender_adj		last	95.75	92.8
+mBERT	Polish	subgender_adj	mBERT-char	first	72.3	65.85
+mBERT	Polish	subgender_adj	mBERT-char	last	77.55	71.35
+mBERT	Polish	subgender_adj	mBERT-rand-char	first	62.4	59.45
+mBERT	Polish	subgender_adj	mBERT-rand-char	last	70.35	65.85
+mBERT	Polish	subgender_adj	mBERT-rand-subw	first	67.35	60.25
+mBERT	Polish	subgender_adj	mBERT-rand-subw	last	69.8	62.85
+mBERT	Polish	tense_verb		first	80.1492537313433	76.25
+mBERT	Polish	tense_verb		last	86.61691542288557	83.0
+mBERT	Polish	tense_verb	mBERT-char	first	72.43781094527364	70.2
+mBERT	Polish	tense_verb	mBERT-char	last	83.43283582089552	80.15
+mBERT	Polish	tense_verb	mBERT-rand-char	first	46.31840796019901	38.9
+mBERT	Polish	tense_verb	mBERT-rand-char	last	64.27860696517413	60.85
+mBERT	Polish	tense_verb	mBERT-rand-subw	first	47.51243781094527	38.35
+mBERT	Polish	tense_verb	mBERT-rand-subw	last	72.08955223880596	67.25
+mBERT	Polish	verbform_verb		first	81.45	79.8019801980198
+mBERT	Polish	verbform_verb		last	90.3	91.23762376237624
+mBERT	Polish	verbform_verb	mBERT-char	first	81.35	75.84158415841584
+mBERT	Polish	verbform_verb	mBERT-char	last	89.5	87.57425742574257
+mBERT	Polish	verbform_verb	mBERT-rand-char	first	36.85	35.84158415841584
+mBERT	Polish	verbform_verb	mBERT-rand-char	last	81.8	78.16831683168317
+mBERT	Polish	verbform_verb	mBERT-rand-subw	first	42.75	31.930693069306933
+mBERT	Polish	verbform_verb	mBERT-rand-subw	last	84.0	85.3960396039604
+mBERT	Polish	voice_adj		first	96.8	95.7
+mBERT	Polish	voice_adj		last	100.0	97.05
+mBERT	Polish	voice_adj	mBERT-char	first	84.45	80.2
+mBERT	Polish	voice_adj	mBERT-char	last	98.8	94.65
+mBERT	Polish	voice_adj	mBERT-rand-char	first	67.6	62.75
+mBERT	Polish	voice_adj	mBERT-rand-char	last	67.45	56.85
+mBERT	Polish	voice_adj	mBERT-rand-subw	first	68.25	67.1
+mBERT	Polish	voice_adj	mBERT-rand-subw	last	88.5	87.7
+mBERT	Portuguese	gender_noun		first	92.15	92.1
+mBERT	Portuguese	gender_noun		last	97.75	97.9
+mBERT	Portuguese	gender_noun	mBERT-char	first	81.25	75.1
+mBERT	Portuguese	gender_noun	mBERT-char	last	87.35	90.3
+mBERT	Portuguese	gender_noun	mBERT-rand-char	first	56.9	50.3
+mBERT	Portuguese	gender_noun	mBERT-rand-char	last	74.2	72.8
+mBERT	Portuguese	gender_noun	mBERT-rand-subw	first	59.3	53.75
+mBERT	Portuguese	gender_noun	mBERT-rand-subw	last	71.85	66.9
+mBERT	Portuguese	gender_propn		first	91.75	78.35
+mBERT	Portuguese	gender_propn		last	89.9	72.6
+mBERT	Portuguese	gender_propn	mBERT-char	first	81.4	65.2
+mBERT	Portuguese	gender_propn	mBERT-char	last	74.3	59.2
+mBERT	Portuguese	gender_propn	mBERT-rand-char	first	63.35	53.45
+mBERT	Portuguese	gender_propn	mBERT-rand-char	last	75.15	61.35
+mBERT	Portuguese	gender_propn	mBERT-rand-subw	first	67.25	49.05
+mBERT	Portuguese	gender_propn	mBERT-rand-subw	last	66.05	55.35
+mBERT	Portuguese	number_noun		first	97.95	96.5
+mBERT	Portuguese	number_noun		last	100.0	98.4
+mBERT	Portuguese	number_noun	mBERT-char	first	86.9	83.45
+mBERT	Portuguese	number_noun	mBERT-char	last	99.55	97.5
+mBERT	Portuguese	number_noun	mBERT-rand-char	first	55.8	52.25
+mBERT	Portuguese	number_noun	mBERT-rand-char	last	99.95	97.9
+mBERT	Portuguese	number_noun	mBERT-rand-subw	first	57.45	54.1
+mBERT	Portuguese	number_noun	mBERT-rand-subw	last	87.1	84.85
+mBERT	Portuguese	number_verb		first	97.55	97.3
+mBERT	Portuguese	number_verb		last	99.5	99.5
+mBERT	Portuguese	number_verb	mBERT-char	first	83.1	83.45
+mBERT	Portuguese	number_verb	mBERT-char	last	99.0	99.5
+mBERT	Portuguese	number_verb	mBERT-rand-char	first	63.7	49.85
+mBERT	Portuguese	number_verb	mBERT-rand-char	last	98.5	98.5
+mBERT	Portuguese	number_verb	mBERT-rand-subw	first	60.35	51.9
+mBERT	Portuguese	number_verb	mBERT-rand-subw	last	97.35	96.3
+mBERT	Romanian	definite_noun		first	88.4	86.6
+mBERT	Romanian	definite_noun		last	97.7	93.95
+mBERT	Romanian	definite_noun	mBERT-char	first	82.95	75.2
+mBERT	Romanian	definite_noun	mBERT-char	last	98.35	92.55
+mBERT	Romanian	definite_noun	mBERT-rand-char	first	58.8	49.55
+mBERT	Romanian	definite_noun	mBERT-rand-char	last	78.25	75.2
+mBERT	Romanian	definite_noun	mBERT-rand-subw	first	56.25	54.55
+mBERT	Romanian	definite_noun	mBERT-rand-subw	last	85.35	77.95
+mBERT	Romanian	gender_adj		first	92.75	91.2
+mBERT	Romanian	gender_adj		last	99.0	97.05
+mBERT	Romanian	gender_adj	mBERT-char	first	86.9	79.75
+mBERT	Romanian	gender_adj	mBERT-char	last	99.2	96.45
+mBERT	Romanian	gender_adj	mBERT-rand-char	first	57.25	51.05
+mBERT	Romanian	gender_adj	mBERT-rand-char	last	98.0	96.2
+mBERT	Romanian	gender_adj	mBERT-rand-subw	first	56.65	47.5
+mBERT	Romanian	gender_adj	mBERT-rand-subw	last	88.95	86.3
+mBERT	Romanian	gender_noun		first	90.0	88.35
+mBERT	Romanian	gender_noun		last	97.9	94.45
+mBERT	Romanian	gender_noun	mBERT-char	first	78.15	66.0
+mBERT	Romanian	gender_noun	mBERT-char	last	93.65	92.8
+mBERT	Romanian	gender_noun	mBERT-rand-char	first	55.9	49.4
+mBERT	Romanian	gender_noun	mBERT-rand-char	last	85.3	84.2
+mBERT	Romanian	gender_noun	mBERT-rand-subw	first	58.45	46.65
+mBERT	Romanian	gender_noun	mBERT-rand-subw	last	78.45	74.85
+mBERT	Romanian	mood_verb		first	79.45273631840796	74.97512437810946
+mBERT	Romanian	mood_verb		last	87.66169154228855	79.9502487562189
+mBERT	Romanian	mood_verb	mBERT-char	first	75.37313432835819	68.70646766169155
+mBERT	Romanian	mood_verb	mBERT-char	last	84.5273631840796	79.0049751243781
+mBERT	Romanian	mood_verb	mBERT-rand-char	first	54.129353233830855	48.60696517412934
+mBERT	Romanian	mood_verb	mBERT-rand-char	last	63.53233830845771	63.08457711442786
+mBERT	Romanian	mood_verb	mBERT-rand-subw	first	53.333333333333336	38.1094527363184
+mBERT	Romanian	mood_verb	mBERT-rand-subw	last	75.22388059701493	67.4129353233831
+mBERT	Romanian	number_adj		first	88.65	93.45
+mBERT	Romanian	number_adj		last	96.05	97.6
+mBERT	Romanian	number_adj	mBERT-char	first	86.55	80.05
+mBERT	Romanian	number_adj	mBERT-char	last	96.55	97.0
+mBERT	Romanian	number_adj	mBERT-rand-char	first	54.15	50.2
+mBERT	Romanian	number_adj	mBERT-rand-char	last	94.4	96.3
+mBERT	Romanian	number_adj	mBERT-rand-subw	first	56.15000000000001	54.3
+mBERT	Romanian	number_adj	mBERT-rand-subw	last	86.45	85.8
+mBERT	Romanian	number_noun		first	93.3	91.75
+mBERT	Romanian	number_noun		last	97.25	97.5
+mBERT	Romanian	number_noun	mBERT-char	first	70.45	62.85
+mBERT	Romanian	number_noun	mBERT-char	last	95.15	93.9
+mBERT	Romanian	number_noun	mBERT-rand-char	first	56.4	49.6
+mBERT	Romanian	number_noun	mBERT-rand-char	last	82.1	82.8
+mBERT	Romanian	number_noun	mBERT-rand-subw	first	50.05	50.95
+mBERT	Romanian	number_noun	mBERT-rand-subw	last	86.3	81.8
+mBERT	Romanian	number_verb		first	79.05	75.0
+mBERT	Romanian	number_verb		last	93.25	90.35
+mBERT	Romanian	number_verb	mBERT-char	first	70.2	65.2
+mBERT	Romanian	number_verb	mBERT-char	last	93.2	88.1
+mBERT	Romanian	number_verb	mBERT-rand-char	first	55.65	52.9
+mBERT	Romanian	number_verb	mBERT-rand-char	last	70.55	67.95
+mBERT	Romanian	number_verb	mBERT-rand-subw	first	51.7	50.85
+mBERT	Romanian	number_verb	mBERT-rand-subw	last	83.4	79.1
+mBERT	Romanian	person_verb		first	74.7	65.97014925373134
+mBERT	Romanian	person_verb		last	90.3	86.11940298507463
+mBERT	Romanian	person_verb	mBERT-char	first	75.55	64.52736318407962
+mBERT	Romanian	person_verb	mBERT-char	last	89.75	85.67164179104479
+mBERT	Romanian	person_verb	mBERT-rand-char	first	46.2	34.427860696517406
+mBERT	Romanian	person_verb	mBERT-rand-char	last	81.3	83.98009950248756
+mBERT	Romanian	person_verb	mBERT-rand-subw	first	43.65	34.179104477611936
+mBERT	Romanian	person_verb	mBERT-rand-subw	last	77.8	75.97014925373135
+mBERT	Romanian	tense_verb		first	68.86138613861385	63.9
+mBERT	Romanian	tense_verb		last	92.62376237623764	89.4
+mBERT	Romanian	tense_verb	mBERT-char	first	69.7029702970297	64.9
+mBERT	Romanian	tense_verb	mBERT-char	last	92.37623762376236	84.15
+mBERT	Romanian	tense_verb	mBERT-rand-char	first	32.32673267326733	27.4
+mBERT	Romanian	tense_verb	mBERT-rand-char	last	70.54455445544554	62.05
+mBERT	Romanian	tense_verb	mBERT-rand-subw	first	37.524752475247524	29.15
+mBERT	Romanian	tense_verb	mBERT-rand-subw	last	78.26732673267327	73.25
+mBERT	Romanian	verbform_verb		first	89.95	79.9
+mBERT	Romanian	verbform_verb		last	96.75	90.6
+mBERT	Romanian	verbform_verb	mBERT-char	first	77.15	73.2
+mBERT	Romanian	verbform_verb	mBERT-char	last	92.1	86.05
+mBERT	Romanian	verbform_verb	mBERT-rand-char	first	30.3	28.5
+mBERT	Romanian	verbform_verb	mBERT-rand-char	last	72.0	70.2
+mBERT	Romanian	verbform_verb	mBERT-rand-subw	first	30.9	23.65
+mBERT	Romanian	verbform_verb	mBERT-rand-subw	last	72.25	72.25
+mBERT	Russian	animacy_adj		first	93.35	90.0
+mBERT	Russian	animacy_adj		last	94.9	95.65
+mBERT	Russian	animacy_adj	mBERT-char	first	72.0	66.75
+mBERT	Russian	animacy_adj	mBERT-char	last	76.95	72.3
+mBERT	Russian	animacy_adj	mBERT-rand-char	first	63.5	50.35
+mBERT	Russian	animacy_adj	mBERT-rand-char	last	72.15	65.65
+mBERT	Russian	animacy_adj	mBERT-rand-subw	first	63.7	50.05
+mBERT	Russian	animacy_adj	mBERT-rand-subw	last	68.9	59.15
+mBERT	Russian	animacy_noun		first	88.8	87.2
+mBERT	Russian	animacy_noun		last	90.5	89.9
+mBERT	Russian	animacy_noun	mBERT-char	first	62.05	56.54999999999999
+mBERT	Russian	animacy_noun	mBERT-char	last	74.95	70.15
+mBERT	Russian	animacy_noun	mBERT-rand-char	first	59.85	50.7
+mBERT	Russian	animacy_noun	mBERT-rand-char	last	61.55	58.0
+mBERT	Russian	animacy_noun	mBERT-rand-subw	first	54.25	48.75
+mBERT	Russian	animacy_noun	mBERT-rand-subw	last	58.1	58.6
+mBERT	Russian	animacy_propn		first	91.95	92.6
+mBERT	Russian	animacy_propn		last	93.9	93.9
+mBERT	Russian	animacy_propn	mBERT-char	first	80.8	77.0
+mBERT	Russian	animacy_propn	mBERT-char	last	82.3	79.45
+mBERT	Russian	animacy_propn	mBERT-rand-char	first	58.7	55.45
+mBERT	Russian	animacy_propn	mBERT-rand-char	last	71.15	63.85
+mBERT	Russian	animacy_propn	mBERT-rand-subw	first	60.55	56.25
+mBERT	Russian	animacy_propn	mBERT-rand-subw	last	62.3	64.0
+mBERT	Russian	aspect_verb		first	78.9	77.75
+mBERT	Russian	aspect_verb		last	89.1	83.25
+mBERT	Russian	aspect_verb	mBERT-char	first	73.8	62.35
+mBERT	Russian	aspect_verb	mBERT-char	last	77.85	73.75
+mBERT	Russian	aspect_verb	mBERT-rand-char	first	61.3	59.6
+mBERT	Russian	aspect_verb	mBERT-rand-char	last	65.2	61.1
+mBERT	Russian	aspect_verb	mBERT-rand-subw	first	67.0	55.15
+mBERT	Russian	aspect_verb	mBERT-rand-subw	last	70.1	67.25
+mBERT	Russian	case_adj		first	77.30392156862746	75.04901960784314
+mBERT	Russian	case_adj		last	93.87254901960785	91.56862745098037
+mBERT	Russian	case_adj	mBERT-char	first	55.53921568627451	57.64705882352941
+mBERT	Russian	case_adj	mBERT-char	last	81.86274509803921	81.47058823529412
+mBERT	Russian	case_adj	mBERT-rand-char	first	23.13725490196078	23.08823529411764
+mBERT	Russian	case_adj	mBERT-rand-char	last	62.64705882352941	53.38235294117648
+mBERT	Russian	case_adj	mBERT-rand-subw	first	25.7843137254902	25.882352941176464
+mBERT	Russian	case_adj	mBERT-rand-subw	last	64.16666666666667	62.30392156862746
+mBERT	Russian	case_noun		first	80.29411764705881	74.90196078431373
+mBERT	Russian	case_noun		last	94.6078431372549	89.26470588235296
+mBERT	Russian	case_noun	mBERT-char	first	61.81372549019608	48.28431372549019
+mBERT	Russian	case_noun	mBERT-char	last	82.00980392156863	68.92156862745097
+mBERT	Russian	case_noun	mBERT-rand-char	first	24.80392156862745	22.59803921568627
+mBERT	Russian	case_noun	mBERT-rand-char	last	56.47058823529412	52.40196078431372
+mBERT	Russian	case_noun	mBERT-rand-subw	first	26.470588235294116	21.519607843137248
+mBERT	Russian	case_noun	mBERT-rand-subw	last	60.98039215686274	51.5686274509804
+mBERT	Russian	case_propn		first	77.89215686274511	74.16666666666667
+mBERT	Russian	case_propn		last	81.81372549019608	85.98039215686273
+mBERT	Russian	case_propn	mBERT-char	first	53.33333333333333	55.588235294117645
+mBERT	Russian	case_propn	mBERT-char	last	63.872549019607845	66.91176470588235
+mBERT	Russian	case_propn	mBERT-rand-char	first	22.499999999999996	18.823529411764703
+mBERT	Russian	case_propn	mBERT-rand-char	last	55.93137254901961	56.66666666666667
+mBERT	Russian	case_propn	mBERT-rand-subw	first	24.999999999999993	19.16666666666666
+mBERT	Russian	case_propn	mBERT-rand-subw	last	44.117647058823536	51.47058823529412
+mBERT	Russian	case_verb		first	73.08823529411764	67.64705882352942
+mBERT	Russian	case_verb		last	93.4313725490196	91.37254901960782
+mBERT	Russian	case_verb	mBERT-char	first	55.88235294117648	50.14705882352941
+mBERT	Russian	case_verb	mBERT-char	last	77.99019607843137	71.22549019607843
+mBERT	Russian	case_verb	mBERT-rand-char	first	19.70588235294117	17.352941176470587
+mBERT	Russian	case_verb	mBERT-rand-char	last	52.99019607843137	51.32352941176471
+mBERT	Russian	case_verb	mBERT-rand-subw	first	22.549019607843128	19.16666666666666
+mBERT	Russian	case_verb	mBERT-rand-subw	last	66.71568627450979	56.02941176470588
+mBERT	Russian	gender_adj		first	73.43283582089552	68.55721393034824
+mBERT	Russian	gender_adj		last	92.7363184079602	91.24378109452736
+mBERT	Russian	gender_adj	mBERT-char	first	58.855721393034834	53.78109452736319
+mBERT	Russian	gender_adj	mBERT-char	last	88.80597014925374	85.5721393034826
+mBERT	Russian	gender_adj	mBERT-rand-char	first	40.74626865671642	34.37810945273632
+mBERT	Russian	gender_adj	mBERT-rand-char	last	72.33830845771142	69.60199004975124
+mBERT	Russian	gender_adj	mBERT-rand-subw	first	34.22885572139303	37.51243781094528
+mBERT	Russian	gender_adj	mBERT-rand-subw	last	78.30845771144278	80.19900497512438
+mBERT	Russian	gender_noun		first	80.1492537313433	74.77611940298506
+mBERT	Russian	gender_noun		last	89.40298507462687	87.76119402985076
+mBERT	Russian	gender_noun	mBERT-char	first	55.373134328358205	46.96517412935323
+mBERT	Russian	gender_noun	mBERT-char	last	79.20398009950249	73.93034825870646
+mBERT	Russian	gender_noun	mBERT-rand-char	first	42.58706467661692	35.57213930348259
+mBERT	Russian	gender_noun	mBERT-rand-char	last	65.3233830845771	54.32835820895523
+mBERT	Russian	gender_noun	mBERT-rand-subw	first	43.08457711442786	36.4179104477612
+mBERT	Russian	gender_noun	mBERT-rand-subw	last	56.069651741293534	53.5820895522388
+mBERT	Russian	gender_propn		first	82.08955223880598	66.26865671641791
+mBERT	Russian	gender_propn		last	83.48258706467661	79.40298507462687
+mBERT	Russian	gender_propn	mBERT-char	first	57.2636815920398	43.88059701492537
+mBERT	Russian	gender_propn	mBERT-char	last	73.28358208955224	59.651741293532325
+mBERT	Russian	gender_propn	mBERT-rand-char	first	47.56218905472637	32.43781094527363
+mBERT	Russian	gender_propn	mBERT-rand-char	last	62.636815920398	50.64676616915423
+mBERT	Russian	gender_propn	mBERT-rand-subw	first	48.208955223880594	39.004975124378106
+mBERT	Russian	gender_propn	mBERT-rand-subw	last	53.6318407960199	47.01492537313433
+mBERT	Russian	gender_verb		first	85.97014925373135	76.91542288557214
+mBERT	Russian	gender_verb		last	98.50746268656715	93.18407960199006
+mBERT	Russian	gender_verb	mBERT-char	first	62.53731343283583	52.388059701492544
+mBERT	Russian	gender_verb	mBERT-char	last	96.61691542288557	92.53731343283582
+mBERT	Russian	gender_verb	mBERT-rand-char	first	35.124378109452735	33.43283582089553
+mBERT	Russian	gender_verb	mBERT-rand-char	last	76.51741293532339	71.044776119403
+mBERT	Russian	gender_verb	mBERT-rand-subw	first	35.621890547263675	30.845771144278608
+mBERT	Russian	gender_verb	mBERT-rand-subw	last	85.32338308457713	82.13930348258707
+mBERT	Russian	mood_verb		first	88.85	89.65
+mBERT	Russian	mood_verb		last	94.05	97.45
+mBERT	Russian	mood_verb	mBERT-char	first	77.8	79.35
+mBERT	Russian	mood_verb	mBERT-char	last	91.7	93.6
+mBERT	Russian	mood_verb	mBERT-rand-char	first	69.2	62.2
+mBERT	Russian	mood_verb	mBERT-rand-char	last	83.9	79.2
+mBERT	Russian	mood_verb	mBERT-rand-subw	first	67.2	57.1
+mBERT	Russian	mood_verb	mBERT-rand-subw	last	81.25	78.75
+mBERT	Russian	number_adj		first	95.0	95.45
+mBERT	Russian	number_adj		last	99.95	98.0
+mBERT	Russian	number_adj	mBERT-char	first	86.95	83.2
+mBERT	Russian	number_adj	mBERT-char	last	98.8	96.15
+mBERT	Russian	number_adj	mBERT-rand-char	first	56.6	53.0
+mBERT	Russian	number_adj	mBERT-rand-char	last	93.65	88.7
+mBERT	Russian	number_adj	mBERT-rand-subw	first	55.8	50.8
+mBERT	Russian	number_adj	mBERT-rand-subw	last	91.9	89.5
+mBERT	Russian	number_noun		first	93.85	93.45
+mBERT	Russian	number_noun		last	98.55	95.1
+mBERT	Russian	number_noun	mBERT-char	first	77.0	69.45
+mBERT	Russian	number_noun	mBERT-char	last	92.05	91.35
+mBERT	Russian	number_noun	mBERT-rand-char	first	49.85	47.4
+mBERT	Russian	number_noun	mBERT-rand-char	last	83.85	84.45
+mBERT	Russian	number_noun	mBERT-rand-subw	first	59.5	50.15
+mBERT	Russian	number_noun	mBERT-rand-subw	last	77.4	77.1
+mBERT	Russian	number_verb		first	91.2	90.9
+mBERT	Russian	number_verb		last	99.15	98.1
+mBERT	Russian	number_verb	mBERT-char	first	69.95	64.6
+mBERT	Russian	number_verb	mBERT-char	last	90.1	91.85
+mBERT	Russian	number_verb	mBERT-rand-char	first	54.5	50.95
+mBERT	Russian	number_verb	mBERT-rand-char	last	80.5	77.4
+mBERT	Russian	number_verb	mBERT-rand-subw	first	60.15	48.05
+mBERT	Russian	number_verb	mBERT-rand-subw	last	86.2	84.45
+mBERT	Russian	person_verb		first	86.56716417910448	80.49751243781094
+mBERT	Russian	person_verb		last	98.45771144278605	99.00497512437812
+mBERT	Russian	person_verb	mBERT-char	first	81.54228855721394	74.82587064676618
+mBERT	Russian	person_verb	mBERT-char	last	97.46268656716417	97.06467661691542
+mBERT	Russian	person_verb	mBERT-rand-char	first	50.9452736318408	46.46766169154229
+mBERT	Russian	person_verb	mBERT-rand-char	last	86.86567164179104	90.79601990049753
+mBERT	Russian	person_verb	mBERT-rand-subw	first	48.60696517412936	42.7363184079602
+mBERT	Russian	person_verb	mBERT-rand-subw	last	88.25870646766168	90.0995024875622
+mBERT	Russian	tense_verb		first	81.34328358208954	76.46766169154229
+mBERT	Russian	tense_verb		last	90.94527363184079	90.69651741293532
+mBERT	Russian	tense_verb	mBERT-char	first	65.82089552238806	59.9502487562189
+mBERT	Russian	tense_verb	mBERT-char	last	83.48258706467662	79.75124378109453
+mBERT	Russian	tense_verb	mBERT-rand-char	first	41.492537313432834	36.96517412935324
+mBERT	Russian	tense_verb	mBERT-rand-char	last	60.0995024875622	52.63681592039801
+mBERT	Russian	tense_verb	mBERT-rand-subw	first	37.512437810945265	36.517412935323385
+mBERT	Russian	tense_verb	mBERT-rand-subw	last	75.32338308457712	74.07960199004974
+mBERT	Russian	verbform_verb		first	95.5	89.25
+mBERT	Russian	verbform_verb		last	99.5	98.25
+mBERT	Russian	verbform_verb	mBERT-char	first	66.25	59.8
+mBERT	Russian	verbform_verb	mBERT-char	last	94.45	94.95
+mBERT	Russian	verbform_verb	mBERT-rand-char	first	30.85	25.25
+mBERT	Russian	verbform_verb	mBERT-rand-char	last	68.75	67.65
+mBERT	Russian	verbform_verb	mBERT-rand-subw	first	36.0	28.3
+mBERT	Russian	verbform_verb	mBERT-rand-subw	last	83.8	79.0
+mBERT	Russian	voice_verb		first	89.05472636815918	79.15422885572139
+mBERT	Russian	voice_verb		last	96.06965174129354	91.7412935323383
+mBERT	Russian	voice_verb	mBERT-char	first	62.686567164179095	62.18905472636815
+mBERT	Russian	voice_verb	mBERT-char	last	94.17910447761196	92.83582089552239
+mBERT	Russian	voice_verb	mBERT-rand-char	first	39.253731343283576	40.44776119402985
+mBERT	Russian	voice_verb	mBERT-rand-char	last	72.08955223880596	72.93532338308458
+mBERT	Russian	voice_verb	mBERT-rand-subw	first	39.253731343283576	36.46766169154229
+mBERT	Russian	voice_verb	mBERT-rand-subw	last	87.2139303482587	79.80099502487562
+mBERT	Serbian	case_noun		first	72.75862068965519	73.7313432835821
+mBERT	Serbian	case_noun		last	93.30049261083745	92.38805970149254
+mBERT	Serbian	case_noun	mBERT-char	first	57.93103448275862	54.626865671641795
+mBERT	Serbian	case_noun	mBERT-char	last	74.13793103448275	73.08457711442786
+mBERT	Serbian	case_noun	mBERT-rand-char	first	27.24137931034482	21.990049751243777
+mBERT	Serbian	case_noun	mBERT-rand-char	last	55.91133004926108	53.830845771144276
+mBERT	Serbian	case_noun	mBERT-rand-subw	first	25.320197044334975	21.14427860696517
+mBERT	Serbian	case_noun	mBERT-rand-subw	last	55.763546798029566	46.51741293532338
+mBERT	Serbian	gender_adj		first	66.96517412935323	62.68656716417911
+mBERT	Serbian	gender_adj		last	86.81592039800995	84.12935323383084
+mBERT	Serbian	gender_adj	mBERT-char	first	42.28855721393035	34.328358208955216
+mBERT	Serbian	gender_adj	mBERT-char	last	73.33333333333334	72.28855721393036
+mBERT	Serbian	gender_adj	mBERT-rand-char	first	39.850746268656714	31.343283582089548
+mBERT	Serbian	gender_adj	mBERT-rand-char	last	72.68656716417911	70.69651741293532
+mBERT	Serbian	gender_adj	mBERT-rand-subw	first	41.34328358208955	33.03482587064676
+mBERT	Serbian	gender_adj	mBERT-rand-subw	last	65.22388059701493	58.855721393034834
+mBERT	Serbian	gender_noun		first	80.0995024875622	80.49751243781094
+mBERT	Serbian	gender_noun		last	86.66666666666666	89.35323383084577
+mBERT	Serbian	gender_noun	mBERT-char	first	53.53233830845771	49.800995024875625
+mBERT	Serbian	gender_noun	mBERT-char	last	75.07462686567165	71.59203980099502
+mBERT	Serbian	gender_noun	mBERT-rand-char	first	43.48258706467661	43.383084577114424
+mBERT	Serbian	gender_noun	mBERT-rand-char	last	53.68159203980099	48.60696517412935
+mBERT	Serbian	gender_noun	mBERT-rand-subw	first	43.03482587064676	39.65174129353234
+mBERT	Serbian	gender_noun	mBERT-rand-subw	last	65.97014925373135	52.08955223880597
+mBERT	Serbian	number_adj		first	87.3	84.85
+mBERT	Serbian	number_adj		last	97.3	97.05
+mBERT	Serbian	number_adj	mBERT-char	first	81.15	76.8
+mBERT	Serbian	number_adj	mBERT-char	last	90.15	90.0
+mBERT	Serbian	number_adj	mBERT-rand-char	first	57.7	47.3
+mBERT	Serbian	number_adj	mBERT-rand-char	last	78.45	83.45
+mBERT	Serbian	number_adj	mBERT-rand-subw	first	57.499999999999986	52.7
+mBERT	Serbian	number_adj	mBERT-rand-subw	last	77.35	83.95
+mBERT	Serbian	number_noun		first	91.75	90.6
+mBERT	Serbian	number_noun		last	96.5	94.8
+mBERT	Serbian	number_noun	mBERT-char	first	70.3	61.2
+mBERT	Serbian	number_noun	mBERT-char	last	86.6	86.85
+mBERT	Serbian	number_noun	mBERT-rand-char	first	61.5	54.15
+mBERT	Serbian	number_noun	mBERT-rand-char	last	73.2	73.7
+mBERT	Serbian	number_noun	mBERT-rand-subw	first	55.2	51.45
+mBERT	Serbian	number_noun	mBERT-rand-subw	last	73.75	75.6
+mBERT	Serbian	number_verb		first	90.8	83.95
+mBERT	Serbian	number_verb		last	98.25	96.1
+mBERT	Serbian	number_verb	mBERT-char	first	73.05	62.45
+mBERT	Serbian	number_verb	mBERT-char	last	93.75	92.4
+mBERT	Serbian	number_verb	mBERT-rand-char	first	58.25	49.8
+mBERT	Serbian	number_verb	mBERT-rand-char	last	76.7	73.6
+mBERT	Serbian	number_verb	mBERT-rand-subw	first	55.05	48.0
+mBERT	Serbian	number_verb	mBERT-rand-subw	last	87.25	86.0
+mBERT	Slovak	animacy_adj		first	82.8	89.1
+mBERT	Slovak	animacy_adj		last	96.15	95.65
+mBERT	Slovak	animacy_adj	mBERT-char	first	54.0	53.05
+mBERT	Slovak	animacy_adj	mBERT-char	last	66.75	68.4
+mBERT	Slovak	animacy_adj	mBERT-rand-char	first	50.6	50.0
+mBERT	Slovak	animacy_adj	mBERT-rand-char	last	56.85	60.7
+mBERT	Slovak	animacy_adj	mBERT-rand-subw	first	53.1	52.25
+mBERT	Slovak	animacy_adj	mBERT-rand-subw	last	57.75	56.85
+mBERT	Slovak	animacy_noun		first	94.85	91.85
+mBERT	Slovak	animacy_noun		last	97.2	95.55
+mBERT	Slovak	animacy_noun	mBERT-char	first	77.4	70.35
+mBERT	Slovak	animacy_noun	mBERT-char	last	81.35	85.75
+mBERT	Slovak	animacy_noun	mBERT-rand-char	first	63.5	53.6
+mBERT	Slovak	animacy_noun	mBERT-rand-char	last	76.25	76.1
+mBERT	Slovak	animacy_noun	mBERT-rand-subw	first	59.65	59.7
+mBERT	Slovak	animacy_noun	mBERT-rand-subw	last	68.95	69.3
+mBERT	Slovak	aspect_verb		first	80.3	78.5
+mBERT	Slovak	aspect_verb		last	88.5	87.45
+mBERT	Slovak	aspect_verb	mBERT-char	first	69.1	60.95
+mBERT	Slovak	aspect_verb	mBERT-char	last	75.05	78.2
+mBERT	Slovak	aspect_verb	mBERT-rand-char	first	66.45	57.65
+mBERT	Slovak	aspect_verb	mBERT-rand-char	last	61.6	58.95
+mBERT	Slovak	aspect_verb	mBERT-rand-subw	first	59.2	58.25
+mBERT	Slovak	aspect_verb	mBERT-rand-subw	last	72.7	67.85
+mBERT	Slovak	case_noun		first	73.52941176470588	71.61764705882352
+mBERT	Slovak	case_noun		last	94.6078431372549	94.6078431372549
+mBERT	Slovak	case_noun	mBERT-char	first	54.31372549019609	52.8921568627451
+mBERT	Slovak	case_noun	mBERT-char	last	70.88235294117646	74.41176470588235
+mBERT	Slovak	case_noun	mBERT-rand-char	first	29.70588235294117	22.107843137254896
+mBERT	Slovak	case_noun	mBERT-rand-char	last	52.64705882352943	49.6078431372549
+mBERT	Slovak	case_noun	mBERT-rand-subw	first	25.392156862745093	25.19607843137255
+mBERT	Slovak	case_noun	mBERT-rand-subw	last	54.11764705882352	55.0
+mBERT	Slovak	gender_adj		first	58.45771144278607	55.57213930348259
+mBERT	Slovak	gender_adj		last	83.83084577114428	78.80597014925372
+mBERT	Slovak	gender_adj	mBERT-char	first	42.63681592039801	47.61194029850746
+mBERT	Slovak	gender_adj	mBERT-char	last	74.02985074626865	74.32835820895522
+mBERT	Slovak	gender_adj	mBERT-rand-char	first	36.06965174129353	32.437810945273625
+mBERT	Slovak	gender_adj	mBERT-rand-char	last	73.18407960199005	74.72636815920399
+mBERT	Slovak	gender_adj	mBERT-rand-subw	first	37.2139303482587	31.940298507462682
+mBERT	Slovak	gender_adj	mBERT-rand-subw	last	66.46766169154228	59.502487562189046
+mBERT	Slovak	gender_noun		first	78.65671641791045	75.42288557213931
+mBERT	Slovak	gender_noun		last	92.23880597014926	90.39800995024875
+mBERT	Slovak	gender_noun	mBERT-char	first	56.119402985074636	52.48756218905472
+mBERT	Slovak	gender_noun	mBERT-char	last	77.86069651741293	75.72139303482587
+mBERT	Slovak	gender_noun	mBERT-rand-char	first	40.44776119402985	38.00995024875621
+mBERT	Slovak	gender_noun	mBERT-rand-char	last	62.288557213930346	56.318407960198996
+mBERT	Slovak	gender_noun	mBERT-rand-subw	first	36.96517412935323	32.23880597014925
+mBERT	Slovak	gender_noun	mBERT-rand-subw	last	63.5323383084577	59.90049751243781
+mBERT	Slovak	gender_verb		first	74.07960199004972	70.4
+mBERT	Slovak	gender_verb		last	90.59701492537314	86.45
+mBERT	Slovak	gender_verb	mBERT-char	first	64.97512437810944	62.45
+mBERT	Slovak	gender_verb	mBERT-char	last	88.70646766169155	85.35
+mBERT	Slovak	gender_verb	mBERT-rand-char	first	42.03980099502487	35.7
+mBERT	Slovak	gender_verb	mBERT-rand-char	last	88.90547263681592	83.3
+mBERT	Slovak	gender_verb	mBERT-rand-subw	first	42.13930348258706	39.15
+mBERT	Slovak	gender_verb	mBERT-rand-subw	last	83.38308457711443	80.25
+mBERT	Slovak	number_adj		first	91.35	85.85
+mBERT	Slovak	number_adj		last	99.5	98.3
+mBERT	Slovak	number_adj	mBERT-char	first	72.35	72.35
+mBERT	Slovak	number_adj	mBERT-char	last	92.2	92.85
+mBERT	Slovak	number_adj	mBERT-rand-char	first	54.65	53.05
+mBERT	Slovak	number_adj	mBERT-rand-char	last	91.85	93.4
+mBERT	Slovak	number_adj	mBERT-rand-subw	first	53.35	49.5
+mBERT	Slovak	number_adj	mBERT-rand-subw	last	84.1	84.35
+mBERT	Slovak	number_noun		first	90.8	92.55
+mBERT	Slovak	number_noun		last	96.6	97.0
+mBERT	Slovak	number_noun	mBERT-char	first	73.5	73.9
+mBERT	Slovak	number_noun	mBERT-char	last	82.45	85.45
+mBERT	Slovak	number_noun	mBERT-rand-char	first	57.4	51.8
+mBERT	Slovak	number_noun	mBERT-rand-char	last	76.45	80.6
+mBERT	Slovak	number_noun	mBERT-rand-subw	first	56.85	50.8
+mBERT	Slovak	number_noun	mBERT-rand-subw	last	74.1	76.65
+mBERT	Slovak	number_verb		first	90.25	86.95
+mBERT	Slovak	number_verb		last	99.75	98.65
+mBERT	Slovak	number_verb	mBERT-char	first	72.75	73.2
+mBERT	Slovak	number_verb	mBERT-char	last	99.3	99.0
+mBERT	Slovak	number_verb	mBERT-rand-char	first	56.55	52.4
+mBERT	Slovak	number_verb	mBERT-rand-char	last	92.6	90.65
+mBERT	Slovak	number_verb	mBERT-rand-subw	first	57.55	52.15
+mBERT	Slovak	number_verb	mBERT-rand-subw	last	91.8	95.0
+mBERT	Slovak	tense_verb		first	94.4	94.75
+mBERT	Slovak	tense_verb		last	99.5	100.0
+mBERT	Slovak	tense_verb	mBERT-char	first	80.5	83.35
+mBERT	Slovak	tense_verb	mBERT-char	last	99.0	99.4
+mBERT	Slovak	tense_verb	mBERT-rand-char	first	61.8	54.75
+mBERT	Slovak	tense_verb	mBERT-rand-char	last	87.5	90.05
+mBERT	Slovak	tense_verb	mBERT-rand-subw	first	53.4	49.95
+mBERT	Slovak	tense_verb	mBERT-rand-subw	last	90.85	86.7
+mBERT	Slovak	verbform_verb		first	91.64179104477613	95.3
+mBERT	Slovak	verbform_verb		last	99.05472636815921	100.0
+mBERT	Slovak	verbform_verb	mBERT-char	first	83.88059701492537	82.0
+mBERT	Slovak	verbform_verb	mBERT-char	last	99.50248756218907	99.9
+mBERT	Slovak	verbform_verb	mBERT-rand-char	first	45.22388059701492	43.55
+mBERT	Slovak	verbform_verb	mBERT-rand-char	last	90.0497512437811	90.2
+mBERT	Slovak	verbform_verb	mBERT-rand-subw	first	36.26865671641791	33.15
+mBERT	Slovak	verbform_verb	mBERT-rand-subw	last	89.60199004975124	89.6
+mBERT	Slovenian	aspect_verb		first	82.05	76.8
+mBERT	Slovenian	aspect_verb		last	84.05	82.9
+mBERT	Slovenian	aspect_verb	mBERT-char	first	67.95	65.1
+mBERT	Slovenian	aspect_verb	mBERT-char	last	70.6	69.9
+mBERT	Slovenian	aspect_verb	mBERT-rand-char	first	63.15	57.85
+mBERT	Slovenian	aspect_verb	mBERT-rand-char	last	54.65	55.1
+mBERT	Slovenian	aspect_verb	mBERT-rand-subw	first	68.25	62.05
+mBERT	Slovenian	aspect_verb	mBERT-rand-subw	last	62.55	56.8
+mBERT	Slovenian	case_adj		first	68.00995024875621	66.3681592039801
+mBERT	Slovenian	case_adj		last	95.02487562189054	92.93532338308458
+mBERT	Slovenian	case_adj	mBERT-char	first	59.60199004975124	57.56218905472637
+mBERT	Slovenian	case_adj	mBERT-char	last	81.7412935323383	81.14427860696517
+mBERT	Slovenian	case_adj	mBERT-rand-char	first	26.417910447761194	22.736318407960194
+mBERT	Slovenian	case_adj	mBERT-rand-char	last	48.557213930348254	50.049751243781095
+mBERT	Slovenian	case_adj	mBERT-rand-subw	first	27.611940298507456	22.23880597014925
+mBERT	Slovenian	case_adj	mBERT-rand-subw	last	57.16417910447761	60.54726368159204
+mBERT	Slovenian	case_noun		first	68.23529411764706	71.0294117647059
+mBERT	Slovenian	case_noun		last	90.34313725490199	93.18627450980392
+mBERT	Slovenian	case_noun	mBERT-char	first	49.6078431372549	49.509803921568626
+mBERT	Slovenian	case_noun	mBERT-char	last	68.82352941176471	65.49019607843138
+mBERT	Slovenian	case_noun	mBERT-rand-char	first	25.245098039215684	22.15686274509803
+mBERT	Slovenian	case_noun	mBERT-rand-char	last	51.32352941176471	48.13725490196078
+mBERT	Slovenian	case_noun	mBERT-rand-subw	first	21.813725490196074	18.431372549019606
+mBERT	Slovenian	case_noun	mBERT-rand-subw	last	47.5	45.39215686274509
+mBERT	Slovenian	gender_adj		first	56.4179104477612	52.28855721393036
+mBERT	Slovenian	gender_adj		last	83.13432835820896	79.25373134328359
+mBERT	Slovenian	gender_adj	mBERT-char	first	43.5820895522388	37.31343283582089
+mBERT	Slovenian	gender_adj	mBERT-char	last	65.27363184079601	67.96019900497512
+mBERT	Slovenian	gender_adj	mBERT-rand-char	first	39.55223880597015	32.23880597014925
+mBERT	Slovenian	gender_adj	mBERT-rand-char	last	58.208955223880594	55.72139303482587
+mBERT	Slovenian	gender_adj	mBERT-rand-subw	first	37.41293532338308	32.7363184079602
+mBERT	Slovenian	gender_adj	mBERT-rand-subw	last	58.40796019900497	51.49253731343284
+mBERT	Slovenian	gender_noun		first	77.363184079602	69.30348258706468
+mBERT	Slovenian	gender_noun		last	90.84577114427861	83.13432835820895
+mBERT	Slovenian	gender_noun	mBERT-char	first	51.94029850746269	40.29850746268657
+mBERT	Slovenian	gender_noun	mBERT-char	last	77.2636815920398	69.1044776119403
+mBERT	Slovenian	gender_noun	mBERT-rand-char	first	36.865671641791046	35.024875621890544
+mBERT	Slovenian	gender_noun	mBERT-rand-char	last	57.86069651741294	50.64676616915423
+mBERT	Slovenian	gender_noun	mBERT-rand-subw	first	48.059701492537314	36.36815920398009
+mBERT	Slovenian	gender_noun	mBERT-rand-subw	last	70.0497512437811	60.24875621890546
+mBERT	Slovenian	number_adj		first	89.35	89.1
+mBERT	Slovenian	number_adj		last	99.45	96.45
+mBERT	Slovenian	number_adj	mBERT-char	first	72.2	65.7
+mBERT	Slovenian	number_adj	mBERT-char	last	90.4	82.5
+mBERT	Slovenian	number_adj	mBERT-rand-char	first	53.9	51.5
+mBERT	Slovenian	number_adj	mBERT-rand-char	last	85.6	80.8
+mBERT	Slovenian	number_adj	mBERT-rand-subw	first	53.4	49.45
+mBERT	Slovenian	number_adj	mBERT-rand-subw	last	83.4	80.45
+mBERT	Slovenian	person_verb		first	81.5	74.97512437810946
+mBERT	Slovenian	person_verb		last	99.5	94.92537313432838
+mBERT	Slovenian	person_verb	mBERT-char	first	79.45	67.36318407960198
+mBERT	Slovenian	person_verb	mBERT-char	last	98.5	95.5721393034826
+mBERT	Slovenian	person_verb	mBERT-rand-char	first	49.4	38.25870646766168
+mBERT	Slovenian	person_verb	mBERT-rand-char	last	71.2	70.74626865671641
+mBERT	Slovenian	person_verb	mBERT-rand-subw	first	50.6	39.70149253731343
+mBERT	Slovenian	person_verb	mBERT-rand-subw	last	94.2	88.80597014925372
+mBERT	Slovenian	verbform_verb		first	90.9452736318408	90.9950248756219
+mBERT	Slovenian	verbform_verb		last	100.0	98.75621890547265
+mBERT	Slovenian	verbform_verb	mBERT-char	first	82.53731343283582	77.4129353233831
+mBERT	Slovenian	verbform_verb	mBERT-char	last	99.50248756218907	97.56218905472636
+mBERT	Slovenian	verbform_verb	mBERT-rand-char	first	39.50248756218905	31.19402985074627
+mBERT	Slovenian	verbform_verb	mBERT-rand-char	last	75.97014925373135	74.87562189054727
+mBERT	Slovenian	verbform_verb	mBERT-rand-subw	first	39.253731343283576	36.31840796019901
+mBERT	Slovenian	verbform_verb	mBERT-rand-subw	last	91.044776119403	93.28358208955224
+mBERT	Spanish	gender_adj		first	90.9	94.3
+mBERT	Spanish	gender_adj		last	100.0	96.25
+mBERT	Spanish	gender_adj	mBERT-char	first	84.9	77.45
+mBERT	Spanish	gender_adj	mBERT-char	last	99.5	95.05
+mBERT	Spanish	gender_adj	mBERT-rand-char	first	56.05	51.45
+mBERT	Spanish	gender_adj	mBERT-rand-char	last	83.55	75.7
+mBERT	Spanish	gender_adj	mBERT-rand-subw	first	54.6	52.1
+mBERT	Spanish	gender_adj	mBERT-rand-subw	last	82.65	80.1
+mBERT	Spanish	gender_noun		first	95.3	94.0
+mBERT	Spanish	gender_noun		last	98.55	95.45
+mBERT	Spanish	gender_noun	mBERT-char	first	81.0	76.0
+mBERT	Spanish	gender_noun	mBERT-char	last	94.0	90.0
+mBERT	Spanish	gender_noun	mBERT-rand-char	first	60.45	49.55
+mBERT	Spanish	gender_noun	mBERT-rand-char	last	80.25	74.4
+mBERT	Spanish	gender_noun	mBERT-rand-subw	first	54.65	51.05
+mBERT	Spanish	gender_noun	mBERT-rand-subw	last	73.05	67.6
+mBERT	Spanish	number_adj		first	97.1	96.0
+mBERT	Spanish	number_adj		last	100.0	100.0
+mBERT	Spanish	number_adj	mBERT-char	first	93.25	90.95
+mBERT	Spanish	number_adj	mBERT-char	last	100.0	100.0
+mBERT	Spanish	number_adj	mBERT-rand-char	first	55.9	54.35
+mBERT	Spanish	number_adj	mBERT-rand-char	last	100.0	100.0
+mBERT	Spanish	number_adj	mBERT-rand-subw	first	53.2	51.25
+mBERT	Spanish	number_adj	mBERT-rand-subw	last	91.9	90.95
+mBERT	Spanish	number_noun		first	98.25	96.85
+mBERT	Spanish	number_noun		last	99.5	98.3
+mBERT	Spanish	number_noun	mBERT-char	first	93.55	89.45
+mBERT	Spanish	number_noun	mBERT-char	last	98.5	98.0
+mBERT	Spanish	number_noun	mBERT-rand-char	first	58.5	55.25
+mBERT	Spanish	number_noun	mBERT-rand-char	last	98.5	97.85
+mBERT	Spanish	number_noun	mBERT-rand-subw	first	56.95	49.1
+mBERT	Spanish	number_noun	mBERT-rand-subw	last	87.3	84.85
+mBERT	Spanish	number_verb		first	94.65	94.95
+mBERT	Spanish	number_verb		last	99.4	99.5
+mBERT	Spanish	number_verb	mBERT-char	first	78.4	81.3
+mBERT	Spanish	number_verb	mBERT-char	last	99.5	99.5
+mBERT	Spanish	number_verb	mBERT-rand-char	first	54.5	49.95
+mBERT	Spanish	number_verb	mBERT-rand-char	last	99.5	99.5
+mBERT	Spanish	number_verb	mBERT-rand-subw	first	56.4	48.75
+mBERT	Spanish	number_verb	mBERT-rand-subw	last	92.15	92.4
+mBERT	Spanish	tense_verb		first	77.25	72.0
+mBERT	Spanish	tense_verb		last	98.25	90.0
+mBERT	Spanish	tense_verb	mBERT-char	first	56.9	50.95
+mBERT	Spanish	tense_verb	mBERT-char	last	92.15	81.75
+mBERT	Spanish	tense_verb	mBERT-rand-char	first	30.85	30.05
+mBERT	Spanish	tense_verb	mBERT-rand-char	last	63.9	50.75
+mBERT	Spanish	tense_verb	mBERT-rand-subw	first	33.85	27.05
+mBERT	Spanish	tense_verb	mBERT-rand-subw	last	85.25	79.15
+mBERT	Spanish	verbform_verb		first	88.0	87.4
+mBERT	Spanish	verbform_verb		last	95.5	97.75
+mBERT	Spanish	verbform_verb	mBERT-char	first	71.55	72.2
+mBERT	Spanish	verbform_verb	mBERT-char	last	91.95	96.4
+mBERT	Spanish	verbform_verb	mBERT-rand-char	first	30.5	26.75
+mBERT	Spanish	verbform_verb	mBERT-rand-char	last	77.8	70.2
+mBERT	Spanish	verbform_verb	mBERT-rand-subw	first	28.3	25.5
+mBERT	Spanish	verbform_verb	mBERT-rand-subw	last	80.25	77.75
+mBERT	Swedish	case_noun		first	92.75	86.4
+mBERT	Swedish	case_noun		last	99.75	99.65
+mBERT	Swedish	case_noun	mBERT-char	first	74.4	61.05
+mBERT	Swedish	case_noun	mBERT-char	last	99.0	99.5
+mBERT	Swedish	case_noun	mBERT-rand-char	first	63.85	50.0
+mBERT	Swedish	case_noun	mBERT-rand-char	last	99.0	99.5
+mBERT	Swedish	case_noun	mBERT-rand-subw	first	60.5	50.0
+mBERT	Swedish	case_noun	mBERT-rand-subw	last	96.25	92.7
+mBERT	Swedish	definite_adj		first	86.7	88.5
+mBERT	Swedish	definite_adj		last	93.75	94.7
+mBERT	Swedish	definite_adj	mBERT-char	first	73.85	76.9
+mBERT	Swedish	definite_adj	mBERT-char	last	91.15	93.6
+mBERT	Swedish	definite_adj	mBERT-rand-char	first	54.4	54.2
+mBERT	Swedish	definite_adj	mBERT-rand-char	last	90.35	92.45
+mBERT	Swedish	definite_adj	mBERT-rand-subw	first	54.95	53.4
+mBERT	Swedish	definite_adj	mBERT-rand-subw	last	79.25	82.15
+mBERT	Swedish	definite_noun		first	90.9	86.7
+mBERT	Swedish	definite_noun		last	97.65	97.1
+mBERT	Swedish	definite_noun	mBERT-char	first	71.2	68.05
+mBERT	Swedish	definite_noun	mBERT-char	last	94.15	90.4
+mBERT	Swedish	definite_noun	mBERT-rand-char	first	57.7	56.25
+mBERT	Swedish	definite_noun	mBERT-rand-char	last	84.45	84.1
+mBERT	Swedish	definite_noun	mBERT-rand-subw	first	57.5	54.25
+mBERT	Swedish	definite_noun	mBERT-rand-subw	last	87.2	83.95
+mBERT	Swedish	gender_noun		first	77.45	78.2
+mBERT	Swedish	gender_noun		last	91.45	88.45
+mBERT	Swedish	gender_noun	mBERT-char	first	56.0	55.05
+mBERT	Swedish	gender_noun	mBERT-char	last	79.95	73.5
+mBERT	Swedish	gender_noun	mBERT-rand-char	first	53.0	53.2
+mBERT	Swedish	gender_noun	mBERT-rand-char	last	74.75	68.3
+mBERT	Swedish	gender_noun	mBERT-rand-subw	first	54.55	50.9
+mBERT	Swedish	gender_noun	mBERT-rand-subw	last	75.15	71.55
+mBERT	Swedish	number_adj		first	85.85	89.65
+mBERT	Swedish	number_adj		last	97.35	95.2
+mBERT	Swedish	number_adj	mBERT-char	first	67.95	66.0
+mBERT	Swedish	number_adj	mBERT-char	last	87.85	83.85
+mBERT	Swedish	number_adj	mBERT-rand-char	first	53.5	52.4
+mBERT	Swedish	number_adj	mBERT-rand-char	last	84.25	81.75
+mBERT	Swedish	number_adj	mBERT-rand-subw	first	52.85	49.85
+mBERT	Swedish	number_adj	mBERT-rand-subw	last	76.75	74.05
+mBERT	Swedish	number_noun		first	87.8	88.0
+mBERT	Swedish	number_noun		last	91.9	92.5
+mBERT	Swedish	number_noun	mBERT-char	first	66.6	64.45
+mBERT	Swedish	number_noun	mBERT-char	last	85.05	83.95
+mBERT	Swedish	number_noun	mBERT-rand-char	first	58.4	49.65
+mBERT	Swedish	number_noun	mBERT-rand-char	last	80.55	80.5
+mBERT	Swedish	number_noun	mBERT-rand-subw	first	57.95	55.4
+mBERT	Swedish	number_noun	mBERT-rand-subw	last	74.65	77.55
+mBERT	Swedish	tense_verb		first	94.0	91.8
+mBERT	Swedish	tense_verb		last	100.0	99.0
+mBERT	Swedish	tense_verb	mBERT-char	first	77.8	74.4
+mBERT	Swedish	tense_verb	mBERT-char	last	99.5	95.7
+mBERT	Swedish	tense_verb	mBERT-rand-char	first	57.9	50.2
+mBERT	Swedish	tense_verb	mBERT-rand-char	last	90.6	84.2
+mBERT	Swedish	tense_verb	mBERT-rand-subw	first	50.55	46.65
+mBERT	Swedish	tense_verb	mBERT-rand-subw	last	90.2	86.25
+mBERT	Swedish	voice_verb		first	90.3	87.75
+mBERT	Swedish	voice_verb		last	98.45	94.8
+mBERT	Swedish	voice_verb	mBERT-char	first	73.05	69.65
+mBERT	Swedish	voice_verb	mBERT-char	last	92.45	96.6
+mBERT	Swedish	voice_verb	mBERT-rand-char	first	57.3	49.8
+mBERT	Swedish	voice_verb	mBERT-rand-char	last	90.0	98.45
+mBERT	Swedish	voice_verb	mBERT-rand-subw	first	56.9	48.35
+mBERT	Swedish	voice_verb	mBERT-rand-subw	last	85.7	87.65
+mBERT	Turkish	aspect_verb		first	76.41791044776117	73.08457711442784
+mBERT	Turkish	aspect_verb		last	93.53233830845771	92.68656716417911
+mBERT	Turkish	aspect_verb	mBERT-char	first	68.50746268656717	66.56716417910448
+mBERT	Turkish	aspect_verb	mBERT-char	last	89.60199004975125	81.19402985074626
+mBERT	Turkish	aspect_verb	mBERT-rand-char	first	40.59701492537313	37.91044776119402
+mBERT	Turkish	aspect_verb	mBERT-rand-char	last	68.25870646766168	51.840796019900495
+mBERT	Turkish	aspect_verb	mBERT-rand-subw	first	42.73631840796019	39.45273631840796
+mBERT	Turkish	aspect_verb	mBERT-rand-subw	last	81.74129353233829	75.17412935323384
+mBERT	Turkish	case_noun		first	50.935960591133	50.14778325123153
+mBERT	Turkish	case_noun		last	95.66502463054191	93.8423645320197
+mBERT	Turkish	case_noun	mBERT-char	first	51.379310344827594	53.10344827586207
+mBERT	Turkish	case_noun	mBERT-char	last	94.03940886699507	91.67487684729062
+mBERT	Turkish	case_noun	mBERT-rand-char	first	16.551724137931032	18.42364532019704
+mBERT	Turkish	case_noun	mBERT-rand-char	last	53.10344827586207	48.669950738916256
+mBERT	Turkish	case_noun	mBERT-rand-subw	first	16.600985221674875	15.517241379310343
+mBERT	Turkish	case_noun	mBERT-rand-subw	last	81.52709359605913	73.89162561576354
+mBERT	Turkish	number_noun		first	93.3	94.05
+mBERT	Turkish	number_noun		last	95.15	97.05
+mBERT	Turkish	number_noun	mBERT-char	first	77.9	72.25
+mBERT	Turkish	number_noun	mBERT-char	last	91.15	88.8
+mBERT	Turkish	number_noun	mBERT-rand-char	first	55.75	52.9
+mBERT	Turkish	number_noun	mBERT-rand-char	last	69.3	64.9
+mBERT	Turkish	number_noun	mBERT-rand-subw	first	56.15	50.15
+mBERT	Turkish	number_noun	mBERT-rand-subw	last	76.7	81.65
+mBERT	Turkish	number_verb		first	72.0	77.65
+mBERT	Turkish	number_verb		last	96.35	98.45
+mBERT	Turkish	number_verb	mBERT-char	first	60.2	57.65
+mBERT	Turkish	number_verb	mBERT-char	last	94.05	91.3
+mBERT	Turkish	number_verb	mBERT-rand-char	first	55.05	49.4
+mBERT	Turkish	number_verb	mBERT-rand-char	last	74.4	69.9
+mBERT	Turkish	number_verb	mBERT-rand-subw	first	52.8	52.8
+mBERT	Turkish	number_verb	mBERT-rand-subw	last	88.45	86.5
+mBERT	Turkish	person_verb		first	62.13930348258707	62.05
+mBERT	Turkish	person_verb		last	94.52736318407962	94.35
+mBERT	Turkish	person_verb	mBERT-char	first	57.36318407960198	63.4
+mBERT	Turkish	person_verb	mBERT-char	last	92.48756218905473	94.9
+mBERT	Turkish	person_verb	mBERT-rand-char	first	33.681592039801	41.45
+mBERT	Turkish	person_verb	mBERT-rand-char	last	83.68159203980099	82.4
+mBERT	Turkish	person_verb	mBERT-rand-subw	first	37.76119402985074	43.55
+mBERT	Turkish	person_verb	mBERT-rand-subw	last	85.87064676616916	84.6
+mBERT	Turkish	polarity_verb		first	78.2	75.65
+mBERT	Turkish	polarity_verb		last	85.4	83.2
+mBERT	Turkish	polarity_verb	mBERT-char	first	72.05	70.1
+mBERT	Turkish	polarity_verb	mBERT-char	last	73.2	67.7
+mBERT	Turkish	polarity_verb	mBERT-rand-char	first	55.4	53.25
+mBERT	Turkish	polarity_verb	mBERT-rand-char	last	59.05	55.5
+mBERT	Turkish	polarity_verb	mBERT-rand-subw	first	60.0	58.65
+mBERT	Turkish	polarity_verb	mBERT-rand-subw	last	63.05	60.6
+mBERT	Turkish	verbform_verb		first	81.14427860696516	80.7960199004975
+mBERT	Turkish	verbform_verb		last	97.46268656716418	94.22885572139305
+mBERT	Turkish	verbform_verb	mBERT-char	first	64.12935323383084	65.12437810945275
+mBERT	Turkish	verbform_verb	mBERT-char	last	90.9452736318408	87.71144278606967
+mBERT	Turkish	verbform_verb	mBERT-rand-char	first	36.915422885572134	31.293532338308456
+mBERT	Turkish	verbform_verb	mBERT-rand-char	last	63.53233830845771	58.00995024875622
+mBERT	Turkish	verbform_verb	mBERT-rand-subw	first	39.154228855721385	36.61691542288557
+mBERT	Turkish	verbform_verb	mBERT-rand-subw	last	82.08955223880596	80.0995024875622
+mBERT	Ukrainian	animacy_noun		first	91.45	89.3
+mBERT	Ukrainian	animacy_noun		last	92.6	92.1
+mBERT	Ukrainian	animacy_noun	mBERT-char	first	68.15	61.65
+mBERT	Ukrainian	animacy_noun	mBERT-char	last	73.25	69.7
+mBERT	Ukrainian	animacy_noun	mBERT-rand-char	first	60.5	50.6
+mBERT	Ukrainian	animacy_noun	mBERT-rand-char	last	64.1	62.6
+mBERT	Ukrainian	animacy_noun	mBERT-rand-subw	first	61.0	52.9
+mBERT	Ukrainian	animacy_noun	mBERT-rand-subw	last	65.4	63.9
+mBERT	Ukrainian	aspect_verb		first	80.15	82.6
+mBERT	Ukrainian	aspect_verb		last	86.65	88.5
+mBERT	Ukrainian	aspect_verb	mBERT-char	first	67.4	69.5
+mBERT	Ukrainian	aspect_verb	mBERT-char	last	76.5	72.4
+mBERT	Ukrainian	aspect_verb	mBERT-rand-char	first	62.95	60.85
+mBERT	Ukrainian	aspect_verb	mBERT-rand-char	last	62.9	62.25
+mBERT	Ukrainian	aspect_verb	mBERT-rand-subw	first	61.95	56.7
+mBERT	Ukrainian	aspect_verb	mBERT-rand-subw	last	71.35	64.95
+mBERT	Ukrainian	case_adj		first	83.05	79.15
+mBERT	Ukrainian	case_adj		last	96.05	95.75
+mBERT	Ukrainian	case_adj	mBERT-char	first	67.85	59.15
+mBERT	Ukrainian	case_adj	mBERT-char	last	90.35	89.15
+mBERT	Ukrainian	case_adj	mBERT-rand-char	first	25.8	23.2
+mBERT	Ukrainian	case_adj	mBERT-rand-char	last	70.5	70.95
+mBERT	Ukrainian	case_adj	mBERT-rand-subw	first	25.55	25.15
+mBERT	Ukrainian	case_adj	mBERT-rand-subw	last	68.3	75.45
+mBERT	Ukrainian	case_noun		first	77.38916256157636	78.67647058823528
+mBERT	Ukrainian	case_noun		last	90.5911330049261	90.73529411764704
+mBERT	Ukrainian	case_noun	mBERT-char	first	59.50738916256158	52.45098039215687
+mBERT	Ukrainian	case_noun	mBERT-char	last	71.52709359605912	74.70588235294117
+mBERT	Ukrainian	case_noun	mBERT-rand-char	first	25.32019704433497	19.90196078431372
+mBERT	Ukrainian	case_noun	mBERT-rand-char	last	55.71428571428571	55.63725490196079
+mBERT	Ukrainian	case_noun	mBERT-rand-subw	first	25.41871921182266	25.294117647058826
+mBERT	Ukrainian	case_noun	mBERT-rand-subw	last	49.60591133004927	50.68627450980394
+mBERT	Ukrainian	gender_adj		first	71.24378109452736	71.34328358208955
+mBERT	Ukrainian	gender_adj		last	90.09950248756218	87.91044776119402
+mBERT	Ukrainian	gender_adj	mBERT-char	first	59.154228855721385	54.4776119402985
+mBERT	Ukrainian	gender_adj	mBERT-char	last	90.0	87.363184079602
+mBERT	Ukrainian	gender_adj	mBERT-rand-char	first	37.86069651741293	33.731343283582085
+mBERT	Ukrainian	gender_adj	mBERT-rand-char	last	77.76119402985076	74.17910447761194
+mBERT	Ukrainian	gender_adj	mBERT-rand-subw	first	33.08457711442786	28.159203980099498
+mBERT	Ukrainian	gender_adj	mBERT-rand-subw	last	73.13432835820895	73.88059701492537
+mBERT	Ukrainian	gender_noun		first	78.2587064676617	80.09950248756219
+mBERT	Ukrainian	gender_noun		last	88.55721393034824	93.18407960199005
+mBERT	Ukrainian	gender_noun	mBERT-char	first	53.333333333333336	53.68159203980099
+mBERT	Ukrainian	gender_noun	mBERT-char	last	71.14427860696517	67.76119402985076
+mBERT	Ukrainian	gender_noun	mBERT-rand-char	first	38.85572139303481	40.49751243781094
+mBERT	Ukrainian	gender_noun	mBERT-rand-char	last	64.27860696517413	53.830845771144276
+mBERT	Ukrainian	gender_noun	mBERT-rand-subw	first	39.65174129353234	38.90547263681592
+mBERT	Ukrainian	gender_noun	mBERT-rand-subw	last	63.73134328358209	63.78109452736319
+mBERT	Ukrainian	number_adj		first	93.8	92.8
+mBERT	Ukrainian	number_adj		last	99.5	99.5
+mBERT	Ukrainian	number_adj	mBERT-char	first	84.8	82.7
+mBERT	Ukrainian	number_adj	mBERT-char	last	99.0	99.2
+mBERT	Ukrainian	number_adj	mBERT-rand-char	first	57.4	51.8
+mBERT	Ukrainian	number_adj	mBERT-rand-char	last	99.0	99.5
+mBERT	Ukrainian	number_adj	mBERT-rand-subw	first	54.7	50.65
+mBERT	Ukrainian	number_adj	mBERT-rand-subw	last	94.1	94.75
+mBERT	Ukrainian	number_verb		first	92.3	90.25
+mBERT	Ukrainian	number_verb		last	97.85	97.25
+mBERT	Ukrainian	number_verb	mBERT-char	first	73.65	70.15
+mBERT	Ukrainian	number_verb	mBERT-char	last	93.2	87.1
+mBERT	Ukrainian	number_verb	mBERT-rand-char	first	55.45	52.85
+mBERT	Ukrainian	number_verb	mBERT-rand-char	last	83.1	76.6
+mBERT	Ukrainian	number_verb	mBERT-rand-subw	first	57.6	50.3
+mBERT	Ukrainian	number_verb	mBERT-rand-subw	last	85.4	87.55
+mBERT	Ukrainian	tense_verb		first	80.49751243781095	75.12437810945275
+mBERT	Ukrainian	tense_verb		last	92.23880597014924	87.4129353233831
+mBERT	Ukrainian	tense_verb	mBERT-char	first	67.01492537313433	62.13930348258707
+mBERT	Ukrainian	tense_verb	mBERT-char	last	85.77114427860697	77.06467661691542
+mBERT	Ukrainian	tense_verb	mBERT-rand-char	first	41.343283582089555	36.11940298507462
+mBERT	Ukrainian	tense_verb	mBERT-rand-char	last	72.03980099502488	56.86567164179104
+mBERT	Ukrainian	tense_verb	mBERT-rand-subw	first	40.79601990049751	39.004975124378106
+mBERT	Ukrainian	tense_verb	mBERT-rand-subw	last	75.62189054726367	70.59701492537313
+mBERT	Urdu	case_noun		first	79.8	82.45
+mBERT	Urdu	case_noun		last	88.85	87.45
+mBERT	Urdu	case_noun	mBERT-char	first	71.75	64.15
+mBERT	Urdu	case_noun	mBERT-char	last	85.0	85.15
+mBERT	Urdu	case_noun	mBERT-rand-char	first	59.65	56.0
+mBERT	Urdu	case_noun	mBERT-rand-char	last	55.60000000000001	57.15
+mBERT	Urdu	case_noun	mBERT-rand-subw	first	53.95	51.5
+mBERT	Urdu	case_noun	mBERT-rand-subw	last	59.85	50.9
+mBERT	Urdu	case_propn		first	80.95	81.3
+mBERT	Urdu	case_propn		last	84.8	87.1
+mBERT	Urdu	case_propn	mBERT-char	first	62.55	61.65
+mBERT	Urdu	case_propn	mBERT-char	last	80.45	87.8
+mBERT	Urdu	case_propn	mBERT-rand-char	first	53.15	47.4
+mBERT	Urdu	case_propn	mBERT-rand-char	last	56.0	55.85
+mBERT	Urdu	case_propn	mBERT-rand-subw	first	58.45	51.1
+mBERT	Urdu	case_propn	mBERT-rand-subw	last	56.6	56.65
+mBERT	Urdu	gender_noun		first	75.25	74.7
+mBERT	Urdu	gender_noun		last	78.05	76.3
+mBERT	Urdu	gender_noun	mBERT-char	first	71.8	69.55
+mBERT	Urdu	gender_noun	mBERT-char	last	80.4	74.55
+mBERT	Urdu	gender_noun	mBERT-rand-char	first	66.15	62.95
+mBERT	Urdu	gender_noun	mBERT-rand-char	last	79.0	73.4
+mBERT	Urdu	gender_noun	mBERT-rand-subw	first	67.8	67.9
+mBERT	Urdu	gender_noun	mBERT-rand-subw	last	70.35	72.9
+mBERT	Urdu	number_noun		first	91.9	83.7
+mBERT	Urdu	number_noun		last	97.55	92.85
+mBERT	Urdu	number_noun	mBERT-char	first	79.1	81.85
+mBERT	Urdu	number_noun	mBERT-char	last	95.95	88.05
+mBERT	Urdu	number_noun	mBERT-rand-char	first	57.95	55.3
+mBERT	Urdu	number_noun	mBERT-rand-char	last	89.05	81.6
+mBERT	Urdu	number_noun	mBERT-rand-subw	first	60.55	57.2
+mBERT	Urdu	number_noun	mBERT-rand-subw	last	91.4	84.5
